@@ -3,8 +3,6 @@
 <head>
 <meta http-equiv=Content-Type content="text/html; charset=windows-1251">
 <meta name=Generator content="Microsoft Word 14 (filtered)">
-<title>Exercises and Homework for the JavaScript Fundamentals Course at SoftUni</title>
-
 
 </head>
 
