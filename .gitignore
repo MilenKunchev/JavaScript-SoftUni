@@ -5,6 +5,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# JetBrains Rider
+.idea/
+*.sln.iml
+
 # Runtime data
 pids
 *.pid
