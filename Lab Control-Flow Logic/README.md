@@ -3,260 +3,7 @@
 <head>
 <meta http-equiv=Content-Type content="text/html; charset=windows-1251">
 <meta name=Generator content="Microsoft Word 14 (filtered)">
-<title>Exercises and Homework for the JavaScript Fundamentals Course at SoftUni</title>
-<style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;}
-@font-face
-	{font-family:SimSun;
-	panose-1:2 1 6 0 3 1 1 1 1 1;}
-@font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
-@font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;}
-@font-face
-	{font-family:Tahoma;
-	panose-1:2 11 6 4 3 5 4 4 2 4;}
-@font-face
-	{font-family:Consolas;
-	panose-1:2 11 6 9 2 2 4 3 2 4;}
-@font-face
-	{font-family:"\@SimSun";
-	panose-1:2 1 6 0 3 1 1 1 1 1;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin-top:4.0pt;
-	margin-right:0cm;
-	margin-bottom:6.0pt;
-	margin-left:0cm;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";}
-h1
-	{mso-style-link:"Heading 1 Char";
-	margin-top:10.0pt;
-	margin-right:0cm;
-	margin-bottom:2.0pt;
-	margin-left:0cm;
-	line-height:115%;
-	page-break-after:avoid;
-	font-size:20.0pt;
-	font-family:"Calibri","sans-serif";
-	color:#642D08;
-	font-weight:bold;}
-h2
-	{mso-style-link:"Heading 2 Char";
-	margin-top:10.0pt;
-	margin-right:0cm;
-	margin-bottom:2.0pt;
-	margin-left:17.85pt;
-	text-indent:-17.85pt;
-	line-height:115%;
-	page-break-after:avoid;
-	font-size:18.0pt;
-	font-family:"Calibri","sans-serif";
-	color:#7C380A;
-	font-weight:bold;}
-h3
-	{mso-style-link:"Heading 3 Char";
-	margin-top:6.0pt;
-	margin-right:0cm;
-	margin-bottom:4.0pt;
-	margin-left:0cm;
-	line-height:115%;
-	page-break-after:avoid;
-	font-size:16.0pt;
-	font-family:"Calibri","sans-serif";
-	color:#8F400B;
-	font-weight:bold;}
-h4
-	{mso-style-link:"Heading 4 Char";
-	margin-top:6.0pt;
-	margin-right:0cm;
-	margin-bottom:2.0pt;
-	margin-left:0cm;
-	line-height:115%;
-	page-break-after:avoid;
-	font-size:14.0pt;
-	font-family:"Calibri","sans-serif";
-	color:#A34A0D;
-	font-weight:bold;}
-h5
-	{mso-style-link:"Heading 5 Char";
-	margin-top:4.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	line-height:115%;
-	page-break-after:avoid;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";
-	color:#B2500E;
-	font-weight:bold;}
-p.MsoHeader, li.MsoHeader, div.MsoHeader
-	{mso-style-link:"Header Char";
-	margin-top:4.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";}
-p.MsoFooter, li.MsoFooter, div.MsoFooter
-	{mso-style-link:"Footer Char";
-	margin-top:4.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";}
-a:link, span.MsoHyperlink
-	{color:blue;
-	text-decoration:underline;}
-a:visited, span.MsoHyperlinkFollowed
-	{color:purple;
-	text-decoration:underline;}
-p
-	{margin-right:0cm;
-	margin-left:0cm;
-	font-size:12.0pt;
-	font-family:"Times New Roman","serif";}
-pre
-	{mso-style-link:"HTML Preformatted Char";
-	margin:0cm;
-	margin-bottom:.0001pt;
-	font-size:10.0pt;
-	font-family:"Courier New";}
-p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
-	{mso-style-link:"Balloon Text Char";
-	margin-top:4.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	font-size:8.0pt;
-	font-family:"Tahoma","sans-serif";}
-p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{margin-top:4.0pt;
-	margin-right:0cm;
-	margin-bottom:6.0pt;
-	margin-left:36.0pt;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";}
-p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{margin-top:4.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	margin-bottom:.0001pt;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";}
-p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	margin-bottom:.0001pt;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";}
-p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:6.0pt;
-	margin-left:36.0pt;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";}
-span.HeaderChar
-	{mso-style-name:"Header Char";
-	mso-style-link:Header;}
-span.FooterChar
-	{mso-style-name:"Footer Char";
-	mso-style-link:Footer;}
-span.BalloonTextChar
-	{mso-style-name:"Balloon Text Char";
-	mso-style-link:"Balloon Text";
-	font-family:"Tahoma","sans-serif";}
-span.Heading1Char
-	{mso-style-name:"Heading 1 Char";
-	mso-style-link:"Heading 1";
-	font-family:SimSun;
-	color:#642D08;
-	font-weight:bold;}
-span.Heading2Char
-	{mso-style-name:"Heading 2 Char";
-	mso-style-link:"Heading 2";
-	font-family:SimSun;
-	color:#7C380A;
-	font-weight:bold;}
-span.Heading3Char
-	{mso-style-name:"Heading 3 Char";
-	mso-style-link:"Heading 3";
-	font-family:SimSun;
-	color:#8F400B;
-	font-weight:bold;}
-span.Heading4Char
-	{mso-style-name:"Heading 4 Char";
-	mso-style-link:"Heading 4";
-	font-family:SimSun;
-	color:#A34A0D;
-	font-weight:bold;}
-span.Heading5Char
-	{mso-style-name:"Heading 5 Char";
-	mso-style-link:"Heading 5";
-	font-family:SimSun;
-	color:#B2500E;
-	font-weight:bold;}
-p.Code, li.Code, div.Code
-	{mso-style-name:Code;
-	mso-style-link:"Code Char";
-	margin-top:4.0pt;
-	margin-right:0cm;
-	margin-bottom:6.0pt;
-	margin-left:0cm;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:Consolas;
-	font-weight:bold;}
-span.CodeChar
-	{mso-style-name:"Code Char";
-	mso-style-link:Code;
-	font-family:Consolas;
-	font-weight:bold;}
-span.HTMLPreformattedChar
-	{mso-style-name:"HTML Preformatted Char";
-	mso-style-link:"HTML Preformatted";
-	font-family:"Courier New";}
-span.apple-converted-space
-	{mso-style-name:apple-converted-space;}
-.MsoChpDefault
-	{font-family:"Calibri","sans-serif";}
-.MsoPapDefault
-	{margin-bottom:10.0pt;
-	line-height:115%;}
- /* Page Definitions */
- @page WordSection1
-	{size:595.45pt 841.7pt;
-	margin:1.0cm 36.85pt 53.85pt 36.85pt;}
-div.WordSection1
-	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0cm;}
-ul
-	{margin-bottom:0cm;}
--->
-</style>
+
 
 </head>
 
@@ -267,8 +14,8 @@ ul
 <h1>Lab: Control Flow Logic</h1>
 
 <p class=MsoNormal>Problems for in-class lab for the <a
-href="https://softuni.bg/courses/javascript-fundamentals">“JavaScript
-Fundamentals” course @ SoftUni</a>. Submit your solutions in the SoftUni judge
+href="https://softuni.bg/courses/javascript-fundamentals">вЂњJavaScript
+FundamentalsвЂќ course @ SoftUni</a>. Submit your solutions in the SoftUni judge
 system at <a href="https://judge.softuni.bg/Contests/288/">https://judge.softuni.bg/Contests/288/</a>.</p>
 
 <h2>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span>Multiply
@@ -607,7 +354,7 @@ line for each result.</p>
 <h2>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span>Triangle
 Area</h2>
 
-<p class=MsoNormal>Write a JS function that calculates a triangle’s area by its
+<p class=MsoNormal>Write a JS function that calculates a triangleвЂ™s area by its
 3 sides.</p>
 
 <p class=MsoNormal>The <b>input</b> comes as three number arguments,
@@ -649,16 +396,16 @@ representing one side of a triangle.</p>
 
 <h3>Hints</h3>
 
-<p class=MsoNormal>Use <a href="https://en.wikipedia.org/wiki/Heron%27s_formula">Heron’s
+<p class=MsoNormal>Use <a href="https://en.wikipedia.org/wiki/Heron%27s_formula">HeronвЂ™s
 formula</a> to obtain the result.</p>
 
 <h2>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span>Cone</h2>
 
-<p class=MsoNormal>Write a JS function to calculate a cone’s volume and surface
+<p class=MsoNormal>Write a JS function to calculate a coneвЂ™s volume and surface
 area by given height and radius at the base.</p>
 
 <p class=MsoNormal>The <b>input</b> comes as two number arguments. The first
-element is the cone’s <strong><span style='font-family:"Calibri","sans-serif"'>radius</span></strong>
+element is the coneвЂ™s <strong><span style='font-family:"Calibri","sans-serif"'>radius</span></strong>
 and the second is its <strong><span style='font-family:"Calibri","sans-serif"'>height</span></strong>.</p>
 
 <p class=MsoNormal>The <b>output</b> should be printed to the console on a new
@@ -855,15 +602,15 @@ style='font-family:"Calibri","sans-serif"'>vegetable</span></strong>&quot; or
 depending on the input string.</p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>Fruits are: banana, apple, kiwi, cherry, lemon, grapes, peach</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>Vegetable are: tomato, cucumber, pepper, onion, garlic, parsley</p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>All others are unknown</p>
 
 <p class=MsoNormal>The <b>input</b> comes as a single string argument, the name
@@ -1003,33 +750,33 @@ function in the form of a string.</p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
   style='font-family:Consolas'>&lt;ul&gt;</span></p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;li&gt;&lt;span
+  style='font-family:Consolas'>В  &lt;li&gt;&lt;span
   style='color:green'&gt;1&lt;/span&gt;&lt;/li&gt;</span></p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;li&gt;&lt;span style='color:blue'&gt;2&lt;/span&gt;&lt;/li&gt;</span></p>
+  style='font-family:Consolas'>В  &lt;li&gt;&lt;span style='color:blue'&gt;2&lt;/span&gt;&lt;/li&gt;</span></p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;li&gt;&lt;span
+  style='font-family:Consolas'>В  &lt;li&gt;&lt;span
   style='color:green'&gt;3&lt;/span&gt;&lt;/li&gt;</span></p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;li&gt;&lt;span
+  style='font-family:Consolas'>В  &lt;li&gt;&lt;span
   style='color:blue'&gt;4&lt;/span&gt;&lt;/li&gt;</span></p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;li&gt;&lt;span
+  style='font-family:Consolas'>В  &lt;li&gt;&lt;span
   style='color:green'&gt;5&lt;/span&gt;&lt;/li&gt;</span></p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;li&gt;&lt;span
+  style='font-family:Consolas'>В  &lt;li&gt;&lt;span
   style='color:blue'&gt;6&lt;/span&gt;&lt;/li&gt;</span></p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;li&gt;&lt;span
+  style='font-family:Consolas'>В  &lt;li&gt;&lt;span
   style='color:green'&gt;7&lt;/span&gt;&lt;/li&gt;</span></p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;li&gt;&lt;span
+  style='font-family:Consolas'>В  &lt;li&gt;&lt;span
   style='color:blue'&gt;8&lt;/span&gt;&lt;/li&gt;</span></p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;li&gt;&lt;span
+  style='font-family:Consolas'>В  &lt;li&gt;&lt;span
   style='color:green'&gt;9&lt;/span&gt;&lt;/li&gt;</span></p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;li&gt;&lt;span
+  style='font-family:Consolas'>В  &lt;li&gt;&lt;span
   style='color:blue'&gt;10&lt;/span&gt;&lt;/li&gt;</span></p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
   style='font-family:Consolas'>&lt;/ul&gt;</span></p>
@@ -1078,44 +825,44 @@ function in the form of a string.</p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
   style='font-family:Consolas'>&lt;div class=&quot;chessboard&quot;&gt;</span></p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;div&gt;</span></p>
+  style='font-family:Consolas'>В  &lt;div&gt;</span></p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>    &lt;span
+  style='font-family:Consolas'>В В В  &lt;span
   class=&quot;black&quot;&gt;&lt;/span&gt;</span></p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>    &lt;span
+  style='font-family:Consolas'>В В В  &lt;span
   class=&quot;white&quot;&gt;&lt;/span&gt;</span></p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>    &lt;span
+  style='font-family:Consolas'>В В В  &lt;span
   class=&quot;black&quot;&gt;&lt;/span&gt;</span></p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;/div&gt;</span></p>
+  style='font-family:Consolas'>В  &lt;/div&gt;</span></p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;div&gt;</span></p>
+  style='font-family:Consolas'>В  &lt;div&gt;</span></p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>    &lt;span
+  style='font-family:Consolas'>В В В  &lt;span
   class=&quot;white&quot;&gt;&lt;/span&gt;</span></p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>    &lt;span
+  style='font-family:Consolas'>В В В  &lt;span
   class=&quot;black&quot;&gt;&lt;/span&gt;</span></p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>    &lt;span
+  style='font-family:Consolas'>В В В  &lt;span
   class=&quot;white&quot;&gt;&lt;/span&gt;</span></p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;/div&gt;</span></p>
+  style='font-family:Consolas'>В  &lt;/div&gt;</span></p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;div&gt;</span></p>
+  style='font-family:Consolas'>В  &lt;div&gt;</span></p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>    &lt;span
+  style='font-family:Consolas'>В В В  &lt;span
   class=&quot;black&quot;&gt;&lt;/span&gt;</span></p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>    &lt;span
+  style='font-family:Consolas'>В В В  &lt;span
   class=&quot;white&quot;&gt;&lt;/span&gt;</span></p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>    &lt;span
+  style='font-family:Consolas'>В В В  &lt;span
   class=&quot;black&quot;&gt;&lt;/span&gt;</span></p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;/div&gt;</span></p>
+  style='font-family:Consolas'>В  &lt;/div&gt;</span></p>
   <p class=MsoNormal style='margin:0cm;margin-bottom:.0001pt;line-height:normal'><span
   style='font-family:Consolas'>&lt;/div&gt;</span></p>
   </td>
