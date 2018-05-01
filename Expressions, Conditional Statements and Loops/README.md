@@ -3,260 +3,6 @@
 <head>
 <meta http-equiv=Content-Type content="text/html; charset=windows-1251">
 <meta name=Generator content="Microsoft Word 14 (filtered)">
-<title>Exercises and Homework for the JavaScript Fundamentals Course at SoftUni</title>
-<style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;}
-@font-face
-	{font-family:SimSun;
-	panose-1:2 1 6 0 3 1 1 1 1 1;}
-@font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
-@font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;}
-@font-face
-	{font-family:Tahoma;
-	panose-1:2 11 6 4 3 5 4 4 2 4;}
-@font-face
-	{font-family:Consolas;
-	panose-1:2 11 6 9 2 2 4 3 2 4;}
-@font-face
-	{font-family:"\@SimSun";
-	panose-1:2 1 6 0 3 1 1 1 1 1;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin-top:4.0pt;
-	margin-right:0in;
-	margin-bottom:6.0pt;
-	margin-left:0in;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";}
-h1
-	{mso-style-link:"Heading 1 Char";
-	margin-top:10.0pt;
-	margin-right:0in;
-	margin-bottom:2.0pt;
-	margin-left:0in;
-	line-height:115%;
-	page-break-after:avoid;
-	font-size:20.0pt;
-	font-family:"Calibri","sans-serif";
-	color:#642D08;
-	font-weight:bold;}
-h2
-	{mso-style-link:"Heading 2 Char";
-	margin-top:10.0pt;
-	margin-right:0in;
-	margin-bottom:2.0pt;
-	margin-left:17.85pt;
-	text-indent:-17.85pt;
-	line-height:115%;
-	page-break-after:avoid;
-	font-size:18.0pt;
-	font-family:"Calibri","sans-serif";
-	color:#7C380A;
-	font-weight:bold;}
-h3
-	{mso-style-link:"Heading 3 Char";
-	margin-top:6.0pt;
-	margin-right:0in;
-	margin-bottom:4.0pt;
-	margin-left:0in;
-	line-height:115%;
-	page-break-after:avoid;
-	font-size:16.0pt;
-	font-family:"Calibri","sans-serif";
-	color:#8F400B;
-	font-weight:bold;}
-h4
-	{mso-style-link:"Heading 4 Char";
-	margin-top:6.0pt;
-	margin-right:0in;
-	margin-bottom:2.0pt;
-	margin-left:0in;
-	line-height:115%;
-	page-break-after:avoid;
-	font-size:14.0pt;
-	font-family:"Calibri","sans-serif";
-	color:#A34A0D;
-	font-weight:bold;}
-h5
-	{mso-style-link:"Heading 5 Char";
-	margin-top:4.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:0in;
-	margin-bottom:.0001pt;
-	line-height:115%;
-	page-break-after:avoid;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";
-	color:#B2500E;
-	font-weight:bold;}
-p.MsoHeader, li.MsoHeader, div.MsoHeader
-	{mso-style-link:"Header Char";
-	margin-top:4.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:0in;
-	margin-bottom:.0001pt;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";}
-p.MsoFooter, li.MsoFooter, div.MsoFooter
-	{mso-style-link:"Footer Char";
-	margin-top:4.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:0in;
-	margin-bottom:.0001pt;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";}
-a:link, span.MsoHyperlink
-	{color:blue;
-	text-decoration:underline;}
-a:visited, span.MsoHyperlinkFollowed
-	{color:purple;
-	text-decoration:underline;}
-p
-	{margin-right:0in;
-	margin-left:0in;
-	font-size:12.0pt;
-	font-family:"Times New Roman","serif";}
-pre
-	{mso-style-link:"HTML Preformatted Char";
-	margin:0in;
-	margin-bottom:.0001pt;
-	font-size:10.0pt;
-	font-family:"Courier New";}
-p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
-	{mso-style-link:"Balloon Text Char";
-	margin-top:4.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:0in;
-	margin-bottom:.0001pt;
-	font-size:8.0pt;
-	font-family:"Tahoma","sans-serif";}
-p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{margin-top:4.0pt;
-	margin-right:0in;
-	margin-bottom:6.0pt;
-	margin-left:.5in;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";}
-p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{margin-top:4.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	margin-bottom:.0001pt;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";}
-p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	margin-bottom:.0001pt;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";}
-p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:6.0pt;
-	margin-left:.5in;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";}
-span.HeaderChar
-	{mso-style-name:"Header Char";
-	mso-style-link:Header;}
-span.FooterChar
-	{mso-style-name:"Footer Char";
-	mso-style-link:Footer;}
-span.BalloonTextChar
-	{mso-style-name:"Balloon Text Char";
-	mso-style-link:"Balloon Text";
-	font-family:"Tahoma","sans-serif";}
-span.Heading1Char
-	{mso-style-name:"Heading 1 Char";
-	mso-style-link:"Heading 1";
-	font-family:SimSun;
-	color:#642D08;
-	font-weight:bold;}
-span.Heading2Char
-	{mso-style-name:"Heading 2 Char";
-	mso-style-link:"Heading 2";
-	font-family:SimSun;
-	color:#7C380A;
-	font-weight:bold;}
-span.Heading3Char
-	{mso-style-name:"Heading 3 Char";
-	mso-style-link:"Heading 3";
-	font-family:SimSun;
-	color:#8F400B;
-	font-weight:bold;}
-span.Heading4Char
-	{mso-style-name:"Heading 4 Char";
-	mso-style-link:"Heading 4";
-	font-family:SimSun;
-	color:#A34A0D;
-	font-weight:bold;}
-span.Heading5Char
-	{mso-style-name:"Heading 5 Char";
-	mso-style-link:"Heading 5";
-	font-family:SimSun;
-	color:#B2500E;
-	font-weight:bold;}
-p.Code, li.Code, div.Code
-	{mso-style-name:Code;
-	mso-style-link:"Code Char";
-	margin-top:4.0pt;
-	margin-right:0in;
-	margin-bottom:6.0pt;
-	margin-left:0in;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:Consolas;
-	font-weight:bold;}
-span.CodeChar
-	{mso-style-name:"Code Char";
-	mso-style-link:Code;
-	font-family:Consolas;
-	font-weight:bold;}
-span.HTMLPreformattedChar
-	{mso-style-name:"HTML Preformatted Char";
-	mso-style-link:"HTML Preformatted";
-	font-family:"Courier New";}
-span.apple-converted-space
-	{mso-style-name:apple-converted-space;}
-.MsoChpDefault
-	{font-family:"Calibri","sans-serif";}
-.MsoPapDefault
-	{margin-bottom:10.0pt;
-	line-height:115%;}
- /* Page Definitions */
- @page WordSection1
-	{size:595.45pt 841.7pt;
-	margin:28.35pt 36.85pt 53.85pt 36.85pt;}
-div.WordSection1
-	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0in;}
-ul
-	{margin-bottom:0in;}
--->
-</style>
 
 </head>
 
@@ -267,8 +13,8 @@ ul
 <h1>Exercises: Data Types, Expressions, Statements</h1>
 
 <p class=MsoNormal>Problems for exercises and homework for the <a
-href="https://softuni.bg/courses/javascript-fundamentals">“JavaScript
-Fundamentals” course @ SoftUni</a>. Submit your solutions in the SoftUni Judge
+href="https://softuni.bg/courses/javascript-fundamentals">вЂњJavaScript
+FundamentalsвЂќ course @ SoftUni</a>. Submit your solutions in the SoftUni Judge
 system at <a href="https://judge.softuni.bg/Contests/308">https://judge.softuni.bg/Contests/308</a>.</p>
 
 <h2>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span>Hello,
@@ -334,7 +80,7 @@ would be passed to our method.</p>
 <p class=MsoNormal><img border=0 width=255 height=81 id="Picture 16"
 src="README.md_files/image001.png"></p>
 
-<p class=MsoNormal>We need to concatenate three strings – the two static parts
+<p class=MsoNormal>We need to concatenate three strings вЂ“ the two static parts
 of our greeting and the name of the person in the middle. We can do this by
 simply adding the three strings with the addition operator. Since this is an
 operation which returns the concatenated string, we can directly perform this
@@ -360,16 +106,16 @@ src="README.md_files/image004.jpg"></p>
 <p class=MsoNormal>If you get an error, you can see what went wrong in the
 detailed report, using the highlighted button:<br>
 <img border=0 width=492 height=197 id="Picture 10"
-src="README.md_files/image005.jpg"> </p>
+src="README.md_files/image005.jpg">В </p>
 
 <p class=MsoNormal>Here you can see what the system expected and what your
-program’s result was. You can also see what the input for the test was:<br>
+programвЂ™s result was. You can also see what the input for the test was:<br>
 <img border=0 width=662 height=241 id="Picture 13"
 src="README.md_files/image006.jpg"></p>
 
-<p class=MsoNormal>Note you can only view detailed information for zero tests –
+<p class=MsoNormal>Note you can only view detailed information for zero tests вЂ“
 they do not give you points, but are handy for finding typos and debugging some
-errors. Chances are, if you manage to get all zero tests to pass, you’ll also
+errors. Chances are, if you manage to get all zero tests to pass, youвЂ™ll also
 have some competitive tests passing too.</p>
 
 <h2>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span>Area and
@@ -542,7 +288,7 @@ width=112 height=41 id="Picture 14" src="README.md_files/image008.jpg"></p>
 <p class=MsoNormal>However, the incoming units need to be equalized first and
 after the calculation, a final conversion needs to be done to match the
 required output units. There are 3600 seconds in an hour and 1000 meters in a
-kilometer. We don’t know which object covered a greater distance, so simply
+kilometer. We donвЂ™t know which object covered a greater distance, so simply
 subtracting them from one another may result in a <strong><span
 style='font-family:"Calibri","sans-serif"'>negative number</span></strong>.
 Distance however is absolute (always positive), so we need to get the absolute
@@ -611,7 +357,7 @@ second set of arguments are the coordinates of the other point.</p>
 
 <p class=MsoNormal>You can find the horizontal and vertical offset between two
 points by calculating the difference between their respective coordinates. Use
-Pythagoras’ theorem to find the distance.</p>
+PythagorasвЂ™ theorem to find the distance.</p>
 
 <h2>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span>Grads to
 Degrees</h2>
@@ -621,8 +367,8 @@ full turn) in their documents. Grads are rather unwieldy though, so you need to
 write a JS function that converts from grads to degrees. In addition, your
 program needs to constrain the results within the range <span style='font-size:11.0pt;line-height:115%;font-family:"Calibri","sans-serif";position:relative;
 top:4.5pt'><img width=90 height=25 src="README.md_files/image010.png"></span>,
-so if you arrive at a value like -15°, it needs to be converted to 345° and
-420° becomes 60°.</p>
+so if you arrive at a value like -15В°, it needs to be converted to 345В° and
+420В° becomes 60В°.</p>
 
 <p class=MsoNormal>The <b>input</b> comes as <span lang=BG>single number</span>.</p>
 
@@ -747,7 +493,7 @@ so if you arrive at a value like -15°, it needs to be converted to 345° and
 <h3>Hints</h3>
 
 <p class=MsoNormal>You can use the remainder (modulo) operator to get a value
-that is cyclic – it returns the same result for all input values with offset
+that is cyclic вЂ“ it returns the same result for all input values with offset
 equal to the second parameter. For instance, <span class=CodeChar>n % 10</span>
 will return 3 with values for <strong><span style='font-family:"Calibri","sans-serif"'>n</span></strong>
 3, 13, 23, 243, 1003 and so on.</p>
@@ -840,19 +586,19 @@ width=147 height=68 id="Picture 15" src="README.md_files/image011.jpg"></p>
 <p class=MsoNormal>where:</p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><b><i>P</i></b> is the principal sum</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><b><i>i</i></b> is the nominal interest rate</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><b><i>n</i></b> is the compounding frequency</p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><b><i>t</i></b> is the overall length of time the interest is
 applied</p>
 
@@ -1078,7 +824,7 @@ following format:</p>
   none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
   padding:2.85pt 4.25pt 2.85pt 4.25pt'>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>Now Playing: Nelly – Number One [4:09]</span></p>
+  style='font-family:Consolas'>Now Playing: Nelly вЂ“ Number One [4:09]</span></p>
   </td>
  </tr>
 </table>
@@ -1252,11 +998,11 @@ as a result of the function.</p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
   style='font-family:Consolas'>{</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  name: 'Pesho',</span></p>
+  style='font-family:Consolas'>В  name: 'Pesho',</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  age: '23',</span></p>
+  style='font-family:Consolas'>В  age: '23',</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  gender: 'male'</span></p>
+  style='font-family:Consolas'>В  gender: 'male'</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
   style='font-family:Consolas'>}</span></p>
   </td>
@@ -1299,11 +1045,11 @@ clear=all style='page-break-before:always'>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
   style='font-family:Consolas'>{</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  ssid: '90127461',</span></p>
+  style='font-family:Consolas'>В  ssid: '90127461',</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  status: 'admin',</span></p>
+  style='font-family:Consolas'>В  status: 'admin',</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  expires: '600'</span></p>
+  style='font-family:Consolas'>В  expires: '600'</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
   style='font-family:Consolas'>}</span></p>
   </td>
@@ -1393,7 +1139,7 @@ using expressions, conditions and loops in JavaScript. You will practice
 working with arithmetic operators, <b>expressions</b> and calculations, using <b>conditional
 statements</b> (<span class=CodeChar>if</span>, <span class=CodeChar>if</span>-<span
 class=CodeChar>else</span>, multiple <span class=CodeChar>if</span>-<span
-class=CodeChar>else</span>-<span class=CodeChar>if</span>-<span class=CodeChar>else</span>-…
+class=CodeChar>else</span>-<span class=CodeChar>if</span>-<span class=CodeChar>else</span>-вЂ¦
 and <span class=CodeChar>switch</span>-<span class=CodeChar>case</span>) and
 working with <b>loop statements</b> (like <span class=CodeChar>for</span>, <span
 class=CodeChar>while</span>, <span class=CodeChar>do</span>-<span
@@ -1607,12 +1353,12 @@ href="https://judge.softuni.bg/Contests/Practice/Index/300">https://judge.softun
 
 <p class=MsoNormal>Note: the above code might be shortened like this:</p>
 
-<p class=MsoNormal>      <img border=0 width=474 height=68 id="Picture 60"
+<p class=MsoNormal>В В В В В  <img border=0 width=474 height=68 id="Picture 60"
 src="README.md_files/image016.jpg"></p>
 
 <p class=MsoNormal>The above code takes the input as array of 3 string
 variables <span class=CodeChar>num1</span>, <span class=CodeChar>num2</span>
-and <span class=CodeChar>num3</span>. Then the function <span class=CodeChar>Math.max(…)</span>
+and <span class=CodeChar>num3</span>. Then the function <span class=CodeChar>Math.max(вЂ¦)</span>
 converts its string arguments to numbers and returns the biggest of them.</p>
 
 <p class=MsoNormal>You may shorten further your solution by making it an <b>arrow
@@ -1655,12 +1401,12 @@ of it. If the point is at the rectangle <b>border</b>, it is considered <b>insid
 representations of <span class=CodeChar>x</span>, <span class=CodeChar>y</span>,
 <span class=CodeChar>xMin</span>, <span class=CodeChar>xMax</span>, <span
 class=CodeChar>yMin</span>, <span class=CodeChar>yMax</span>. All numbers will
-in the range [-1&nbsp;000 000 … 1 000&nbsp;000]. It is guaranteed that <span
+in the range [-1&nbsp;000 000 вЂ¦ 1 000&nbsp;000]. It is guaranteed that <span
 class=CodeChar>xMin</span> &lt; <span class=CodeChar>xMax</span> and <span
 class=CodeChar>yMin</span> &lt; <span class=CodeChar>yMax</span>.</p>
 
-<p class=MsoNormal>The <b>output</b> is a single line holding “<b>inside</b>”
-or “<b>outside</b>”.</p>
+<p class=MsoNormal>The <b>output</b> is a single line holding вЂњ<b>inside</b>вЂќ
+or вЂњ<b>outside</b>вЂќ.</p>
 
 <h3>Examples</h3>
 
@@ -1776,13 +1522,13 @@ class=CodeChar>x</span>, <span class=CodeChar>y</span>, <span class=CodeChar>xMi
 class=CodeChar>yMax</span> from the array of 6 numbers, passed as input
 parameter <span class=CodeChar>input</span>. The numbers should be taken from
 the array elements <span class=CodeChar>input[0]</span>, <span class=CodeChar>input[1]</span>,
-… as follows:</p>
+вЂ¦ as follows:</p>
 
 <p class=MsoNormal style='text-indent:14.2pt'><img border=0 width=321
 height=226 id="Picture 21" src="README.md_files/image022.png"></p>
 
 <p class=MsoNormal>The above code could be significantly shortened by using a
-JS language feature called “<b>destructuring assignment</b>” like this:</p>
+JS language feature called вЂњ<b>destructuring assignment</b>вЂќ like this:</p>
 
 <p class=MsoNormal style='text-indent:14.2pt'><img border=0 width=524
 height=102 id="Picture 22" src="README.md_files/image023.png"></p>
@@ -1794,19 +1540,19 @@ rectangle. A <b>point is inside a rectangle</b> if and only if both of the
 following conditions are fulfilled:</p>
 
 <p class=MsoListParagraphCxSpFirst style='margin-left:38.55pt;text-indent:-.25in'><span
-class=CodeChar><span style='font-family:Symbol;font-weight:normal'>·<span
+class=CodeChar><span style='font-family:Symbol;font-weight:normal'>В·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span>its <span class=CodeChar>x</span> coordinate is between <span
 class=CodeChar>xMin</span> and <span class=CodeChar>xMax</span></p>
 
 <p class=MsoListParagraphCxSpLast style='margin-left:38.55pt;text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>its <span class=CodeChar>y</span> coordinate is between <span
 class=CodeChar>yMin</span> and <span class=CodeChar>yMax</span></p>
 
 <p class=MsoNormal>The code may look like this:</p>
 
-<p class=MsoNormal>      <img border=0 width=524 height=83 id="Picture 39"
+<p class=MsoNormal>В В В В В  <img border=0 width=524 height=83 id="Picture 39"
 src="README.md_files/image024.jpg"></p>
 
 <p class=MsoNormal>Now <b>test the function locally</b> on your computer.
@@ -1817,7 +1563,7 @@ height=51 id="Picture 23" src="README.md_files/image025.png"></p>
 
 <p class=MsoNormal>Note that the function takes its input as <b>6 numbers</b>.
 You may test your code in your IDE, in the console (with Node.js) or in your
-Web browser’s JS console.</p>
+Web browserвЂ™s JS console.</p>
 
 <p class=MsoNormal>The screenshot below shows the above function, invoked in <b>Chrome
 JavaScript Console</b>:</p>
@@ -1852,7 +1598,7 @@ Numbers 1 to N</h2>
 prints all <b>odd numbers</b> from <b>1</b> to <b>n</b>.</p>
 
 <p class=MsoNormal>The <b>input</b> comes as a single number <b>n</b>. The
-number <b>n</b> will be an integer in the range [1 … 100&nbsp;000].</p>
+number <b>n</b> will be an integer in the range [1 вЂ¦ 100&nbsp;000].</p>
 
 <p class=MsoNormal>The <b>output</b> should hold the expected odd numbers, each
 at a separate line.</p>
@@ -1988,7 +1734,7 @@ Invoke the above function like this:</p>
 height=29 id="Picture 28" src="README.md_files/image033.png"></p>
 
 <p class=MsoNormal>You may test your code in the console (with Node.js) or in
-your Web browser’s JS console.</p>
+your Web browserвЂ™s JS console.</p>
 
 <p class=MsoNormal>The screenshot below shows the above function, invoked in <b>Chrome
 JavaScript Console</b>:</p>
@@ -2020,7 +1766,7 @@ height=321 id="Picture 12" src="README.md_files/image037.png"></p>
 of Dollars</h2>
 
 <p class=MsoNormal>Write a JS function that prints a triangle of <span
-class=CodeChar>n</span> lines of “<span class=CodeChar>$</span>” characters
+class=CodeChar>n</span> lines of вЂњ<span class=CodeChar>$</span>вЂќ characters
 like shown in the examples.</p>
 
 <p class=MsoNormal>The <b>input</b> comes as a single number <span
@@ -2135,13 +1881,13 @@ text lines like shown below.</p>
 <h3>Hints</h3>
 
 <p class=MsoNormal>Variant 1: use <b>nested loops</b> and for each row collect
-the ‘<span class=CodeChar>$</span>’ characters in a string and then print it:</p>
+the вЂ<span class=CodeChar>$</span>вЂ™ characters in a string and then print it:</p>
 
 <p class=MsoNormal style='text-indent:14.2pt'><img border=0 width=356
 height=86 id="Picture 104" src="README.md_files/image038.jpg"></p>
 
 <p class=MsoNormal>Variant 2: use a simple loop <span class=CodeChar>row</span>
-= <span class=CodeChar>1</span> … <span class=CodeChar>n</span> and print <span
+= <span class=CodeChar>1</span> вЂ¦ <span class=CodeChar>n</span> and print <span
 class=CodeChar>row</span> dollars this way:</p>
 
 <p class=MsoNormal style='text-indent:14.2pt'><img border=0 width=385
@@ -2404,7 +2150,7 @@ by movie title and day of week.</p>
 <p class=MsoNormal>The <b>input</b> comes as array of 2 strings. The first
 string holds the <b>movie title</b>. The second string holds the <b>day of week</b>.</p>
 
-<p class=MsoNormal>The <b>output</b> should hold the <b>ticket price</b> or “<b>error</b>”
+<p class=MsoNormal>The <b>output</b> should hold the <b>ticket price</b> or вЂњ<b>error</b>вЂќ
 if the title or day of week is invalid.</p>
 
 <h3>Examples</h3>
@@ -2520,24 +2266,24 @@ if the title or day of week is invalid.</p>
 <h3>Hints</h3>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>Turn all input values to <b>lowercase</b> to avoid character
 casing mistakes.</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><b>Check the movie title</b> in <span class=CodeChar>if</span>-<span
 class=CodeChar>else</span>-<span class=CodeChar>if</span> statement.</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>For each movie title check the price in a <span class=CodeChar>switch</span>-<span
 class=CodeChar>case</span>.</p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>Beware of <b>invalid</b> movie titles and invalid days of week.
-Show “<b>error</b>” in such cases.</p>
+Show вЂњ<b>error</b>вЂќ in such cases.</p>
 
 <p class=MsoNormal>You may follow the <b>code example</b> below:</p>
 
@@ -2564,7 +2310,7 @@ non-zero.</p>
 <p class=MsoNormal>The <b>output</b> depends on the equation:</p>
 
 <p class=MsoListParagraphCxSpFirst style='margin-left:38.55pt;text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>It holds two numbers <span class=CodeChar>x<sub>1</sub></span>
 and <span class=CodeChar>x<sub>2</sub></span> if the equation has two different
 solutions (roots): <span class=CodeChar>x<sub>1</sub></span> and <span
@@ -2575,13 +2321,13 @@ class=CodeChar>x<sub>2</sub></span>.</p>
 </span></span>First print the smaller root, then the greater.</p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-left:38.55pt;text-indent:
--.25in'><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-.25in'><span style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>It holds a single number <span class=CodeChar>x</span> if the
 equation has only one solution (root): <span class=CodeChar>x</span>.</p>
 
 <p class=MsoListParagraphCxSpLast style='margin-left:38.55pt;text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span>It holds the text “<span class=CodeChar>No</span>” if the
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>It holds the text вЂњ<span class=CodeChar>No</span>вЂќ if the
 equation has no solutions (no real roots).</p>
 
 <h3>Examples</h3>
@@ -2636,13 +2382,13 @@ equation has no solutions (no real roots).</p>
   the equation has two real roots:</span></p>
   <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
   margin-bottom:0in;margin-left:.5in;margin-bottom:.0001pt;text-indent:-.25in;
-  line-height:normal'><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  line-height:normal'><span style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   </span></span>x<sub>1</sub> = (-<i>b</i> + <span style='font-family:"Arial","sans-serif";
   color:#545454;background:white'>&#8730;</span><i>d</i>) / (2*<i>a</i>) = (-11
   + 31) / 12 = 20/12 = 5/3 &#8776; 1.66667</p>
   <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
   margin-bottom:0in;margin-left:.5in;margin-bottom:.0001pt;text-indent:-.25in;
-  line-height:normal'><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  line-height:normal'><span style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   </span></span>x<sub>2</sub> = (-<i>b</i> - <span style='font-family:"Arial","sans-serif";
   color:#545454;background:white'>&#8730;</span><i>d</i>) / (2*<i>a</i>) = (-11
   - 31) / 12 = -42/12 = -7/2 = -3.5</p>
@@ -2650,11 +2396,11 @@ equation has no solutions (no real roots).</p>
   output consists of two lines:</p>
   <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
   margin-bottom:0in;margin-left:38.55pt;margin-bottom:.0001pt;text-indent:-.25in;
-  line-height:normal'><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  line-height:normal'><span style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   </span></span>-3.5 (the smaller root at the first line)</p>
   <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
   margin-bottom:0in;margin-left:38.55pt;margin-bottom:.0001pt;text-indent:-.25in;
-  line-height:normal'><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  line-height:normal'><span style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   </span></span>1.66667 (the bigger root at the second line)</p>
   </td>
  </tr>
@@ -2687,7 +2433,7 @@ equation has no solutions (no real roots).</p>
   equation has only one real root:</span></p>
   <p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
   0in;margin-left:.5in;margin-bottom:.0001pt;text-indent:-.25in;line-height:
-  normal'><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  normal'><span style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   </span></span>x = -<i>b</i> / (2*<i>a</i>) = 12 / 2 = 6</p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'>The
   output is only one line, holding the number 6.</p>
@@ -2721,7 +2467,7 @@ equation has no solutions (no real roots).</p>
   style='background:white'>We have negative discriminant (<i>d</i> &lt; 0), so
   the equation has no real roots.</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'>The
-  output is only one line, holding the text “No”.</p>
+  output is only one line, holding the text вЂњNoвЂќ.</p>
   </td>
  </tr>
 </table>
@@ -2729,12 +2475,12 @@ equation has no solutions (no real roots).</p>
 <h3>Hints</h3>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span>Search for “<b><i>solving quadratic equation</i></b>” in
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Search for вЂњ<b><i>solving quadratic equation</i></b>вЂќ in
 Internet.</p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>Use <span class=CodeChar>if</span>-conditions and expressions to
 calculate the <b>discriminant</b> and the equation <b>roots</b> (if any).</p>
 
@@ -2776,19 +2522,19 @@ text lines like shown below.</p>
   padding:2.85pt 4.25pt 2.85pt 4.25pt'>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'>&lt;table
   border=&quot;1&quot;&gt;</p>
-  <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'> 
+  <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'>В 
   &lt;<b>tr</b>&gt;&lt;th&gt;<b>x</b>&lt;/th&gt;&lt;th&gt;<b>1</b>&lt;/th&gt;&lt;th&gt;<b>2</b>&lt;/th&gt;&lt;th&gt;<b>3</b>&lt;/th&gt;&lt;th&gt;<b><span
   lang=BG>4</span></b>&lt;/th&gt;&lt;th&gt;<b><span lang=BG>5</span></b>&lt;/th&gt;&lt;/<b>tr</b>&gt;</p>
-  <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'> 
+  <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'>В 
   &lt;<b>tr</b>&gt;&lt;th&gt;<b>1</b>&lt;/th&gt;&lt;td&gt;<b>1</b>&lt;/td&gt;&lt;td&gt;<b>2</b>&lt;/td&gt;&lt;td&gt;<b>3</b>&lt;/td&gt;&lt;td&gt;<b><span
   lang=BG>4</span></b>&lt;/td&gt;&lt;td&gt;<b><span lang=BG>5</span></b>&lt;/td&gt;&lt;/<b>tr</b>&gt;</p>
-  <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'> 
+  <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'>В 
   &lt;<b>tr</b>&gt;&lt;th&gt;<b>2</b>&lt;/th&gt;&lt;td&gt;<b>2</b>&lt;/td&gt;&lt;td&gt;<b>4</b>&lt;/td&gt;&lt;td&gt;<b>6</b>&lt;/td&gt;&lt;td&gt;<b>8</b>&lt;/td&gt;&lt;td&gt;<b>10</b>&lt;/td&gt;&lt;/<b>tr</b>&gt;</p>
-  <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'> 
+  <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'>В 
   &lt;<b>tr</b>&gt;&lt;th&gt;<b>3</b>&lt;/th&gt;&lt;td&gt;<b>3</b>&lt;/td&gt;&lt;td&gt;<b>6</b>&lt;/td&gt;&lt;td&gt;<b>9</b>&lt;/td&gt;&lt;td&gt;<b>12</b>&lt;/td&gt;&lt;td&gt;<b>15</b>&lt;/td&gt;&lt;/<b>tr</b>&gt;</p>
-  <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'> 
+  <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'>В 
   &lt;<b>tr</b>&gt;&lt;th&gt;<b>4</b>&lt;/th&gt;&lt;td&gt;<b>4</b>&lt;/td&gt;&lt;td&gt;<b>8</b>&lt;/td&gt;&lt;td&gt;<b>12</b>&lt;/td&gt;&lt;td&gt;<b>16</b>&lt;/td&gt;&lt;td&gt;<b>20</b>&lt;/td&gt;&lt;/<b>tr</b>&gt;</p>
-  <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'> 
+  <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'>В 
   &lt;<b>tr</b>&gt;&lt;th&gt;<b>5</b>&lt;/th&gt;&lt;td&gt;<b>5</b>&lt;/td&gt;&lt;td&gt;<b>10</b>&lt;/td&gt;&lt;td&gt;<b>15</b>&lt;/td&gt;&lt;td&gt;<b>20</b>&lt;/td&gt;&lt;td&gt;<b>25</b>&lt;/td&gt;&lt;/<b>tr</b>&gt;</p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'>&lt;/table&gt;</p>
   </td>
@@ -2811,29 +2557,29 @@ text lines like shown below.</p>
 <h3>Hints</h3>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span>Create a function <span class=CodeChar>multiplicationTable(n) { …
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Create a function <span class=CodeChar>multiplicationTable(n) { вЂ¦
 }</span>. It will return a table of size <span class=CodeChar>n</span>.</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span>First, print the “<span class=CodeChar>&lt;table</span><span
-class=CodeChar><span style='font-family:"Calibri","sans-serif"'> </span>border='1'&gt;</span>”
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>First, print the вЂњ<span class=CodeChar>&lt;table</span><span
+class=CodeChar><span style='font-family:"Calibri","sans-serif"'> </span>border='1'&gt;</span>вЂќ
 opening tag.</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>Using a simple loop, print the <b>heading row</b>.</p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;text-indent:-.25in'><span
 style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-</span></span>It should hold <span class=CodeChar>&lt;tr&gt;</span> + “<span
-class=CodeChar>x</span>” + the numbers <span class=CodeChar>1</span>…<span
+</span></span>It should hold <span class=CodeChar>&lt;tr&gt;</span> + вЂњ<span
+class=CodeChar>x</span>вЂќ + the numbers <span class=CodeChar>1</span>вЂ¦<span
 class=CodeChar>n</span> (all surrounded in <span class=CodeChar>&lt;td&gt;&lt;/td&gt;</span>)
 + <span class=CodeChar>&lt;/tr&gt;</span>.</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>Print the <b>next</b> <span class=CodeChar>n</span> <b>lines</b>
 using nested loops.</p>
 
@@ -2844,13 +2590,13 @@ then append its elements in a loop (all surrounded in <span class=CodeChar>&lt;t
 and finally append <span class=CodeChar>&lt;/tr&gt;</span>.</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span>After the loops, at the end, print the “<span class=CodeChar>&lt;/table&gt;</span>”
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>After the loops, at the end, print the вЂњ<span class=CodeChar>&lt;/table&gt;</span>вЂќ
 closing tag.</p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span>You may visualize your code’s output in the browser like this:</p>
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>You may visualize your codeвЂ™s output in the browser like this:</p>
 
 <p class=MsoNormal style='margin-left:21.8pt;text-indent:14.2pt'><img border=0
 width=544 height=28 id="Picture 33" src="README.md_files/image044.png"></p>
@@ -2862,7 +2608,7 @@ of 4 Squares</h2>
 size <span class=CodeChar>n</span> like shown in the examples below.</p>
 
 <p class=MsoNormal>The <b>input</b> is an integer number <span class=CodeChar>n</span>
-in the range [2 … 200].</p>
+in the range [2 вЂ¦ 200].</p>
 
 <p class=MsoNormal>The <b>output</b> consists of <span class=CodeChar>n</span>
 lines for <b>odd </b><span class=CodeChar>n</span> and <span class=CodeChar>n-1</span>
@@ -2960,11 +2706,11 @@ examples. The figure is fully symmetric (horizontally and vertically).</p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
   style='font-family:Consolas'>+---+---+</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>|   |   |</span></p>
+  style='font-family:Consolas'>|В В  |В В  |</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
   style='font-family:Consolas'>+---+---+</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>|   |   |</span></p>
+  style='font-family:Consolas'>|В В  |В В  |</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
   style='font-family:Consolas'>+---+---+</span></p>
   </td>
@@ -2985,11 +2731,11 @@ examples. The figure is fully symmetric (horizontally and vertically).</p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
   style='font-family:Consolas'>+----+----+</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>|    |    |</span></p>
+  style='font-family:Consolas'>|В В В  |В В В  |</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
   style='font-family:Consolas'>+----+----+</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>|    |    |</span></p>
+  style='font-family:Consolas'>|В В В  |В В В  |</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
   style='font-family:Consolas'>+----+----+</span></p>
   </td>
@@ -3005,15 +2751,15 @@ examples. The figure is fully symmetric (horizontally and vertically).</p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
   style='font-family:Consolas'>+-----+-----+</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>|     |     |</span></p>
+  style='font-family:Consolas'>|В В В В  |В В В В  |</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>|     |     |</span></p>
+  style='font-family:Consolas'>|В В В В  |В В В В  |</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
   style='font-family:Consolas'>+-----+-----+</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>|     |     |</span></p>
+  style='font-family:Consolas'>|В В В В  |В В В В  |</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>|     |     |</span></p>
+  style='font-family:Consolas'>|В В В В  |В В В В  |</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
   style='font-family:Consolas'>+-----+-----+</span></p>
   </td>
@@ -3023,7 +2769,7 @@ examples. The figure is fully symmetric (horizontally and vertically).</p>
 <h3>Hints</h3>
 
 <p class=MsoListParagraph style='text-indent:-.25in'><span style='font-family:
-Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>Use <b>nested loops</b> and <span class=CodeChar>if</span>-statements.
 Try to figure out the <b>logic of construction</b> of the above figures.</p>
 
@@ -3037,32 +2783,32 @@ class=CodeChar><span style='font-family:"Calibri","sans-serif"'> </span>month,</
 class=CodeChar><span style='font-family:"Calibri","sans-serif"'> </span>year])</span>
 that returns a <b>monthly calendar as HTML</b> <b>table</b> (like in the
 examples below) by given <b>day</b>, <b>month</b> and <b>year</b>. Weeks start
-by “<b>Sun</b>” (Sunday) and end by “<b>Sat</b>” (Saturday).</p>
+by вЂњ<b>Sun</b>вЂќ (Sunday) and end by вЂњ<b>Sat</b>вЂќ (Saturday).</p>
 
 <p class=MsoNormal>The <b>input</b> comes as array of 3 numbers:</p>
 
 <p class=MsoListParagraphCxSpFirst style='margin-left:38.55pt;text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span class=CodeChar>day</span> (1 &#8804; <span class=CodeChar>day</span>
 &#8804; 31)</p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-left:38.55pt;text-indent:
--.25in'><span style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+-.25in'><span style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span class=CodeChar>month</span> (1 &#8804; <span
 class=CodeChar>month</span> &#8804; 12)</p>
 
 <p class=MsoListParagraphCxSpLast style='margin-left:38.55pt;text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span class=CodeChar>year</span> (1900 &#8804; <span
 class=CodeChar>year</span> &#8804; 2100)</p>
 
 <p class=MsoNormal>The <b>output</b> should be an <b>HTML table</b>, holding
 the calendar rows and columns, like in the examples below. Display the <b>weeks</b>
-as table rows: <span class=CodeChar>&lt;tr&gt;…&lt;/tr&gt;</span>. Display the <b>days</b>
-as table cells: <span class=CodeChar>&lt;td&gt;…&lt;/td&gt;</span>. Display the
-days of the previous month with CSS class “<b>prev-month</b>”, the days of the
-next month with CSS class “<b>next-month</b>” and the current day with CSS
-class “<span class=CodeChar>today</span>”. See the examples below.</p>
+as table rows: <span class=CodeChar>&lt;tr&gt;вЂ¦&lt;/tr&gt;</span>. Display the <b>days</b>
+as table cells: <span class=CodeChar>&lt;td&gt;вЂ¦&lt;/td&gt;</span>. Display the
+days of the previous month with CSS class вЂњ<b>prev-month</b>вЂќ, the days of the
+next month with CSS class вЂњ<b>next-month</b>вЂќ and the current day with CSS
+class вЂњ<span class=CodeChar>today</span>вЂќ. See the examples below.</p>
 
 <h3>Examples</h3>
 
@@ -3092,25 +2838,25 @@ class “<span class=CodeChar>today</span>”. See the examples below.</p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
   style='font-size:10.0pt'>&lt;table&gt;</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-size:10.0pt'>  &lt;tr&gt;&lt;th&gt;<b>Sun</b>&lt;/th&gt;&lt;th&gt;<b>Mon</b>&lt;/th&gt;&lt;th&gt;<b>Tue</b>&lt;/th&gt;&lt;th&gt;<b>Wed</b>&lt;/th&gt;&lt;th&gt;<b>Thu</b>&lt;/th&gt;&lt;th&gt;<b>Fri</b>&lt;/th&gt;&lt;th&gt;<b>Sat</b>&lt;/th&gt;&lt;/tr&gt;</span></p>
+  style='font-size:10.0pt'>В  &lt;tr&gt;&lt;th&gt;<b>Sun</b>&lt;/th&gt;&lt;th&gt;<b>Mon</b>&lt;/th&gt;&lt;th&gt;<b>Tue</b>&lt;/th&gt;&lt;th&gt;<b>Wed</b>&lt;/th&gt;&lt;th&gt;<b>Thu</b>&lt;/th&gt;&lt;th&gt;<b>Fri</b>&lt;/th&gt;&lt;th&gt;<b>Sat</b>&lt;/th&gt;&lt;/tr&gt;</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-size:10.0pt'>  &lt;tr&gt;&lt;td class=&quot;<b>prev-month</b>&quot;&gt;<b>25</b>&lt;/td&gt;&lt;td
+  style='font-size:10.0pt'>В  &lt;tr&gt;&lt;td class=&quot;<b>prev-month</b>&quot;&gt;<b>25</b>&lt;/td&gt;&lt;td
   class=&quot;<b>prev-month</b>&quot;&gt;<b>26</b>&lt;/td&gt;&lt;td
   class=&quot;<b>prev-month</b>&quot;&gt;<b>27</b>&lt;/td&gt;&lt;td
   class=&quot;<b>prev-month</b>&quot;&gt;<b>28</b>&lt;/td&gt;&lt;td
   class=&quot;<b>prev-month</b>&quot;&gt;<b>29</b>&lt;/td&gt;&lt;td
   class=&quot;<b>prev-month</b>&quot;&gt;<b>30</b>&lt;/td&gt;&lt;td&gt;<b>1</b>&lt;/td&gt;&lt;/tr&gt;</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-size:10.0pt'>  &lt;tr&gt;&lt;td&gt;<b>2</b>&lt;/td&gt;&lt;td&gt;<b>3</b>&lt;/td&gt;&lt;td&gt;<b>4</b>&lt;/td&gt;&lt;td&gt;<b>5</b>&lt;/td&gt;&lt;td&gt;<b>6</b>&lt;/td&gt;&lt;td&gt;<b>7</b>&lt;/td&gt;&lt;td&gt;<b>8</b>&lt;/td&gt;&lt;/tr&gt;</span></p>
+  style='font-size:10.0pt'>В  &lt;tr&gt;&lt;td&gt;<b>2</b>&lt;/td&gt;&lt;td&gt;<b>3</b>&lt;/td&gt;&lt;td&gt;<b>4</b>&lt;/td&gt;&lt;td&gt;<b>5</b>&lt;/td&gt;&lt;td&gt;<b>6</b>&lt;/td&gt;&lt;td&gt;<b>7</b>&lt;/td&gt;&lt;td&gt;<b>8</b>&lt;/td&gt;&lt;/tr&gt;</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-size:10.0pt'>  &lt;tr&gt;&lt;td&gt;<b>9</b>&lt;/td&gt;&lt;td&gt;<b>10</b>&lt;/td&gt;&lt;td&gt;<b>11</b>&lt;/td&gt;&lt;td&gt;<b>12</b>&lt;/td&gt;&lt;td&gt;<b>13</b>&lt;/td&gt;&lt;td&gt;<b>14</b>&lt;/td&gt;&lt;td&gt;<b>15</b>&lt;/td&gt;&lt;/tr&gt;</span></p>
+  style='font-size:10.0pt'>В  &lt;tr&gt;&lt;td&gt;<b>9</b>&lt;/td&gt;&lt;td&gt;<b>10</b>&lt;/td&gt;&lt;td&gt;<b>11</b>&lt;/td&gt;&lt;td&gt;<b>12</b>&lt;/td&gt;&lt;td&gt;<b>13</b>&lt;/td&gt;&lt;td&gt;<b>14</b>&lt;/td&gt;&lt;td&gt;<b>15</b>&lt;/td&gt;&lt;/tr&gt;</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-size:10.0pt'>  &lt;tr&gt;&lt;td&gt;<b>16</b>&lt;/td&gt;&lt;td&gt;<b>17</b>&lt;/td&gt;&lt;td&gt;<b>18</b>&lt;/td&gt;&lt;td&gt;<b>19</b>&lt;/td&gt;&lt;td&gt;<b>20</b>&lt;/td&gt;&lt;td&gt;<b>21</b>&lt;/td&gt;&lt;td&gt;<b>22</b>&lt;/td&gt;&lt;/tr&gt;</span></p>
+  style='font-size:10.0pt'>В  &lt;tr&gt;&lt;td&gt;<b>16</b>&lt;/td&gt;&lt;td&gt;<b>17</b>&lt;/td&gt;&lt;td&gt;<b>18</b>&lt;/td&gt;&lt;td&gt;<b>19</b>&lt;/td&gt;&lt;td&gt;<b>20</b>&lt;/td&gt;&lt;td&gt;<b>21</b>&lt;/td&gt;&lt;td&gt;<b>22</b>&lt;/td&gt;&lt;/tr&gt;</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-size:10.0pt'>  &lt;tr&gt;&lt;td&gt;<b>23</b>&lt;/td&gt;&lt;td
+  style='font-size:10.0pt'>В  &lt;tr&gt;&lt;td&gt;<b>23</b>&lt;/td&gt;&lt;td
   class=&quot;<b>today</b>&quot;&gt;<b>24</b>&lt;/td&gt;&lt;td&gt;<b>25</b>&lt;/td&gt;&lt;td&gt;<b>26</b>&lt;/td&gt;&lt;td&gt;<b>27</b>&lt;/td&gt;&lt;td&gt;<b>28</b>&lt;/td&gt;&lt;td&gt;<b>29</b>&lt;/td&gt;&lt;/tr&gt;</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-size:10.0pt'>  &lt;tr&gt;&lt;td&gt;<b>30</b>&lt;/td&gt;&lt;td&gt;<b>31</b>&lt;/td&gt;&lt;td
+  style='font-size:10.0pt'>В  &lt;tr&gt;&lt;td&gt;<b>30</b>&lt;/td&gt;&lt;td&gt;<b>31</b>&lt;/td&gt;&lt;td
   class=&quot;<b>next-month</b>&quot;&gt;1&lt;/td&gt;&lt;td class=&quot;<b>next-month</b>&quot;&gt;<b>2</b>&lt;/td&gt;&lt;td
   class=&quot;<b>next-month</b>&quot;&gt;<b>3</b>&lt;/td&gt;&lt;td class=&quot;<b>next-month</b>&quot;&gt;<b>4</b>&lt;/td&gt;&lt;td
   class=&quot;<b>next-month</b>&quot;&gt;<b>5</b>&lt;/td&gt;&lt;/tr&gt;</span></p>
@@ -3160,20 +2906,20 @@ class “<span class=CodeChar>today</span>”. See the examples below.</p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
   style='font-size:10.0pt'>&lt;table&gt;</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-size:10.0pt'>  &lt;tr&gt;&lt;th&gt;<b>Sun</b>&lt;/th&gt;&lt;th&gt;<b>Mon</b>&lt;/th&gt;&lt;th&gt;<b>Tue</b>&lt;/th&gt;&lt;th&gt;<b>Wed</b>&lt;/th&gt;&lt;th&gt;<b>Thu</b>&lt;/th&gt;&lt;th&gt;<b>Fri</b>&lt;/th&gt;&lt;th&gt;<b>Sat</b>&lt;/th&gt;&lt;/tr&gt;</span></p>
+  style='font-size:10.0pt'>В  &lt;tr&gt;&lt;th&gt;<b>Sun</b>&lt;/th&gt;&lt;th&gt;<b>Mon</b>&lt;/th&gt;&lt;th&gt;<b>Tue</b>&lt;/th&gt;&lt;th&gt;<b>Wed</b>&lt;/th&gt;&lt;th&gt;<b>Thu</b>&lt;/th&gt;&lt;th&gt;<b>Fri</b>&lt;/th&gt;&lt;th&gt;<b>Sat</b>&lt;/th&gt;&lt;/tr&gt;</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-size:10.0pt'>  &lt;tr&gt;&lt;td class=&quot;<b>prev-month</b>&quot;&gt;<b>28</b>&lt;/td&gt;&lt;td
+  style='font-size:10.0pt'>В  &lt;tr&gt;&lt;td class=&quot;<b>prev-month</b>&quot;&gt;<b>28</b>&lt;/td&gt;&lt;td
   class=&quot;<b>prev-month</b>&quot;&gt;<b>29</b>&lt;/td&gt;&lt;td
   class=&quot;<b>prev-month</b>&quot;&gt;<b>30</b>&lt;/td&gt;&lt;td
   class=&quot;<b>prev-month</b>&quot;&gt;<b>31</b>&lt;/td&gt;&lt;td&gt;<b>1</b>&lt;/td&gt;&lt;td&gt;<b>2</b>&lt;/td&gt;&lt;td&gt;<b>3</b>&lt;/td&gt;&lt;/tr&gt;</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-size:10.0pt'>  &lt;tr&gt;&lt;td class=&quot;<b>today</b>&quot;&gt;<b>4</b>&lt;/td&gt;&lt;td&gt;<b>5</b>&lt;/td&gt;&lt;td&gt;<b>6</b>&lt;/td&gt;&lt;td&gt;<b>7</b>&lt;/td&gt;&lt;td&gt;<b>8</b>&lt;/td&gt;&lt;td&gt;<b>9</b>&lt;/td&gt;&lt;td&gt;<b>10</b>&lt;/td&gt;&lt;/tr&gt;</span></p>
+  style='font-size:10.0pt'>В  &lt;tr&gt;&lt;td class=&quot;<b>today</b>&quot;&gt;<b>4</b>&lt;/td&gt;&lt;td&gt;<b>5</b>&lt;/td&gt;&lt;td&gt;<b>6</b>&lt;/td&gt;&lt;td&gt;<b>7</b>&lt;/td&gt;&lt;td&gt;<b>8</b>&lt;/td&gt;&lt;td&gt;<b>9</b>&lt;/td&gt;&lt;td&gt;<b>10</b>&lt;/td&gt;&lt;/tr&gt;</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-size:10.0pt'>  &lt;tr&gt;&lt;td&gt;<b>11</b>&lt;/td&gt;&lt;td&gt;<b>12</b>&lt;/td&gt;&lt;td&gt;<b>13</b>&lt;/td&gt;&lt;td&gt;<b>14</b>&lt;/td&gt;&lt;td&gt;<b>15</b>&lt;/td&gt;&lt;td&gt;<b>16</b>&lt;/td&gt;&lt;td&gt;<b>17</b>&lt;/td&gt;&lt;/tr&gt;</span></p>
+  style='font-size:10.0pt'>В  &lt;tr&gt;&lt;td&gt;<b>11</b>&lt;/td&gt;&lt;td&gt;<b>12</b>&lt;/td&gt;&lt;td&gt;<b>13</b>&lt;/td&gt;&lt;td&gt;<b>14</b>&lt;/td&gt;&lt;td&gt;<b>15</b>&lt;/td&gt;&lt;td&gt;<b>16</b>&lt;/td&gt;&lt;td&gt;<b>17</b>&lt;/td&gt;&lt;/tr&gt;</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-size:10.0pt'>  &lt;tr&gt;&lt;td&gt;<b>18</b>&lt;/td&gt;&lt;td&gt;<b>19</b>&lt;/td&gt;&lt;td&gt;<b>20</b>&lt;/td&gt;&lt;td&gt;<b>21</b>&lt;/td&gt;&lt;td&gt;<b>22</b>&lt;/td&gt;&lt;td&gt;<b>23</b>&lt;/td&gt;&lt;td&gt;<b>24</b>&lt;/td&gt;&lt;/tr&gt;</span></p>
+  style='font-size:10.0pt'>В  &lt;tr&gt;&lt;td&gt;<b>18</b>&lt;/td&gt;&lt;td&gt;<b>19</b>&lt;/td&gt;&lt;td&gt;<b>20</b>&lt;/td&gt;&lt;td&gt;<b>21</b>&lt;/td&gt;&lt;td&gt;<b>22</b>&lt;/td&gt;&lt;td&gt;<b>23</b>&lt;/td&gt;&lt;td&gt;<b>24</b>&lt;/td&gt;&lt;/tr&gt;</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-size:10.0pt'>  &lt;tr&gt;&lt;td&gt;<b>25</b>&lt;/td&gt;&lt;td&gt;<b>26</b>&lt;/td&gt;&lt;td&gt;<b>27</b>&lt;/td&gt;&lt;td&gt;<b>28</b>&lt;/td&gt;&lt;td&gt;<b>29</b>&lt;/td&gt;&lt;td&gt;<b>30</b>&lt;/td&gt;&lt;td
+  style='font-size:10.0pt'>В  &lt;tr&gt;&lt;td&gt;<b>25</b>&lt;/td&gt;&lt;td&gt;<b>26</b>&lt;/td&gt;&lt;td&gt;<b>27</b>&lt;/td&gt;&lt;td&gt;<b>28</b>&lt;/td&gt;&lt;td&gt;<b>29</b>&lt;/td&gt;&lt;td&gt;<b>30</b>&lt;/td&gt;&lt;td
   class=&quot;<b>next-month</b>&quot;&gt;<b>1</b>&lt;/td&gt;&lt;/tr&gt;</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
   style='font-size:10.0pt'>&lt;/table&gt;</span></p>
@@ -3220,29 +2966,29 @@ missing code in the <span class=CodeChar>calendar()</span> function:</p>
   &lt;</span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:navy'>head</span></b><span style='font-size:10.0pt;font-family:"Courier New";
   color:black'>&gt;<br>
-      &lt;</span><b><span style='font-size:10.0pt;font-family:"Courier New";
+  В В В  &lt;</span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:navy'>title</span></b><span style='font-size:10.0pt;font-family:"Courier New";
   color:black'>&gt;Monthly Calendar&lt;/</span><b><span style='font-size:10.0pt;
   font-family:"Courier New";color:navy'>title</span></b><span style='font-size:
   10.0pt;font-family:"Courier New";color:black'>&gt;<br>
-      &lt;</span><b><span style='font-size:10.0pt;font-family:"Courier New";
+  В В В  &lt;</span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:navy'>style</span></b><span style='font-size:10.0pt;font-family:"Courier New";
   color:black'>&gt;<br>
-          .</span><b><span style='font-size:10.0pt;font-family:"Courier New";
+  В В В В В В В  .</span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:navy'>prev-month</span></b><span style='font-size:10.0pt;font-family:
   "Courier New";color:black'>, .</span><b><span style='font-size:10.0pt;
   font-family:"Courier New";color:navy'>next-month </span></b><span
   style='font-size:10.0pt;font-family:"Courier New";color:black'>{ color: </span><b><span
   style='font-size:10.0pt;font-family:"Courier New";color:navy'>#CCC </span></b><span
   style='font-size:10.0pt;font-family:"Courier New";color:black'>}<br>
-          .</span><b><span style='font-size:10.0pt;font-family:"Courier New";
+  В В В В В В В  .</span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:navy'>today </span></b><span style='font-size:10.0pt;font-family:"Courier New";
   color:black'>{ font-weight: </span><b><span style='font-size:10.0pt;
   font-family:"Courier New";color:green'>bold</span></b><span style='font-size:
   10.0pt;font-family:"Courier New";color:black'>; background: </span><b><span
   style='font-size:10.0pt;font-family:"Courier New";color:navy'>#DDD</span></b><span
   style='font-size:10.0pt;font-family:"Courier New";color:black'>; }<br>
-          .</span><b><span style='font-size:10.0pt;font-family:"Courier New";
+  В В В В В В В  .</span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:navy'>title </span></b><span style='font-size:10.0pt;font-family:"Courier New";
   color:black'>{ background: </span><b><span style='font-size:10.0pt;
   font-family:"Courier New";color:navy'>#AAAAFF</span></b><span
@@ -3253,46 +2999,46 @@ missing code in the <span class=CodeChar>calendar()</span> function:</p>
   style='font-size:10.0pt;font-family:"Courier New";color:blue'>5</span><b><span
   style='font-size:10.0pt;font-family:"Courier New";color:green'>px </span></b><span
   style='font-size:10.0pt;font-family:"Courier New";color:black'>}<br>
-          </span><b><span style='font-size:10.0pt;font-family:"Courier New";
+  В В В В В В В  </span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:navy'>table </span></b><span style='font-size:10.0pt;font-family:"Courier New";
   color:black'>{ border: </span><span style='font-size:10.0pt;font-family:"Courier New";
   color:blue'>1</span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:green'>px solid </span></b><b><span style='font-size:10.0pt;font-family:
   "Courier New";color:navy'>#CCC</span></b><span style='font-size:10.0pt;
   font-family:"Courier New";color:black'>;}<br>
-          </span><b><span style='font-size:10.0pt;font-family:"Courier New";
+  В В В В В В В  </span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:navy'>td </span></b><span style='font-size:10.0pt;font-family:"Courier New";
   color:black'>{ text-align: </span><b><span style='font-size:10.0pt;
   font-family:"Courier New";color:green'>center</span></b><span
   style='font-size:10.0pt;font-family:"Courier New";color:black'>; }<br>
-          </span><b><span style='font-size:10.0pt;font-family:"Courier New";
+  В В В В В В В  </span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:navy'>#calendarCode </span></b><span style='font-size:10.0pt;
   font-family:"Courier New";color:black'>{ width: </span><span
   style='font-size:10.0pt;font-family:"Courier New";color:blue'>100</span><span
   style='font-size:10.0pt;font-family:"Courier New";color:black'>%; }<br>
-      &lt;/</span><b><span style='font-size:10.0pt;font-family:"Courier New";
+  В В В  &lt;/</span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:navy'>style</span></b><span style='font-size:10.0pt;font-family:"Courier New";
   color:black'>&gt;<br>
-      &lt;</span><b><span style='font-size:10.0pt;font-family:"Courier New";
+  В В В  &lt;</span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:navy'>script</span></b><span style='font-size:10.0pt;font-family:"Courier New";
   color:black'>&gt;<br>
-          </span><b><span style='font-size:10.0pt;font-family:"Courier New";
+  В В В В В В В  </span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:navy;background:lightgrey'>function </span></b><i><span
   style='font-size:10.0pt;font-family:"Courier New";color:black;background:
   lightgrey'>calendar</span></i><span style='font-size:10.0pt;font-family:"Courier New";
   color:black;background:lightgrey'>([day, month, year])<br>
-  </span><span style='font-size:10.0pt;font-family:"Courier New";color:black'>       
+  </span><span style='font-size:10.0pt;font-family:"Courier New";color:black'>В В В В В В В 
   <span style='background:lightgrey'>{</span></span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal;
   background:white'><span style='font-size:10.0pt;font-family:"Courier New";
-  color:black'>            </span><i><span style='font-size:10.0pt;font-family:
+  color:black'>В В В В В В В  В В В В </span><i><span style='font-size:10.0pt;font-family:
   "Courier New";color:gray;background:lightgrey'>// </span></i><b><i><span
   style='font-size:10.0pt;font-family:"Courier New";color:#0073BF;background:
   lightgrey'>TODO: return the HTML text holding the calendar table</span></i></b></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal;
   background:white'><span style='font-size:10.0pt;font-family:"Courier New";
-  color:black'>        <span style='background:lightgrey'>}</span><br>
-      &lt;/</span><b><span style='font-size:10.0pt;font-family:"Courier New";
+  color:black'>В В В В В В В  <span style='background:lightgrey'>}</span><br>
+  В В В  &lt;/</span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:navy'>script</span></b><span style='font-size:10.0pt;font-family:"Courier New";
   color:black'>&gt;<br>
   &lt;/</span><b><span style='font-size:10.0pt;font-family:"Courier New";
@@ -3302,7 +3048,7 @@ missing code in the <span class=CodeChar>calendar()</span> function:</p>
   &lt;</span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:navy'>body</span></b><span style='font-size:10.0pt;font-family:"Courier New";
   color:black'>&gt;<br>
-      Day: &lt;</span><b><span style='font-size:10.0pt;font-family:"Courier New";
+  В В В  Day: &lt;</span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:navy'>input </span></b><span style='font-size:10.0pt;font-family:"Courier New";
   color:black'>id=</span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:green'>&quot;day&quot; </span></b><span style='font-size:10.0pt;
@@ -3311,7 +3057,7 @@ missing code in the <span class=CodeChar>calendar()</span> function:</p>
   style='font-size:10.0pt;font-family:"Courier New";color:black'>value=</span><b><span
   style='font-size:10.0pt;font-family:"Courier New";color:green'>&quot;4&quot; </span></b><span
   style='font-size:10.0pt;font-family:"Courier New";color:black'>/&gt;<br>
-      Month: &lt;</span><b><span style='font-size:10.0pt;font-family:"Courier New";
+  В В В  Month: &lt;</span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:navy'>input </span></b><span style='font-size:10.0pt;font-family:"Courier New";
   color:black'>id=</span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:green'>&quot;month&quot; </span></b><span style='font-size:10.0pt;
@@ -3320,7 +3066,7 @@ missing code in the <span class=CodeChar>calendar()</span> function:</p>
   style='font-size:10.0pt;font-family:"Courier New";color:black'>value=</span><b><span
   style='font-size:10.0pt;font-family:"Courier New";color:green'>&quot;9&quot; </span></b><span
   style='font-size:10.0pt;font-family:"Courier New";color:black'>/&gt;<br>
-      Year: &lt;</span><b><span style='font-size:10.0pt;font-family:"Courier New";
+  В В В  Year: &lt;</span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:navy'>input </span></b><span style='font-size:10.0pt;font-family:"Courier New";
   color:black'>id=</span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:green'>&quot;year&quot; </span></b><span style='font-size:10.0pt;
@@ -3330,20 +3076,20 @@ missing code in the <span class=CodeChar>calendar()</span> function:</p>
   style='font-size:10.0pt;font-family:"Courier New";color:green'>&quot;2016&quot;
   </span></b><span style='font-size:10.0pt;font-family:"Courier New";
   color:black'>/&gt;<br>
-      &lt;</span><b><span style='font-size:10.0pt;font-family:"Courier New";
+  В В В  &lt;</span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:navy'>input </span></b><span style='font-size:10.0pt;font-family:"Courier New";
   color:black'>type=</span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:green'>&quot;button&quot; </span></b><span style='font-size:10.0pt;
   font-family:"Courier New";color:black'>value=</span><b><span
   style='font-size:10.0pt;font-family:"Courier New";color:green'>&quot;Show&quot;<br>
-          </span></b><span style='font-size:10.0pt;font-family:"Courier New";
+  В В В В В В В  </span></b><span style='font-size:10.0pt;font-family:"Courier New";
   color:black'>onclick=</span><b><span style='font-size:10.0pt;font-family:
   "Courier New";color:green'>&quot;</span></b><b><span style='font-size:10.0pt;
   font-family:"Courier New";color:navy'>let </span></b><b><i><span
   style='font-size:10.0pt;font-family:"Courier New";color:#660E7A'>calendarHTML
   </span></i></b><span style='font-size:10.0pt;font-family:"Courier New";
   color:black'>=<br>
-              <i>calendar</i>([</span><b><span style='font-size:10.0pt;
+  В В В В В В В В В В В  <i>calendar</i>([</span><b><span style='font-size:10.0pt;
   font-family:"Courier New";color:#660E7A'>document</span></b><span
   style='font-size:10.0pt;font-family:"Courier New";color:black'>.</span><span
   style='font-size:10.0pt;font-family:"Courier New";color:#7A7A43'>getElementById</span><span
@@ -3352,7 +3098,7 @@ missing code in the <span class=CodeChar>calendar()</span> function:</p>
   style='font-size:10.0pt;font-family:"Courier New";color:black'>).</span><b><span
   style='font-size:10.0pt;font-family:"Courier New";color:#660E7A'>value</span></b><span
   style='font-size:10.0pt;font-family:"Courier New";color:black'>,<br>
-                  </span><b><span style='font-size:10.0pt;font-family:"Courier New";
+  В В В В В В В В В В В В В В В  </span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:#660E7A'>document</span></b><span style='font-size:10.0pt;font-family:
   "Courier New";color:black'>.</span><span style='font-size:10.0pt;font-family:
   "Courier New";color:#7A7A43'>getElementById</span><span style='font-size:
@@ -3361,7 +3107,7 @@ missing code in the <span class=CodeChar>calendar()</span> function:</p>
   style='font-size:10.0pt;font-family:"Courier New";color:black'>).</span><b><span
   style='font-size:10.0pt;font-family:"Courier New";color:#660E7A'>value</span></b><span
   style='font-size:10.0pt;font-family:"Courier New";color:black'>,<br>
-                  </span><b><span style='font-size:10.0pt;font-family:"Courier New";
+  В В В В В В В В В В В В В В В  </span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:#660E7A'>document</span></b><span style='font-size:10.0pt;font-family:
   "Courier New";color:black'>.</span><span style='font-size:10.0pt;font-family:
   "Courier New";color:#7A7A43'>getElementById</span><span style='font-size:
@@ -3370,7 +3116,7 @@ missing code in the <span class=CodeChar>calendar()</span> function:</p>
   style='font-size:10.0pt;font-family:"Courier New";color:black'>).</span><b><span
   style='font-size:10.0pt;font-family:"Courier New";color:#660E7A'>value</span></b><span
   style='font-size:10.0pt;font-family:"Courier New";color:black'>]);<br>
-              </span><b><span style='font-size:10.0pt;font-family:"Courier New";
+  В В В В В В В В В В В  </span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:#660E7A'>document</span></b><span style='font-size:10.0pt;font-family:
   "Courier New";color:black'>.</span><span style='font-size:10.0pt;font-family:
   "Courier New";color:#7A7A43'>getElementById</span><span style='font-size:
@@ -3381,7 +3127,7 @@ missing code in the <span class=CodeChar>calendar()</span> function:</p>
   style='font-size:10.0pt;font-family:"Courier New";color:black'>= </span><b><i><span
   style='font-size:10.0pt;font-family:"Courier New";color:#660E7A'>calendarHTML</span></i></b><span
   style='font-size:10.0pt;font-family:"Courier New";color:black'>;<br>
-              </span><b><span style='font-size:10.0pt;font-family:"Courier New";
+  В В В В В В В В В В В  </span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:#660E7A'>document</span></b><span style='font-size:10.0pt;font-family:
   "Courier New";color:black'>.</span><span style='font-size:10.0pt;font-family:
   "Courier New";color:#7A7A43'>getElementById</span><span style='font-size:
@@ -3393,28 +3139,28 @@ missing code in the <span class=CodeChar>calendar()</span> function:</p>
   style='font-size:10.0pt;font-family:"Courier New";color:#660E7A'>calendarHTML</span></i></b><b><span
   style='font-size:10.0pt;font-family:"Courier New";color:green'>&quot; </span></b><span
   style='font-size:10.0pt;font-family:"Courier New";color:black'>/&gt;<br>
-      &lt;</span><b><span style='font-size:10.0pt;font-family:"Courier New";
+  В В В  &lt;</span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:navy'>div </span></b><span style='font-size:10.0pt;font-family:"Courier New";
   color:black'>class=</span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:green'>&quot;title&quot;</span></b><span style='font-size:10.0pt;
   font-family:"Courier New";color:black'>&gt;Calendar:&lt;/</span><b><span
   style='font-size:10.0pt;font-family:"Courier New";color:navy'>div</span></b><span
   style='font-size:10.0pt;font-family:"Courier New";color:black'>&gt;<br>
-      &lt;</span><b><span style='font-size:10.0pt;font-family:"Courier New";
+  В В В  &lt;</span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:navy'>div </span></b><span style='font-size:10.0pt;font-family:"Courier New";
   color:black'>id=</span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:green'>&quot;calendar&quot;</span></b><span style='font-size:10.0pt;
   font-family:"Courier New";color:black'>&gt;Calendar will be shown here&lt;/</span><b><span
   style='font-size:10.0pt;font-family:"Courier New";color:navy'>div</span></b><span
   style='font-size:10.0pt;font-family:"Courier New";color:black'>&gt;<br>
-      &lt;</span><b><span style='font-size:10.0pt;font-family:"Courier New";
+  В В В  &lt;</span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:navy'>div </span></b><span style='font-size:10.0pt;font-family:"Courier New";
   color:black'>class=</span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:green'>&quot;title&quot;</span></b><span style='font-size:10.0pt;
   font-family:"Courier New";color:black'>&gt;HTML:&lt;/</span><b><span
   style='font-size:10.0pt;font-family:"Courier New";color:navy'>div</span></b><span
   style='font-size:10.0pt;font-family:"Courier New";color:black'>&gt;<br>
-      &lt;</span><b><span style='font-size:10.0pt;font-family:"Courier New";
+  В В В  &lt;</span><b><span style='font-size:10.0pt;font-family:"Courier New";
   color:navy'>textarea </span></b><span style='font-size:10.0pt;font-family:
   "Courier New";color:black'>rows=</span><b><span style='font-size:10.0pt;
   font-family:"Courier New";color:green'>&quot;12&quot; </span></b><span
@@ -3449,29 +3195,29 @@ src="README.md_files/image047.png"></p>
 <h3>Hints</h3>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>Printing a calendar in JS without using an external library is
 not as simple as the previous problems in this exercise! It may take a few
 hours or even more to implement it correctly.</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>Play with the class <a
 href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date"><b><span
 style='font-family:Consolas'>Date</span></b></a> in JavaScript and make some
 calculations.</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span>You may also search in Google, e.g. try “<span class=CodeChar>JavaScript
-calendar code example</span>”.</p>
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>You may also search in Google, e.g. try вЂњ<span class=CodeChar>JavaScript
+calendar code example</span>вЂќ.</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>Print the calendar table <b>headings</b> + days.</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>Print the days from the <b>previous month</b> (if any).</p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;text-indent:-.25in'><span
@@ -3493,7 +3239,7 @@ style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&n
 month.</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>Print the days from the <b>current month</b>.</p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;text-indent:-.25in'><span
@@ -3505,7 +3251,7 @@ style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&n
 </span></span>Create a new table row after the last week day (Saturday).</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>Print the days from the <b>next month</b> (if any).</p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-left:1.0in;text-indent:-.25in'><span
@@ -3513,7 +3259,7 @@ style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&n
 </span></span>Stop when you reach Saturday (the last week day).</p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>You may start from this code template:</p>
 
 <p class=MsoNormal style='margin-left:21.8pt;text-indent:14.2pt'><img border=0
