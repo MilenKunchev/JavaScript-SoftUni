@@ -3,3 +3,5 @@ console.log(totalValue.toFixed(2)); print two nums after dot.
 let num = 1.45000;
 let rounded = num.toFixed(2)*1;  ---> round 2 nums after point and remove trailing zeros
 ---------------------------------------------
+
+console.log("*".repeat(5));  print *****
