@@ -3,7 +3,6 @@
 <head>
 <meta http-equiv=Content-Type content="text/html; charset=windows-1251">
 <meta name=Generator content="Microsoft Word 14 (filtered)">
-<title>Exercises and Homework for the JavaScript Fundamentals Course at SoftUni</title>
 
 </head>
 
@@ -14,8 +13,8 @@
 <h1>Exercises: Functions and Arrow Functions</h1>
 
 <p class=MsoNormal>Problems for exercises and homework for the <a
-href="https://softuni.bg/courses/javascript-fundamentals">“JavaScript
-Fundamentals” course @ SoftUni</a>. Submit your solutions in the SoftUni judge
+href="https://softuni.bg/courses/javascript-fundamentals">вЂњJavaScript
+FundamentalsвЂќ course @ SoftUni</a>. Submit your solutions in the SoftUni judge
 system at <a href="https://judge.softuni.bg/Contests/310/">https://judge.softuni.bg/Contests/310/</a><a
 href="https://judge.softuni.bg/Contests/XXX/"></a>.</p>
 
@@ -106,9 +105,9 @@ src="README.md_files/image003.jpg"></p>
 <p class=MsoNormal>We can then wrap this whole statement in a function and as
 we process each set of coordinates, pass them to see if they are inside the
 volume and print the correct message to the console. Since the volume is the
-same every time, we can hardcode the values, but it’s generally good practice
+same every time, we can hardcode the values, but itвЂ™s generally good practice
 to pass them as function arguments, so that the function may work with any
-arbitrary volume. Later in the course we’ll learn how to shorten this with the
+arbitrary volume. Later in the course weвЂ™ll learn how to shorten this with the
 use of objects.</p>
 
 <p class=MsoNormal><img border=0 width=361 height=257 id="Picture 8"
@@ -129,7 +128,7 @@ z-coordinate. At the end of the cycle, the index is increased by 3 and we can
 obtain the coordinates of the next point, using the same arithmetic (instead of
 0, 1 and 2 we will get 3, 4 and 5) and so on, until there are no more elements
 in the array. The three coordinates are passed into our function and we get a
-Boolean value as a result. If it’s true, we print <span class=CodeChar>inside</span>
+Boolean value as a result. If itвЂ™s true, we print <span class=CodeChar>inside</span>
 for the current point and otherwise we print <span class=CodeChar>outside</span>.</p>
 
 <p class=MsoNormal>The solution may now be submitted to the judge system at <a
@@ -138,7 +137,7 @@ href="https://judge.softuni.bg/Contests/310">https://judge.softuni.bg/Contests/3
 <h2>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span>Road Radar</h2>
 
 <p class=MsoNormal>Write a JS function that determines whether a driver is
-within the speed limit. You will receive his speed and the area where he’s
+within the speed limit. You will receive his speed and the area where heвЂ™s
 driving. Each area has a different limit: on the <strong><span
 style='font-family:"Calibri","sans-serif"'>motorway</span></strong> the limit
 is <strong><span style='font-family:"Calibri","sans-serif"'>130 </span></strong>km/h,
@@ -149,10 +148,10 @@ the limit is <strong><span style='font-family:"Calibri","sans-serif"'>50</span><
 and within a <strong><span style='font-family:"Calibri","sans-serif"'>residential
 </span></strong>area the limit is <strong><span style='font-family:"Calibri","sans-serif"'>20
 </span></strong>km/h. If the driver is within the limits, your function prints
-nothing. If he’s over the limit however, your function prints the severity of
+nothing. If heвЂ™s over the limit however, your function prints the severity of
 the infraction. For speeds up to <strong><span style='font-family:"Calibri","sans-serif"'>20</span></strong>
 km/h<strong><span style='font-family:"Calibri","sans-serif"'> </span></strong>over
-the limit, he’s speeding; for speeds up to <strong><span style='font-family:
+the limit, heвЂ™s speeding; for speeds up to <strong><span style='font-family:
 "Calibri","sans-serif"'>40</span></strong> over the limit, the infraction is <strong><span
 style='font-family:"Calibri","sans-serif"'>excessive speeding</span></strong>
 and for anything else, <strong><span style='font-family:"Calibri","sans-serif"'>reckless
@@ -239,7 +238,7 @@ certain cases there will be no output.</p>
 
 <h3>Hints</h3>
 
-<p class=MsoNormal>We can divide the task in two functions – one that
+<p class=MsoNormal>We can divide the task in two functions вЂ“ one that
 determines what the current speed limit is, depending on zone, and another
 which tells us if an infraction is being made, depending on current speed and
 current limit. Determining the limit is achieved with a <strong><span
@@ -258,7 +257,7 @@ second function, we pass the current speed and the limit, which we just saved.</
 src="README.md_files/image007.jpg"></p>
 
 <p class=MsoNormal>We calculate the difference between the current speed and
-the limit – if it’s negative or zero, this means the driver is within the rules
+the limit вЂ“ if itвЂ™s negative or zero, this means the driver is within the rules
 and we return <span class=CodeChar>false</span>, and in any other case, return
 the infraction as a string and store the result of the operation in a variable.</p>
 
@@ -267,8 +266,8 @@ src="README.md_files/image008.jpg"></p>
 
 <p class=MsoNormal>We can use the fact that JavaScript functions can return
 different data types and directly use the result we stored in a conditional
-statement – if it’s <strong><span style='font-family:"Calibri","sans-serif"'>false</span></strong>
-(no infraction), do nothing, if it’s <strong><span style='font-family:"Calibri","sans-serif"'>truthy</span></strong>
+statement вЂ“ if itвЂ™s <strong><span style='font-family:"Calibri","sans-serif"'>false</span></strong>
+(no infraction), do nothing, if itвЂ™s <strong><span style='font-family:"Calibri","sans-serif"'>truthy</span></strong>
 (non-empty string in this case), print the value store in the variable.</p>
 
 <h2>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span>Template
@@ -296,15 +295,15 @@ question-answer entries. The format of the document should be as follows:</p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
   style='font-family:Consolas'>&lt;quiz&gt;</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;question&gt;</span></p>
-  <p class=Code style='line-height:normal'>    {question text}</p>
+  style='font-family:Consolas'>В  &lt;question&gt;</span></p>
+  <p class=Code style='line-height:normal'>В В В  {question text}</p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;/question&gt;</span></p>
+  style='font-family:Consolas'>В  &lt;/question&gt;</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;answer&gt;</span></p>
-  <p class=Code style='line-height:normal'>    {answer text}</p>
+  style='font-family:Consolas'>В  &lt;answer&gt;</span></p>
+  <p class=Code style='line-height:normal'>В В В  {answer text}</p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;/answer&gt;</span></p>
+  style='font-family:Consolas'>В  &lt;/answer&gt;</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
   style='font-family:Consolas'>&lt;/quiz&gt;</span></p>
   </td>
@@ -350,16 +349,16 @@ question-answer entries. The format of the document should be as follows:</p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
   style='font-family:Consolas'>&lt;quiz&gt;</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;question&gt;</span></p>
-  <p class=Code style='line-height:normal'>    Who was the forty-second
+  style='font-family:Consolas'>В  &lt;question&gt;</span></p>
+  <p class=Code style='line-height:normal'>В В В  Who was the forty-second
   president of the U.S.A.?</p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;/question&gt;</span></p>
+  style='font-family:Consolas'>В  &lt;/question&gt;</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;answer&gt;</span></p>
-  <p class=Code style='line-height:normal'>    William Jefferson Clinton</p>
+  style='font-family:Consolas'>В  &lt;answer&gt;</span></p>
+  <p class=Code style='line-height:normal'>В В В  William Jefferson Clinton</p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;/answer&gt;</span></p>
+  style='font-family:Consolas'>В  &lt;/answer&gt;</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
   style='font-family:Consolas'>&lt;/quiz&gt;</span></p>
   </td>
@@ -404,27 +403,27 @@ question-answer entries. The format of the document should be as follows:</p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
   style='font-family:Consolas'>&lt;quiz&gt;</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;question&gt;</span></p>
-  <p class=Code style='line-height:normal'>    Dry ice is a frozen form of
+  style='font-family:Consolas'>В  &lt;question&gt;</span></p>
+  <p class=Code style='line-height:normal'>В В В  Dry ice is a frozen form of
   which gas?</p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;/question&gt;</span></p>
+  style='font-family:Consolas'>В  &lt;/question&gt;</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;answer&gt;</span></p>
-  <p class=Code style='line-height:normal'>    Carbon Dioxide</p>
+  style='font-family:Consolas'>В  &lt;answer&gt;</span></p>
+  <p class=Code style='line-height:normal'>В В В  Carbon Dioxide</p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;/answer&gt;</span></p>
+  style='font-family:Consolas'>В  &lt;/answer&gt;</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;question&gt;</span></p>
-  <p class=Code style='line-height:normal'>    What is the brightest star in
+  style='font-family:Consolas'>В  &lt;question&gt;</span></p>
+  <p class=Code style='line-height:normal'>В В В  What is the brightest star in
   the night sky?</p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;/question&gt;</span></p>
+  style='font-family:Consolas'>В  &lt;/question&gt;</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;answer&gt;</span></p>
-  <p class=Code style='line-height:normal'>    Sirius</p>
+  style='font-family:Consolas'>В  &lt;answer&gt;</span></p>
+  <p class=Code style='line-height:normal'>В В В  Sirius</p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
-  style='font-family:Consolas'>  &lt;/answer&gt;</span></p>
+  style='font-family:Consolas'>В  &lt;/answer&gt;</span></p>
   <p class=MsoNormal style='margin:0in;margin-bottom:.0001pt;line-height:normal'><span
   style='font-family:Consolas'>&lt;/quiz&gt;</span></p>
   </td>
@@ -441,24 +440,24 @@ Print the result of every operation in order. The operations can be one of the
 following:</p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=CodeChar>chop</span> – divide the number by two</p>
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span class=CodeChar>chop</span> вЂ“ divide the number by two</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=CodeChar>dice</span> – square root of number</p>
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span class=CodeChar>dice</span> вЂ“ square root of number</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=CodeChar>spice</span> – add 1 to number</p>
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span class=CodeChar>spice</span> вЂ“ add 1 to number</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=CodeChar>bake</span> – multiply number by 3</p>
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span class=CodeChar>bake</span> вЂ“ multiply number by 3</p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=CodeChar>fillet</span> – subtract 20% from number</p>
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span class=CodeChar>fillet</span> вЂ“ subtract 20% from number</p>
 
 <p class=MsoNormal>The <b>input</b> comes as an array of 6 string elements. The
 first element is your starting point and must be parsed to a number. The
@@ -546,7 +545,7 @@ Average</h2>
 value of all of its digits is <b>higher than 5</b>. In order to modify the
 number, your program should append a <b>9</b> to the end of the number, when
 the average value of all of its digits is <b>higher than 5</b> the program
-should stop appending. If the number’s average value of all of its digits is
+should stop appending. If the numberвЂ™s average value of all of its digits is
 already <b>higher than 5</b>, no appending should be done.</p>
 
 <p class=MsoNormal>The <b>input</b> is a single number.</p>
@@ -558,11 +557,11 @@ than 5</b>. The <b>output</b> should be printed on the console.</p>
 <h3>Constraints</h3>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><b>The input number will consist of no more than 6 digits.</b></p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><b>The input will be a valid number (there will be no leading
 zeroes).</b></p>
 
@@ -632,7 +631,7 @@ numbers.</p>
 
 <p class=MsoNormal>For each comparison print on the <b>output</b> either &quot;<b>{x1,
 y1} to {x2, y2} is valid&quot; </b>if the distance between them is valid, or <b>&quot;{x1,
-y1} to {x2, y2} is invalid&quot;</b>- if it’s invalid.</p>
+y1} to {x2, y2} is invalid&quot;</b>- if itвЂ™s invalid.</p>
 
 <h3>Examples</h3>
 
@@ -702,8 +701,8 @@ align=right hspace=12>You will be given a series of coordinates, leading to a
 buried treasure. Use the map to the right to write a program that locates on
 which island it is. After you find where all the treasure chests are, compose a
 list and print it on the console. If a chest is not on any of the islands,
-print “On the bottom of the ocean” to inform your treasure-hunting team to
-bring diving gear. If the location is on the shore (border) of the island, it’s
+print вЂњOn the bottom of the oceanвЂќ to inform your treasure-hunting team to
+bring diving gear. If the location is on the shore (border) of the island, itвЂ™s
 still considered to lie inside.</p>
 
 <p class=MsoNormal>The <b>input</b> comes as an array with a variable number of
@@ -711,7 +710,7 @@ elements that are numbers. Each pair is the coordinates to a buried treasure
 chest.</p>
 
 <p class=MsoNormal>The <b>output</b> is a list of the locations of every
-treasure chest, either the name of an island or “On the bottom of the ocean”,
+treasure chest, either the name of an island or вЂњOn the bottom of the oceanвЂќ,
 printed on the console.</p>
 
 <p class=MsoNormal>&nbsp;</p>
@@ -880,23 +879,23 @@ the final distance between them. See the examples for more info.</p>
 <p class=MsoNormal><img width=302 height=220 src="README.md_files/image010.jpg"
 align=right hspace=12>You can find the horizontal and vertical offset between
 two points by calculating the difference between their coordinates. Use
-Pythagoras’ theorem to find the distance.</p>
+PythagorasвЂ™ theorem to find the distance.</p>
 
 <p class=MsoNormal>If more than one shortest paths exist, choose the one with
 lowest numerical value. For instance, in the figure on the right, 1<span
 style='font-family:Wingdings'>&agrave;</span>2<span style='font-family:Wingdings'>&agrave;</span>3
 is the same distance as 3<span style='font-family:Wingdings'>&agrave;</span>2<span
 style='font-family:Wingdings'>&agrave;</span>1, but we chose to start at 1,
-since it’s lower than 3. When choosing the second point, we encounter the same
-issue – 1<span style='font-family:Wingdings'>&agrave;</span>3<span
+since itвЂ™s lower than 3. When choosing the second point, we encounter the same
+issue вЂ“ 1<span style='font-family:Wingdings'>&agrave;</span>3<span
 style='font-family:Wingdings'>&agrave;</span>2 would be the same as 1<span
 style='font-family:Wingdings'>&agrave;</span>2<span style='font-family:Wingdings'>&agrave;</span>3,
-but we chose to visit 2 first, because it’s lower than 3.</p>
+but we chose to visit 2 first, because itвЂ™s lower than 3.</p>
 
 <h2>9.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span>*Radio
 Crystals</h2>
 
-<p class=MsoNormal>It’s time to put your skills to work for the war effort –
+<p class=MsoNormal>ItвЂ™s time to put your skills to work for the war effort вЂ“
 creating management software for a radio transmitter factory. Radios require a
 finely tuned quartz crystal in order to operate at the correct frequency. The
 resource used to produce them is quartz ore that comes in big chunks and needs
@@ -916,31 +915,31 @@ material.</p>
 <p class=MsoNormal>The different operations you can perform are the following:</p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=CodeChar>Cut</span> – cuts the crystal in 4</p>
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span class=CodeChar>Cut</span> вЂ“ cuts the crystal in 4</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=CodeChar>Lap</span> – removes 20% of the crystal’s
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span class=CodeChar>Lap</span> вЂ“ removes 20% of the crystalвЂ™s
 thickness</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=CodeChar>Grind</span> – removes 20 microns of
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span class=CodeChar>Grind</span> вЂ“ removes 20 microns of
 thickness</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=CodeChar>Etch</span> – removes 2 microns of thickness</p>
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span class=CodeChar>Etch</span> вЂ“ removes 2 microns of thickness</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=CodeChar>X-ray</span> – increases the thickness of
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span class=CodeChar>X-ray</span> вЂ“ increases the thickness of
 the crystal by 1 micron; this operation can only be done once!</p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span class=CodeChar>Transporting and washing </span>– <span
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span class=CodeChar>Transporting and washing </span>вЂ“ <span
 lang=BG>removes any imperfections smaller than 1</span> micron (round down the
 number)<span lang=BG>; </span>do this after every batch of operations that
 remove material</p>
@@ -1019,15 +1018,15 @@ more information.</p>
 <h4>Explanation</h4>
 
 <p class=MsoNormal>The operation that would remove the most material is always
-cutting – it removes three quarters of the chunk. Starting from 50000, if we
+cutting вЂ“ it removes three quarters of the chunk. Starting from 50000, if we
 perform it twice, we bring the chunk down to 3125. If we cut again, the chunk
 will be 781.25, which is less than the desired thickness, so we move to the
 next operation, but we first round down the number (transporting &amp;
-washing). Next, we lap the chunk – after three operations, the crystal reaches
+washing). Next, we lap the chunk вЂ“ after three operations, the crystal reaches
 1600 microns. One more lapping would take it to 1280, so we move on to the next
 operation instead. We do the same check with grinding, and finally by etching 2
 times, the crystal has reached 1376 microns, which is one more than desired. We
-don’t have an operation which only takes away 1 micron, so instead we etch once
+donвЂ™t have an operation which only takes away 1 micron, so instead we etch once
 more to get to 1374, wash and then x-ray to add 1 micron, which brings us to
 the desired thickness.</p>
 
