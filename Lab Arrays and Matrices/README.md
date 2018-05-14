@@ -22,7 +22,7 @@ href="6.%20JS-Fundamentals-Arrays-and-Matrices-Lab_files/themedata.thmx">
 <link rel=colorSchemeMapping
 href="6.%20JS-Fundamentals-Arrays-and-Matrices-Lab_files/colorschememapping.xml">
 
-</style>
+
 
 </head>
 
