@@ -33,8 +33,8 @@ href="6.%20JS-Fundamentals-Arrays-and-Matrices-Lab_files/colorschememapping.xml"
 <h1>Lab: Arrays, Matrices, Multi-Dimensional Arrays</h1>
 
 <p class=MsoNormal>Problems for in-class lab for the <a
-href="https://softuni.bg/courses/javascript-fundamentals">JavaScript
-Fundamentals course @ SoftUni</a>. Submit your solutions in the <span
+href="https://softuni.bg/courses/javascript-fundamentals">"JavaScript
+Fundamentals" course @ SoftUni</a>. Submit your solutions in the <span
 style='mso-no-proof:yes'>SoftUni</span> judge system at <a
 href="https://judge.softuni.bg/Contests/311">https://judge.softuni.bg/Contests/311</a>.</p>
 
