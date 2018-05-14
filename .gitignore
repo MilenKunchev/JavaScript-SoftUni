@@ -7,6 +7,9 @@ yarn-error.log*
 
 # Milen
 test.*
+test*.*
+demo.*
+demo*.*
 
 # JetBrains Rider
 .idea/
