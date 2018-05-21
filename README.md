@@ -7,6 +7,7 @@ SoftUni JavaScript
 * [Lab Functions and Arrow Functions]
 * [Functions and Arrow Functions]
 * [Lab Arrays and Matrices]
+* [Arrays, Matrices, Multi-Dimensional Arrays]
 
 
 
@@ -16,5 +17,5 @@ SoftUni JavaScript
 [Lab Functions and Arrow Functions]: <https://github.com/MilenKunchev/JavaScript-SoftUni/tree/master/Lab%20Functions%20and%20Arrow%20Functions>
 [Functions and Arrow Functions]: <https://github.com/MilenKunchev/JavaScript-SoftUni/tree/master/Functions%20and%20Arrow%20Functions>
 [Lab Arrays and Matrices]:<https://github.com/MilenKunchev/JavaScript-SoftUni/tree/master/Lab%20Arrays%20and%20Matrices>
-
+[Arrays, Matrices, Multi-Dimensional Arrays]:<[Lab Arrays and Matrices]:<https://github.com/MilenKunchev/JavaScript-SoftUni/tree/master/Lab%20Arrays%20and%20Matrices>>
 
