@@ -1,6 +1,8 @@
 function reduce(matrix) {
 
-    let arr = matrix.reduce((row1,row2)=>row1.concat(row2));
+    let arr = matrix.reduce((row1, row2) => row1.concat(row2)
+)
+    ;
 
     return arr;
 
