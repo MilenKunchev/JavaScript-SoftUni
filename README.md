@@ -9,6 +9,7 @@ SoftUni JavaScript
 * [Lab Arrays and Matrices]
 * [Arrays, Matrices, Multi-Dimensional Arrays]
 * [Lab Strings and Regular Expressions]
+* [Exercises Strings and Regular Expressions]
 
 
 
@@ -20,3 +21,4 @@ SoftUni JavaScript
 [Lab Arrays and Matrices]:<https://github.com/MilenKunchev/JavaScript-SoftUni/tree/master/Lab%20Arrays%20and%20Matrices>
 [Arrays, Matrices, Multi-Dimensional Arrays]:<https://github.com/MilenKunchev/JavaScript-SoftUni/tree/master/Lab%20Arrays%20and%20Matrices>
 [Lab Strings and Regular Expressions]:<https://github.com/MilenKunchev/JavaScript-SoftUni/tree/master/Lab%20Strings%20and%20Regular%20Expressions>
+[Exercises Strings and Regular Expressions]:<https://github.com/MilenKunchev/JavaScript-SoftUni/tree/master/Exercises%20Strings%20and%20Regular%20Expressions>
