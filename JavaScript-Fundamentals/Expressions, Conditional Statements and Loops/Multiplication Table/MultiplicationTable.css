@@ -1,0 +1,16 @@
+body {
+    background: #CCC;
+}
+
+table {
+    border: 2px solid darkslategray;
+}
+
+th, td {
+    border: 2px solid black;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: white;
+    border-radius: 7px;
+}
