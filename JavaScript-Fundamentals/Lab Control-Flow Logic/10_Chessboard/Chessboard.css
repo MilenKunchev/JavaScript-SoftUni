@@ -1,9 +1,0 @@
-
-body { background: #CCC; }
-.chessboard { display: inline-block; }
-.row{height:50px;}
-.black, .white {
-    width:50px; height:50px;
-    display: inline-block; }
-.black { background: black; }
-.white { background: white; }
