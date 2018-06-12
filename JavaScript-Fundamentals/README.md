@@ -22,5 +22,5 @@ JavaScript-Fundamentals
 [Lab Arrays and Matrices]:<https://github.com/MilenKunchev/JavaScript-SoftUni/tree/master/JavaScript-Fundamentals/Lab%20Arrays%20and%20Matrices>
 [Arrays, Matrices, Multi-Dimensional Arrays]:<https://github.com/MilenKunchev/JavaScript-SoftUni/tree/master/JavaScript-Fundamentals/Arrays%20and%20Matrices>
 [Lab Strings and Regular Expressions]:<https://github.com/MilenKunchev/JavaScript-SoftUni/tree/master/JavaScript-Fundamentals/Lab%20Strings%20and%20Regular%20Expressions>
-[Exercises Strings and Regular Expressions]:<https://github.com/MilenKunchev/JavaScript-SoftUni/tree/master/Exercises%20Strings%20and%20Regular%20Expressions>
+[Exercises Strings and Regular Expressions]:<https://github.com/MilenKunchev/JavaScript-SoftUni/tree/master/JavaScript-Fundamentals/Exercises%20Strings%20and%20Regular%20Expressions>
 [Lab: Objects and Associative Arrays]:<https://github.com/MilenKunchev/JavaScript-SoftUni/tree/master/JavaScript-Fundamentals/Lab%20Objects%20and%20Associative%20Arrays>
