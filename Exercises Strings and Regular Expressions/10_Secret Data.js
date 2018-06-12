@@ -1,7 +1,7 @@
 function solveSecretData(arr) {
 
     let result = [];
-    let pattern = /(\*[A-Z]+[a-z]*)(?= |t|$)|(\+[\d-]{10})(?= |\t|$)|(![a-zA-Z0-9]+)(?= |\t|$)|(_[a-zA-Z0-9]+)(?= |\t|$)/g;
+    let pattern = /(\*[A-Z][a-zA-Z]*)(?= |\t|$)|(\+[0-9-]{10})(?= |\t|$)|(![0-9a-zA-Z]+)(?= |\t|$)|(_[0-9a-zA-Z]+)(?= |\t|$)/g;
 
     for (let str of arr) {
         if (pattern.test(str)) {

@@ -1,6 +1,6 @@
 function extractLinks(arr) {
 
-    let pattern = 'www.[0-9a-zA-Z-]+\\.{1}[a-z]+[\\.a-z0-9]*';
+    let pattern = 'www\\.[A-Za-z0-9-]+(\\.[a-z]+)+';
     let regex = RegExp(pattern, 'g');
     //console.log(regex);
 
