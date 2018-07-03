@@ -6,12 +6,8 @@ function validate() {
 
     let regex = new RegExp(pattern);
 
-    console.log(regex.exec(str));   //[ 'a', index: 0, input: 'abc3213b321 Java script Java' ]
-    console.log(regex.test(str));   //true
-    console.log(str.match(/\w+/g)); //[ 'abc3213b321', 'Java', 'script', 'Java' ]
-    console.log(str.match(/\a/g));  // [ 'a', 'a', 'a', 'a', 'a' ]
-    console.log(str.replace(/Java/g, 'JAVA')); //abc3213b321 JAVA script, JAVA
-
+   let match = pattern.exec(str);
+   
     let regex1 = /([A-Z])/g;
     let text = 'My name is Ivan';
     let result = regex1.exec(text);
@@ -21,6 +17,14 @@ function validate() {
 
         result = regex1.exec(text);
     }
+
+   console.log(regex.exec(str));   //[ 'a', index: 0, input: 'abc3213b321 Java script Java' ]
+   console.log(regex.test(str));   //true
+    console.log(str.match(/\w+/g)); //[ 'abc3213b321', 'Java', 'script', 'Java' ]
+    console.log(str.match(/\a/g));  // [ 'a', 'a', 'a', 'a', 'a' ]
+    console.log(str.replace(/Java/g, 'JAVA')); //abc3213b321 JAVA script, JAVA
+
+    
 
     // Replace text with Regex ----->
     let pattern1 = /(My name) (is) (Ivan)/g;
