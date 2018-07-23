@@ -3,8 +3,6 @@
 <head>
 <meta http-equiv=Content-Type content="text/html; charset=windows-1251">
 <meta name=Generator content="Microsoft Word 14 (filtered)">
-<title>Exercises and Homework for the JavaScript Advanced Course at SoftUni</title>
-
 
 </head>
 
@@ -15,7 +13,7 @@
 <h1>Lab: jQuery</h1>
 
 <p class=MsoNormal>Problems for exercises and homework for the <a
-href="https://softuni.bg/courses/javascript-advanced">“JavaScript Advanced”
+href="https://softuni.bg/courses/javascript-advanced">вЂњJavaScript AdvancedвЂќ
 course @ SoftUni</a>. Submit your solutions in the SoftUni judge system at <a
 href="https://judge.softuni.bg/Contests/329">https://judge.softuni.bg/Contests/329</a>.</p>
 
@@ -53,25 +51,25 @@ class=CodeChar>extractText</span> function which will be called when the button'
   style='font-family:Consolas;color:black'>&gt;<br>
   &lt;</span><b><span style='font-family:Consolas;color:navy'>head</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>meta </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>meta </span></b><b><span
   style='font-family:Consolas;color:blue'>charset=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;UTF-8&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>title</span></b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>title</span></b><span
   style='font-family:Consolas;color:black'>&gt;Text from List&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>title</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>script </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>script </span></b><b><span
   style='font-family:Consolas;color:blue'>src=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;https://code.jquery.com/jquery-3.1.1.min.js&quot;
   </span></b><b><span style='font-family:Consolas;color:blue'>integrity=</span></b><b><span
-  style='font-family:Consolas;color:green'>&quot;sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=&quot;  
+  style='font-family:Consolas;color:green'>&quot;sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=&quot;В В 
   </span></b><b><span style='font-family:Consolas;color:blue'>crossorigin=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;anonymous&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>script</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>script </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>script </span></b><b><span
   style='font-family:Consolas;color:blue'>src=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;extractText.js&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;&lt;/</span><b><span
@@ -81,25 +79,25 @@ class=CodeChar>extractText</span> function which will be called when the button'
   style='font-family:Consolas;color:black'>&gt;<br>
   &lt;</span><b><span style='font-family:Consolas;color:navy'>body</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>ul </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>ul </span></b><b><span
   style='font-family:Consolas;color:blue'>id=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;items&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-          &lt;</span><b><span style='font-family:Consolas;color:navy'>li</span></b><span
+  В В В В В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>li</span></b><span
   style='font-family:Consolas;color:black'>&gt;first item&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>li</span></b><span style='font-family:
   Consolas;color:black'>&gt;<br>
-          &lt;</span><b><span style='font-family:Consolas;color:navy'>li</span></b><span
+  В В В В В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>li</span></b><span
   style='font-family:Consolas;color:black'>&gt;second item&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>li</span></b><span style='font-family:
   Consolas;color:black'>&gt;<br>
-          &lt;</span><b><span style='font-family:Consolas;color:navy'>li</span></b><span
+  В В В В В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>li</span></b><span
   style='font-family:Consolas;color:black'>&gt;third item&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>li</span></b><span style='font-family:
   Consolas;color:black'>&gt;<br>
-      &lt;/</span><b><span style='font-family:Consolas;color:navy'>ul</span></b><span
+  В В В  &lt;/</span><b><span style='font-family:Consolas;color:navy'>ul</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>button </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>button </span></b><b><span
   style='font-family:Consolas;color:blue'>onclick=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;</span></b><i><span
   style='font-family:Consolas;color:black'>extractText</span></i><span
@@ -108,7 +106,7 @@ class=CodeChar>extractText</span> function which will be called when the button'
   color:black'>&gt;<br>
   Extract Text&lt;/</span><b><span style='font-family:Consolas;color:navy'>button</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>div </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>div </span></b><b><span
   style='font-family:Consolas;color:blue'>id=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;result&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;&lt;/</span><b><span
@@ -140,7 +138,7 @@ class=CodeChar>extractText</span> function which will be called when the button'
   background:white'><b><span style='font-family:Consolas;color:navy'>function </span></b><i><span
   style='font-family:Consolas;color:black'>extractText</span></i><span
   style='font-family:Consolas;color:black'>() {<br>
-      </span><i><span style='font-family:Consolas;color:gray'>// </span></i><b><i><span
+  В В В  </span><i><span style='font-family:Consolas;color:gray'>// </span></i><b><i><span
   style='font-family:Consolas;color:#0073BF'>TODO<br>
   </span></i></b><span style='font-family:Consolas;color:black'>}</span></p>
   </td>
@@ -150,7 +148,7 @@ class=CodeChar>extractText</span> function which will be called when the button'
 <h3>Screenshot</h3>
 
 <p class=MsoNormal><img border=0 width=345 height=267
-src="README.md_files/image001.jpg"> <img border=0 width=345 height=267
+src="README.md_files/image001.jpg">В <img border=0 width=345 height=267
 id="Picture 9" src="README.md_files/image002.jpg"></p>
 
 <h2>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span>Search in
@@ -189,25 +187,25 @@ matches found.&quot;</b></p>
   style='font-family:Consolas;color:black'>&gt;<br>
   &lt;</span><b><span style='font-family:Consolas;color:navy'>head</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>meta </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>meta </span></b><b><span
   style='font-family:Consolas;color:blue'>charset=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;UTF-8&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>title</span></b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>title</span></b><span
   style='font-family:Consolas;color:black'>&gt;Search in List&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>title</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>script </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>script </span></b><b><span
   style='font-family:Consolas;color:blue'>src=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;https://code.jquery.com/jquery-3.1.1.min.js&quot;
   </span></b><b><span style='font-family:Consolas;color:blue'>integrity=</span></b><b><span
-  style='font-family:Consolas;color:green'>&quot;sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=&quot;  
+  style='font-family:Consolas;color:green'>&quot;sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=&quot;В В 
   </span></b><b><span style='font-family:Consolas;color:blue'>crossorigin=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;anonymous&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>script</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>script </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>script </span></b><b><span
   style='font-family:Consolas;color:blue'>src=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;search.js&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;&lt;/</span><b><span
@@ -221,19 +219,19 @@ matches found.&quot;</b></p>
   style='font-family:Consolas;color:blue'>id=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;towns&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>li</span></b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>li</span></b><span
   style='font-family:Consolas;color:black'>&gt;Sofia&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>li</span></b><span style='font-family:
   Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>li</span></b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>li</span></b><span
   style='font-family:Consolas;color:black'>&gt;Pleven&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>li</span></b><span style='font-family:
   Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>li</span></b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>li</span></b><span
   style='font-family:Consolas;color:black'>&gt;Varna&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>li</span></b><span style='font-family:
   Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>li</span></b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>li</span></b><span
   style='font-family:Consolas;color:black'>&gt;Plovdiv&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>li</span></b><span style='font-family:
   Consolas;color:black'>&gt;<br>
@@ -285,7 +283,7 @@ matches found.&quot;</b></p>
   background:white'><b><span style='font-family:Consolas;color:navy'>function </span></b><i><span
   style='font-family:Consolas;color:black'>search</span></i><span
   style='font-family:Consolas;color:black'>() {<br>
-      </span><i><span style='font-family:Consolas;color:gray'>// </span></i><b><i><span
+  В В В  </span><i><span style='font-family:Consolas;color:gray'>// </span></i><b><i><span
   style='font-family:Consolas;color:#0073BF'>TODO<br>
   </span></i></b><span style='font-family:Consolas;color:black'>}</span></p>
   </td>
@@ -295,7 +293,7 @@ matches found.&quot;</b></p>
 <h3>Screenshots</h3>
 
 <p class=MsoNormal><img border=0 width=346 height=272 id="Picture 12"
-src="README.md_files/image003.jpg"> <img border=0 width=346 height=289
+src="README.md_files/image003.jpg">В <img border=0 width=346 height=289
 id="Picture 13" src="README.md_files/image004.jpg"></p>
 
 <h2>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span>Countries
@@ -307,7 +305,7 @@ link to create a new country and for each existing country implement <span
 class=CodeChar>[Up]</span>, <span class=CodeChar>[Down]</span> and <span
 class=CodeChar>[Delete]</span> links to manipulate its position in the table.</p>
 
-<p class=MsoNormal>The table needs to have the following entries when it’s
+<p class=MsoNormal>The table needs to have the following entries when itвЂ™s
 initialized (<strong><span style='font-family:"Calibri","sans-serif"'>add them
 when your functions starts</span></strong>):</p>
 
@@ -343,17 +341,17 @@ when your functions starts</span></strong>):</p>
   style='font-family:Consolas;color:black'>&gt;<br>
   &lt;</span><b><span style='font-family:Consolas;color:navy'>head</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>meta </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>meta </span></b><b><span
   style='font-family:Consolas;color:blue'>charset=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;UTF-8&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>title</span></b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>title</span></b><span
   style='font-family:Consolas;color:black'>&gt;Countries Table&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>title</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>style</span></b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>style</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-          </span><b><span style='font-family:Consolas;color:navy'>td</span></b><span
+  В В В В В В В  </span><b><span style='font-family:Consolas;color:navy'>td</span></b><span
   style='font-family:Consolas;color:black'>, </span><b><span style='font-family:
   Consolas;color:navy'>th </span></b><span style='font-family:Consolas;
   color:black'>{ </span><b><span style='font-family:Consolas;color:blue'>background</span></b><span
@@ -365,7 +363,7 @@ when your functions starts</span></strong>):</p>
   </span></b><span style='font-family:Consolas;color:blue'>10</span><b><span
   style='font-family:Consolas;color:green'>px </span></b><span
   style='font-family:Consolas;color:black'>}<br>
-          </span><b><span style='font-family:Consolas;color:navy'>input</span></b><span
+  В В В В В В В  </span><b><span style='font-family:Consolas;color:navy'>input</span></b><span
   style='font-family:Consolas;color:black'>[</span><b><span style='font-family:
   Consolas;color:navy'>type</span></b><span style='font-family:Consolas;
   color:black'>=</span><b><span style='font-family:Consolas;color:green'>'text'</span></b><span
@@ -374,19 +372,19 @@ when your functions starts</span></strong>):</p>
   style='font-family:Consolas;color:black'>: </span><span style='font-family:
   Consolas;color:blue'>60</span><b><span style='font-family:Consolas;
   color:green'>px </span></b><span style='font-family:Consolas;color:black'>}<br>
-      &lt;/</span><b><span style='font-family:Consolas;color:navy'>style</span></b><span
+  В В В  &lt;/</span><b><span style='font-family:Consolas;color:navy'>style</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>script </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>script </span></b><b><span
   style='font-family:Consolas;color:blue'>src=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;https://code.jquery.com/jquery-3.1.1.min.js&quot;
   </span></b><b><span style='font-family:Consolas;color:blue'>integrity=</span></b><b><span
-  style='font-family:Consolas;color:green'>&quot;sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=&quot;  
+  style='font-family:Consolas;color:green'>&quot;sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=&quot;В В 
   </span></b><b><span style='font-family:Consolas;color:blue'>crossorigin=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;anonymous&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>script</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>script </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>script </span></b><b><span
   style='font-family:Consolas;color:blue'>src=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;initialize-table.js&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;&lt;/</span><b><span
@@ -400,25 +398,25 @@ when your functions starts</span></strong>):</p>
   style='font-family:Consolas;color:blue'>id=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;countriesTable&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>tr</span></b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>tr</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-          &lt;</span><b><span style='font-family:Consolas;color:navy'>th</span></b><span
+  В В В В В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>th</span></b><span
   style='font-family:Consolas;color:black'>&gt;Country&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>th</span></b><span style='font-family:
   Consolas;color:black'>&gt;<br>
-          &lt;</span><b><span style='font-family:Consolas;color:navy'>th</span></b><span
+  В В В В В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>th</span></b><span
   style='font-family:Consolas;color:black'>&gt;Capital&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>th</span></b><span style='font-family:
   Consolas;color:black'>&gt;<br>
-          &lt;</span><b><span style='font-family:Consolas;color:navy'>th</span></b><span
+  В В В В В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>th</span></b><span
   style='font-family:Consolas;color:black'>&gt;Action&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>th</span></b><span style='font-family:
   Consolas;color:black'>&gt;<br>
-      &lt;/</span><b><span style='font-family:Consolas;color:navy'>tr</span></b><span
+  В В В  &lt;/</span><b><span style='font-family:Consolas;color:navy'>tr</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>tr</span></b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>tr</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-          &lt;</span><b><span style='font-family:Consolas;color:navy'>td</span></b><span
+  В В В В В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>td</span></b><span
   style='font-family:Consolas;color:black'>&gt;&lt;</span><b><span
   style='font-family:Consolas;color:navy'>input </span></b><b><span
   style='font-family:Consolas;color:blue'>type=</span></b><b><span
@@ -428,7 +426,7 @@ when your functions starts</span></strong>):</p>
   style='font-family:Consolas;color:black'>/&gt;&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>td</span></b><span style='font-family:
   Consolas;color:black'>&gt;<br>
-          &lt;</span><b><span style='font-family:Consolas;color:navy'>td</span></b><span
+  В В В В В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>td</span></b><span
   style='font-family:Consolas;color:black'>&gt;&lt;</span><b><span
   style='font-family:Consolas;color:navy'>input </span></b><b><span
   style='font-family:Consolas;color:blue'>type=</span></b><b><span
@@ -438,7 +436,7 @@ when your functions starts</span></strong>):</p>
   style='font-family:Consolas;color:black'>/&gt;&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>td</span></b><span style='font-family:
   Consolas;color:black'>&gt;<br>
-          &lt;</span><b><span style='font-family:Consolas;color:navy'>td</span></b><span
+  В В В В В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>td</span></b><span
   style='font-family:Consolas;color:black'>&gt;&lt;</span><b><span
   style='font-family:Consolas;color:navy'>a </span></b><b><span
   style='font-family:Consolas;color:blue'>href=</span></b><b><span
@@ -449,7 +447,7 @@ when your functions starts</span></strong>):</p>
   style='font-family:Consolas;color:navy'>a</span></b><span style='font-family:
   Consolas;color:black'>&gt;&lt;/</span><b><span style='font-family:Consolas;
   color:navy'>td</span></b><span style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;/</span><b><span style='font-family:Consolas;color:navy'>tr</span></b><span
+  В В В  &lt;/</span><b><span style='font-family:Consolas;color:navy'>tr</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
   &lt;/</span><b><span style='font-family:Consolas;color:navy'>table</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
@@ -484,7 +482,7 @@ when your functions starts</span></strong>):</p>
   style='font-family:Consolas;color:black'>initializeTable</span></i><span
   style='font-family:Consolas;color:black'>()</span><span style='font-family:
   Consolas;color:black'> {<br>
-      </span><i><span style='font-family:Consolas;color:gray'>// </span></i><b><i><span
+  В В В  </span><i><span style='font-family:Consolas;color:gray'>// </span></i><b><i><span
   style='font-family:Consolas;color:#0073BF'>TODO<br>
   </span></i></b><span style='font-family:Consolas;color:black'>}</span></p>
   </td>
@@ -532,27 +530,27 @@ attributes</b>. </p>
   style='font-family:Consolas;color:black'>&gt;<br>
   &lt;</span><b><span style='font-family:Consolas;color:navy'>head</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>meta </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>meta </span></b><b><span
   style='font-family:Consolas;color:blue'>charset=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;UTF-8&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>title</span></b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>title</span></b><span
   style='font-family:Consolas;color:black'>&gt;Title&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>title</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>link </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>link </span></b><b><span
   style='font-family:Consolas;color:blue'>rel=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;stylesheet&quot; </span></b><b><span
   style='font-family:Consolas;color:blue'>href=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;link-buttons.css&quot; </span></b><span
   style='font-family:Consolas;color:black'>/&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>script </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>script </span></b><b><span
   style='font-family:Consolas;color:blue'>src=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;https://code.jquery.com/jquery-3.1.1.min.js&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>script</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>script </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>script </span></b><b><span
   style='font-family:Consolas;color:blue'>src=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;link-buttons.js&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;&lt;/</span><b><span
@@ -566,19 +564,19 @@ attributes</b>. </p>
   style='font-family:Consolas;color:black'>attachEvents()</span><b><span
   style='font-family:Consolas;color:green'>&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>a </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>a </span></b><b><span
   style='font-family:Consolas;color:blue'>class=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;button&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;Sofia&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>a</span></b><span style='font-family:
   Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>a </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>a </span></b><b><span
   style='font-family:Consolas;color:blue'>class=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;button&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;Plovdiv&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>a</span></b><span style='font-family:
   Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>a </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>a </span></b><b><span
   style='font-family:Consolas;color:blue'>class=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;button&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;Varna&lt;/</span><b><span
@@ -611,38 +609,38 @@ attributes</b>. </p>
   style='font-family:Consolas;color:black'>.</span><b><span style='font-family:
   Consolas;color:navy'>button </span></b><span style='font-family:Consolas;
   color:black'>{<br>
-      </span><b><span style='font-family:Consolas;color:blue'>border</span></b><span
+  В В В  </span><b><span style='font-family:Consolas;color:blue'>border</span></b><span
   style='font-family:Consolas;color:black'>: </span><span style='font-family:
   Consolas;color:blue'>1</span><b><span style='font-family:Consolas;color:green'>px
   solid </span></b><b><span style='font-family:Consolas;color:navy'>#CCC</span></b><span
   style='font-family:Consolas;color:black'>;<br>
-      </span><b><span style='font-family:Consolas;color:blue'>background</span></b><span
+  В В В  </span><b><span style='font-family:Consolas;color:blue'>background</span></b><span
   style='font-family:Consolas;color:black'>: </span><b><span style='font-family:
   Consolas;color:navy'>#EEE</span></b><span style='font-family:Consolas;
   color:black'>;<br>
-      </span><b><span style='font-family:Consolas;color:blue'>padding</span></b><span
+  В В В  </span><b><span style='font-family:Consolas;color:blue'>padding</span></b><span
   style='font-family:Consolas;color:black'>: </span><span style='font-family:
   Consolas;color:blue'>5</span><b><span style='font-family:Consolas;color:green'>px
   </span></b><span style='font-family:Consolas;color:blue'>10</span><b><span
   style='font-family:Consolas;color:green'>px</span></b><span style='font-family:
   Consolas;color:black'>;<br>
-      </span><b><span style='font-family:Consolas;color:blue'>border-radius</span></b><span
+  В В В  </span><b><span style='font-family:Consolas;color:blue'>border-radius</span></b><span
   style='font-family:Consolas;color:black'>: </span><span style='font-family:
   Consolas;color:blue'>5</span><b><span style='font-family:Consolas;color:green'>px</span></b><span
   style='font-family:Consolas;color:black'>;<br>
-      </span><b><span style='font-family:Consolas;color:blue'>color</span></b><span
+  В В В  </span><b><span style='font-family:Consolas;color:blue'>color</span></b><span
   style='font-family:Consolas;color:black'>: </span><b><span style='font-family:
   Consolas;color:navy'>#333</span></b><span style='font-family:Consolas;
   color:black'>;<br>
-      </span><b><span style='font-family:Consolas;color:blue'>text-decoration</span></b><span
+  В В В  </span><b><span style='font-family:Consolas;color:blue'>text-decoration</span></b><span
   style='font-family:Consolas;color:black'>: </span><b><span style='font-family:
   Consolas;color:green'>none</span></b><span style='font-family:Consolas;
   color:black'>;<br>
-      </span><b><span style='font-family:Consolas;color:blue'>display</span></b><span
+  В В В  </span><b><span style='font-family:Consolas;color:blue'>display</span></b><span
   style='font-family:Consolas;color:black'>: </span><b><span style='font-family:
   Consolas;color:green'>inline-block</span></b><span style='font-family:Consolas;
   color:black'>;<br>
-      </span><b><span style='font-family:Consolas;color:blue'>margin</span></b><span
+  В В В  </span><b><span style='font-family:Consolas;color:blue'>margin</span></b><span
   style='font-family:Consolas;color:black'>: </span><span style='font-family:
   Consolas;color:blue'>5</span><b><span style='font-family:Consolas;color:green'>px</span></b><span
   style='font-family:Consolas;color:black'>;<br>
@@ -653,20 +651,20 @@ attributes</b>. </p>
   Consolas;color:navy'>button</span></b><span style='font-family:Consolas;
   color:black'>.</span><b><span style='font-family:Consolas;color:navy'>selected
   </span></b><span style='font-family:Consolas;color:black'>{<br>
-      </span><b><span style='font-family:Consolas;color:blue'>color</span></b><span
+  В В В  </span><b><span style='font-family:Consolas;color:blue'>color</span></b><span
   style='font-family:Consolas;color:black'>: </span><b><span style='font-family:
   Consolas;color:navy'>#111</span></b><span style='font-family:Consolas;
   color:black'>;<br>
-      </span><b><span style='font-family:Consolas;color:blue'>font-weight</span></b><span
+  В В В  </span><b><span style='font-family:Consolas;color:blue'>font-weight</span></b><span
   style='font-family:Consolas;color:black'>: </span><b><span style='font-family:
   Consolas;color:green'>bold</span></b><span style='font-family:Consolas;
   color:black'>;<br>
-      </span><b><span style='font-family:Consolas;color:blue'>border</span></b><span
+  В В В  </span><b><span style='font-family:Consolas;color:blue'>border</span></b><span
   style='font-family:Consolas;color:black'>: </span><span style='font-family:
   Consolas;color:blue'>1</span><b><span style='font-family:Consolas;color:green'>px
   solid </span></b><b><span style='font-family:Consolas;color:navy'>#AAA</span></b><span
   style='font-family:Consolas;color:black'>;<br>
-      </span><b><span style='font-family:Consolas;color:blue'>background</span></b><span
+  В В В  </span><b><span style='font-family:Consolas;color:blue'>background</span></b><span
   style='font-family:Consolas;color:black'>: </span><b><span style='font-family:
   Consolas;color:navy'>#BBB</span></b><span style='font-family:Consolas;
   color:black'>;<br>
@@ -679,7 +677,7 @@ attributes</b>. </p>
   style='font-family:Consolas;color:black'>::</span><b><span style='font-family:
   Consolas;color:navy'>before </span></b><span style='font-family:Consolas;
   color:black'>{<br>
-      </span><b><span style='font-family:Consolas;color:blue'>content</span></b><span
+  В В В  </span><b><span style='font-family:Consolas;color:blue'>content</span></b><span
   style='font-family:Consolas;color:black'>: </span><b><span style='font-family:
   Consolas;color:green'>&quot;\2713\20\20&quot;</span></b><span
   style='font-family:Consolas;color:black'>;<br>
@@ -689,7 +687,7 @@ attributes</b>. </p>
   style='font-family:Consolas;color:black'>:</span><b><span style='font-family:
   Consolas;color:navy'>hover </span></b><span style='font-family:Consolas;
   color:black'>{<br>
-      </span><b><span style='font-family:Consolas;color:blue'>cursor</span></b><span
+  В В В  </span><b><span style='font-family:Consolas;color:blue'>cursor</span></b><span
   style='font-family:Consolas;color:black'>: </span><b><span style='font-family:
   Consolas;color:green'>pointer</span></b><span style='font-family:Consolas;
   color:black'>;<br>
@@ -717,7 +715,7 @@ attributes</b>. </p>
   style='font-family:Consolas;color:black'>attachEvents</span></i><span
   style='font-family:Consolas;color:black'>()</span><span style='font-family:
   Consolas;color:black'> {<br>
-      </span><i><span style='font-family:Consolas;color:gray'>// </span></i><b><i><span
+  В В В  </span><i><span style='font-family:Consolas;color:gray'>// </span></i><b><i><span
   style='font-family:Consolas;color:#0073BF'>TODO<br>
   </span></i></b><span style='font-family:Consolas;color:black'>}</span></p>
   </td>
@@ -732,7 +730,7 @@ src="README.md_files/image006.jpg"></p>
 <h3>Hints</h3>
 
 <p class=MsoListParagraph style='text-indent:-.25in'><span style='font-family:
-Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>Use the <span class=CodeChar>attachEventListener</span> function.</p>
 
 <h2>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span>Selectable
@@ -772,45 +770,45 @@ with a <b>&quot;, &quot;</b>.</p>
   style='font-family:Consolas;color:black'>&gt;<br>
   &lt;</span><b><span style='font-family:Consolas;color:navy'>head</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>meta </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>meta </span></b><b><span
   style='font-family:Consolas;color:blue'>charset=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;UTF-8&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>title</span></b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>title</span></b><span
   style='font-family:Consolas;color:black'>&gt;Selectable Towns&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>title</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>style</span></b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>style</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-          </span><b><span style='font-family:Consolas;color:navy'>li </span></b><span
+  В В В В В В В  </span><b><span style='font-family:Consolas;color:navy'>li </span></b><span
   style='font-family:Consolas;color:black'>{<br>
-              </span><b><span style='font-family:Consolas;color:blue'>display</span></b><span
+  В В В В В В В В В В В  </span><b><span style='font-family:Consolas;color:blue'>display</span></b><span
   style='font-family:Consolas;color:black'>: </span><b><span style='font-family:
   Consolas;color:green'>inline-block</span></b><span style='font-family:Consolas;
   color:black'>;<br>
-              </span><b><span style='font-family:Consolas;color:blue'>cursor</span></b><span
+  В В В В В В В В В В В  </span><b><span style='font-family:Consolas;color:blue'>cursor</span></b><span
   style='font-family:Consolas;color:black'>: </span><b><span style='font-family:
   Consolas;color:green'>pointer</span></b><span style='font-family:Consolas;
   color:black'>;<br>
-              </span><b><span style='font-family:Consolas;color:blue'>padding</span></b><span
+  В В В В В В В В В В В  </span><b><span style='font-family:Consolas;color:blue'>padding</span></b><span
   style='font-family:Consolas;color:black'>: </span><span style='font-family:
   Consolas;color:blue'>10</span><b><span style='font-family:Consolas;
   color:green'>px</span></b><span style='font-family:Consolas;color:black'>;<br>
-          }<br>
-          </span><b><span style='font-family:Consolas;color:navy'>ul </span></b><span
+  В В В В В В В  }<br>
+  В В В В В В В  </span><b><span style='font-family:Consolas;color:navy'>ul </span></b><span
   style='font-family:Consolas;color:black'>{ </span><b><span style='font-family:
   Consolas;color:blue'>padding</span></b><span style='font-family:Consolas;
   color:black'>:</span><span style='font-family:Consolas;color:blue'>0</span><span
   style='font-family:Consolas;color:black'>; }<br>
-      &lt;/</span><b><span style='font-family:Consolas;color:navy'>style</span></b><span
+  В В В  &lt;/</span><b><span style='font-family:Consolas;color:navy'>style</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>script </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>script </span></b><b><span
   style='font-family:Consolas;color:blue'>src=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;https://code.jquery.com/jquery-3.1.1.min.js&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>script</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>script </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>script </span></b><b><span
   style='font-family:Consolas;color:blue'>src=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;select-towns.js&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;&lt;/</span><b><span
@@ -828,23 +826,23 @@ with a <b>&quot;, &quot;</b>.</p>
   style='font-family:Consolas;color:blue'>id=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;items&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>li</span></b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>li</span></b><span
   style='font-family:Consolas;color:black'>&gt;Sofia&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>li</span></b><span style='font-family:
   Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>li</span></b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>li</span></b><span
   style='font-family:Consolas;color:black'>&gt;Varna&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>li</span></b><span style='font-family:
   Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>li</span></b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>li</span></b><span
   style='font-family:Consolas;color:black'>&gt;Plovdiv&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>li</span></b><span style='font-family:
   Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>li</span></b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>li</span></b><span
   style='font-family:Consolas;color:black'>&gt;Bourgas&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>li</span></b><span style='font-family:
   Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>li</span></b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>li</span></b><span
   style='font-family:Consolas;color:black'>&gt;Rousse&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>li</span></b><span style='font-family:
   Consolas;color:black'>&gt;<br>
@@ -895,7 +893,7 @@ with a <b>&quot;, &quot;</b>.</p>
   style='font-family:Consolas;color:black'>attachEvents</span></i><span
   style='font-family:Consolas;color:black'>()</span><span style='font-family:
   Consolas;color:black'> {<br>
-      </span><i><span style='font-family:Consolas;color:gray'>// </span></i><b><i><span
+  В В В  </span><i><span style='font-family:Consolas;color:gray'>// </span></i><b><i><span
   style='font-family:Consolas;color:#0073BF'>TODO<br>
   </span></i></b><span style='font-family:Consolas;color:black'>}</span></p>
   </td>
