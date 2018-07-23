@@ -3,265 +3,6 @@
 <head>
 <meta http-equiv=Content-Type content="text/html; charset=windows-1251">
 <meta name=Generator content="Microsoft Word 14 (filtered)">
-<title>Exercises and Homework for the JavaScript Advanced Course at SoftUni</title>
-
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;}
-@font-face
-	{font-family:SimSun;
-	panose-1:2 1 6 0 3 1 1 1 1 1;}
-@font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
-@font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;}
-@font-face
-	{font-family:Tahoma;
-	panose-1:2 11 6 4 3 5 4 4 2 4;}
-@font-face
-	{font-family:Consolas;
-	panose-1:2 11 6 9 2 2 4 3 2 4;}
-@font-face
-	{font-family:"\@SimSun";
-	panose-1:2 1 6 0 3 1 1 1 1 1;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin-top:4.0pt;
-	margin-right:0in;
-	margin-bottom:6.0pt;
-	margin-left:0in;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";}
-h1
-	{mso-style-link:"Heading 1 Char";
-	margin-top:10.0pt;
-	margin-right:0in;
-	margin-bottom:2.0pt;
-	margin-left:0in;
-	line-height:115%;
-	page-break-after:avoid;
-	font-size:20.0pt;
-	font-family:"Calibri","sans-serif";
-	color:#642D08;
-	font-weight:bold;}
-h2
-	{mso-style-link:"Heading 2 Char";
-	margin-top:10.0pt;
-	margin-right:0in;
-	margin-bottom:2.0pt;
-	margin-left:17.85pt;
-	text-indent:-17.85pt;
-	line-height:115%;
-	page-break-after:avoid;
-	font-size:18.0pt;
-	font-family:"Calibri","sans-serif";
-	color:#7C380A;
-	font-weight:bold;}
-h3
-	{mso-style-link:"Heading 3 Char";
-	margin-top:6.0pt;
-	margin-right:0in;
-	margin-bottom:4.0pt;
-	margin-left:0in;
-	line-height:115%;
-	page-break-after:avoid;
-	font-size:16.0pt;
-	font-family:"Calibri","sans-serif";
-	color:#8F400B;
-	font-weight:bold;}
-h4
-	{mso-style-link:"Heading 4 Char";
-	margin-top:6.0pt;
-	margin-right:0in;
-	margin-bottom:2.0pt;
-	margin-left:0in;
-	line-height:115%;
-	page-break-after:avoid;
-	font-size:14.0pt;
-	font-family:"Calibri","sans-serif";
-	color:#A34A0D;
-	font-weight:bold;}
-h5
-	{mso-style-link:"Heading 5 Char";
-	margin-top:4.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:0in;
-	margin-bottom:.0001pt;
-	line-height:115%;
-	page-break-after:avoid;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";
-	color:#B2500E;
-	font-weight:bold;}
-p.MsoHeader, li.MsoHeader, div.MsoHeader
-	{mso-style-link:"Header Char";
-	margin-top:4.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:0in;
-	margin-bottom:.0001pt;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";}
-p.MsoFooter, li.MsoFooter, div.MsoFooter
-	{mso-style-link:"Footer Char";
-	margin-top:4.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:0in;
-	margin-bottom:.0001pt;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";}
-a:link, span.MsoHyperlink
-	{color:blue;
-	text-decoration:underline;}
-a:visited, span.MsoHyperlinkFollowed
-	{color:purple;
-	text-decoration:underline;}
-p
-	{margin-right:0in;
-	margin-left:0in;
-	font-size:12.0pt;
-	font-family:"Times New Roman","serif";}
-pre
-	{mso-style-link:"HTML Preformatted Char";
-	margin:0in;
-	margin-bottom:.0001pt;
-	font-size:10.0pt;
-	font-family:"Courier New";}
-p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
-	{mso-style-link:"Balloon Text Char";
-	margin-top:4.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:0in;
-	margin-bottom:.0001pt;
-	font-size:8.0pt;
-	font-family:"Tahoma","sans-serif";}
-p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{mso-style-link:"List Paragraph Char";
-	margin-top:4.0pt;
-	margin-right:0in;
-	margin-bottom:6.0pt;
-	margin-left:.5in;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";}
-p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{mso-style-link:"List Paragraph Char";
-	margin-top:4.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	margin-bottom:.0001pt;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";}
-p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{mso-style-link:"List Paragraph Char";
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	margin-bottom:.0001pt;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";}
-p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{mso-style-link:"List Paragraph Char";
-	margin-top:0in;
-	margin-right:0in;
-	margin-bottom:6.0pt;
-	margin-left:.5in;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:"Calibri","sans-serif";}
-span.HeaderChar
-	{mso-style-name:"Header Char";
-	mso-style-link:Header;}
-span.FooterChar
-	{mso-style-name:"Footer Char";
-	mso-style-link:Footer;}
-span.BalloonTextChar
-	{mso-style-name:"Balloon Text Char";
-	mso-style-link:"Balloon Text";
-	font-family:"Tahoma","sans-serif";}
-span.Heading1Char
-	{mso-style-name:"Heading 1 Char";
-	mso-style-link:"Heading 1";
-	font-family:SimSun;
-	color:#642D08;
-	font-weight:bold;}
-span.Heading2Char
-	{mso-style-name:"Heading 2 Char";
-	mso-style-link:"Heading 2";
-	font-family:SimSun;
-	color:#7C380A;
-	font-weight:bold;}
-span.Heading3Char
-	{mso-style-name:"Heading 3 Char";
-	mso-style-link:"Heading 3";
-	font-family:SimSun;
-	color:#8F400B;
-	font-weight:bold;}
-span.Heading4Char
-	{mso-style-name:"Heading 4 Char";
-	mso-style-link:"Heading 4";
-	font-family:SimSun;
-	color:#A34A0D;
-	font-weight:bold;}
-span.Heading5Char
-	{mso-style-name:"Heading 5 Char";
-	mso-style-link:"Heading 5";
-	font-family:SimSun;
-	color:#B2500E;
-	font-weight:bold;}
-p.Code, li.Code, div.Code
-	{mso-style-name:Code;
-	mso-style-link:"Code Char";
-	margin-top:4.0pt;
-	margin-right:0in;
-	margin-bottom:6.0pt;
-	margin-left:0in;
-	line-height:115%;
-	font-size:11.0pt;
-	font-family:Consolas;
-	font-weight:bold;}
-span.CodeChar
-	{mso-style-name:"Code Char";
-	mso-style-link:Code;
-	font-family:Consolas;
-	font-weight:bold;}
-span.HTMLPreformattedChar
-	{mso-style-name:"HTML Preformatted Char";
-	mso-style-link:"HTML Preformatted";
-	font-family:"Courier New";}
-span.ListParagraphChar
-	{mso-style-name:"List Paragraph Char";
-	mso-style-link:"List Paragraph";}
-.MsoChpDefault
-	{font-family:"Calibri","sans-serif";}
-.MsoPapDefault
-	{margin-bottom:10.0pt;
-	line-height:115%;}
- /* Page Definitions */
- @page WordSection1
-	{size:595.45pt 841.7pt;
-	margin:28.35pt 36.85pt 53.85pt 36.85pt;}
-div.WordSection1
-	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0in;}
-ul
-	{margin-bottom:0in;}
--->
-</style>
 
 </head>
 
@@ -272,7 +13,7 @@ ul
 <h1>Exercises: jQuery, DOM and Events</h1>
 
 <p class=MsoNormal>Problems for exercises and homework for the <a
-href="https://softuni.bg/courses/javascript-advanced">“JavaScript Advanced”
+href="https://softuni.bg/courses/javascript-advanced">вЂњJavaScript AdvancedвЂќ
 course @ SoftUni</a>. Submit your solutions in the SoftUni judge system at <a
 href="https://judge.softuni.bg/Contests/278/jQuery-and-DOM">https://judge.softuni.bg/Contests/278/jQuery-and-DOM</a>.</p>
 
@@ -309,20 +50,20 @@ passed in <b>selector</b>.</p>
   style='font-family:Consolas;color:black'>&gt;<br>
   &lt;</span><b><span style='font-family:Consolas;color:navy'>head</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>meta </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>meta </span></b><b><span
   style='font-family:Consolas;color:blue'>charset=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;UTF-8&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>title</span></b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>title</span></b><span
   style='font-family:Consolas;color:black'>&gt;Increment Counter&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>title</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>script </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>script </span></b><b><span
   style='font-family:Consolas;color:blue'>src=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;https://code.jquery.com/jquery-3.1.0.min.js&quot;<br>
-              </span></b><b><span style='font-family:Consolas;color:blue'>integrity=</span></b><b><span
+  В В В В В В В В В В В  </span></b><b><span style='font-family:Consolas;color:blue'>integrity=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=&quot;<br>
-              </span></b><b><span style='font-family:Consolas;color:blue'>crossorigin=</span></b><b><span
+  В В В В В В В В В В В  </span></b><b><span style='font-family:Consolas;color:blue'>crossorigin=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;anonymous&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>script</span></b><span
@@ -331,30 +72,30 @@ passed in <b>selector</b>.</p>
   style='font-family:Consolas;color:black'>&gt;<br>
   &lt;</span><b><span style='font-family:Consolas;color:navy'>body</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>div </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>div </span></b><b><span
   style='font-family:Consolas;color:blue'>id=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;wrapper&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;/</span><b><span style='font-family:Consolas;color:navy'>div</span></b><span
+  В В В  &lt;/</span><b><span style='font-family:Consolas;color:navy'>div</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>script </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>script </span></b><b><span
   style='font-family:Consolas;color:blue'>src=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;incrementCounter.js&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>script</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>script</span></b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>script</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-          </span><b><span style='font-family:Consolas;color:#660E7A'>window</span></b><span
+  В В В В В В В  </span><b><span style='font-family:Consolas;color:#660E7A'>window</span></b><span
   style='font-family:Consolas;color:black'>.</span><span style='font-family:
   Consolas;color:#7A7A43'>onload </span><span style='font-family:Consolas;
   color:black'>= </span><b><span style='font-family:Consolas;color:navy'>function</span></b><span
   style='font-family:Consolas;color:black'>(){<br>
-              <i>increment</i>(</span><b><span style='font-family:Consolas;
+  В В В В В В В В В В В  <i>increment</i>(</span><b><span style='font-family:Consolas;
   color:green'>&quot;#wrapper&quot;</span></b><span style='font-family:Consolas;
   color:black'>);<br>
-          }<br>
-      &lt;/</span><b><span style='font-family:Consolas;color:navy'>script</span></b><span
+  В В В В В В В  }<br>
+  В В В  &lt;/</span><b><span style='font-family:Consolas;color:navy'>script</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
   &lt;/</span><b><span style='font-family:Consolas;color:navy'>body</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
@@ -382,7 +123,7 @@ passed in <b>selector</b>.</p>
   background:white'><b><span style='font-family:Consolas;color:navy'>function </span></b><i><span
   style='font-family:Consolas;color:black'>increment</span></i><span
   style='font-family:Consolas;color:black'>() {<br>
-      </span><i><span style='font-family:Consolas;color:gray'>// </span></i><b><i><span
+  В В В  </span><i><span style='font-family:Consolas;color:gray'>// </span></i><b><i><span
   style='font-family:Consolas;color:#0073BF'>TODO<br>
   </span></i></b><span style='font-family:Consolas;color:black'>}</span></p>
   </td>
@@ -392,34 +133,34 @@ passed in <b>selector</b>.</p>
 <p class=MsoNormal>Your function will receive a <b>string </b>value
 representing a <b>selector</b> (for example &quot;<span class=CodeChar>#wrapper</span>&quot;
 or &quot;<span class=CodeChar>.root</span>&quot;), all elements created should
-be appended to the <b>selector</b>.  </p>
+be appended to the <b>selector</b>.В  </p>
 
 <p class=MsoNormal>The HTML you create should contain 4 elements:</p>
 
 <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
 margin-bottom:10.0pt;margin-left:.5in;text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span class=CodeChar>&lt;textarea&gt;</span> with <span
 class=CodeChar>class=&quot;counter&quot;</span>, <span class=CodeChar>value=&quot;0&quot;</span>
 and the <span class=CodeChar>disabled</span> attribute.</p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
 margin-bottom:10.0pt;margin-left:.5in;text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span class=CodeChar>&lt;button&gt;</span> with <span
 class=CodeChar>class=&quot;btn&quot;</span>, <span class=CodeChar>id=&quot;incrementBtn&quot;</span>
 and text &quot;<b>Increment</b>&quot;.</p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
 margin-bottom:10.0pt;margin-left:.5in;text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span class=CodeChar>&lt;button&gt;</span> with <span
 class=CodeChar>class=&quot;btn&quot;</span>, <span class=CodeChar>id=&quot;addBtn&quot;</span>
 and text &quot;<b>Add</b>&quot;.</p>
 
 <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
 margin-bottom:10.0pt;margin-left:.5in;text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>Unordered list <span class=CodeChar>&lt;ul&gt;</span> with <span
 class=CodeChar>class=&quot;results&quot;</span>.</p>
 
@@ -442,7 +183,7 @@ src="README.md_files/image002.jpg"></p>
 
 <h3>Hints</h3>
 
-<p class=MsoNormal>We’ll start off by creating the needed elements and parsing
+<p class=MsoNormal>WeвЂ™ll start off by creating the needed elements and parsing
 the <b>selector</b>, we can do it easily with <b>jQuery</b> like this:</p>
 
 <p class=MsoNormal align=center style='text-align:center'><img border=0
@@ -452,7 +193,7 @@ width=695 height=205 id="Picture 6" src="README.md_files/image003.png"></p>
 instead of repeatedly adding to the DOM we can create a <span class=CodeChar>DocumentFragment</span>
 and <b>add</b> the elements to it instead. When we have built our hierarchy we
 can <b>append the</b> <span class=CodeChar>DocumentFragment</span> to the DOM,
-which will add all of the fragment’s elements to the specified selector.<br>
+which will add all of the fragmentвЂ™s elements to the specified selector.<br>
 <br>
 The next step is to <b>add values</b>, and <b>attributes</b> to the <b>elements</b>
 and <b>events</b> to the <b>buttons</b>:</p>
@@ -503,34 +244,34 @@ pressed.</p>
   style='font-family:Consolas;color:black'>&gt;<br>
   &lt;</span><b><span style='font-family:Consolas;color:navy'>head</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>meta </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>meta </span></b><b><span
   style='font-family:Consolas;color:blue'>charset=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;UTF-8&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>title</span></b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>title</span></b><span
   style='font-family:Consolas;color:black'>&gt;Timer&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>title</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>script </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>script </span></b><b><span
   style='font-family:Consolas;color:blue'>src=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;https://code.jquery.com/jquery-3.1.0.min.js&quot;<br>
-              </span></b><b><span style='font-family:Consolas;color:blue'>integrity=</span></b><b><span
+  В В В В В В В В В В В  </span></b><b><span style='font-family:Consolas;color:blue'>integrity=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=&quot;<br>
-              </span></b><b><span style='font-family:Consolas;color:blue'>crossorigin=</span></b><b><span
+  В В В В В В В В В В В  </span></b><b><span style='font-family:Consolas;color:blue'>crossorigin=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;anonymous&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>script</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>style</span></b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>style</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-          </span><b><span style='font-family:Consolas;color:navy'>#timer </span></b><span
+  В В В В В В В  </span><b><span style='font-family:Consolas;color:navy'>#timer </span></b><span
   style='font-family:Consolas;color:black'>{<br>
-              </span><b><span style='font-family:Consolas;color:blue'>font-size</span></b><span
+  В В В В В В В В В В В  </span><b><span style='font-family:Consolas;color:blue'>font-size</span></b><span
   style='font-family:Consolas;color:black'>: </span><span style='font-family:
   Consolas;color:blue'>5</span><b><span style='font-family:Consolas;color:green'>em</span></b><span
   style='font-family:Consolas;color:black'>;<br>
-          }<br>
-      &lt;/</span><b><span style='font-family:Consolas;color:navy'>style</span></b><span
+  В В В В В В В  }<br>
+  В В В  &lt;/</span><b><span style='font-family:Consolas;color:navy'>style</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
   &lt;/</span><b><span style='font-family:Consolas;color:navy'>head</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
@@ -540,7 +281,7 @@ pressed.</p>
   style='font-family:Consolas;color:blue'>id=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;timer&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>span </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>span </span></b><b><span
   style='font-family:Consolas;color:blue'>id=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;hours&quot; </span></b><b><span
   style='font-family:Consolas;color:blue'>class=</span></b><b><span
@@ -548,7 +289,7 @@ pressed.</p>
   style='font-family:Consolas;color:black'>&gt;00&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>span</span></b><span
   style='font-family:Consolas;color:black'>&gt;:<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>span </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>span </span></b><b><span
   style='font-family:Consolas;color:blue'>id=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;minutes&quot; </span></b><b><span
   style='font-family:Consolas;color:blue'>class=</span></b><b><span
@@ -556,7 +297,7 @@ pressed.</p>
   style='font-family:Consolas;color:black'>&gt;00&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>span</span></b><span
   style='font-family:Consolas;color:black'>&gt;:<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>span </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>span </span></b><b><span
   style='font-family:Consolas;color:blue'>id=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;seconds&quot; </span></b><b><span
   style='font-family:Consolas;color:blue'>class=</span></b><b><span
@@ -564,13 +305,13 @@ pressed.</p>
   style='font-family:Consolas;color:black'>&gt;00&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>span</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>button </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>button </span></b><b><span
   style='font-family:Consolas;color:blue'>id=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;start-timer&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;Start&lt;/</span><b><span
   style='font-family:Consolas;color:navy'>button</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span style='font-family:Consolas;color:navy'>button </span></b><b><span
+  В В В  &lt;</span><b><span style='font-family:Consolas;color:navy'>button </span></b><b><span
   style='font-family:Consolas;color:blue'>id=</span></b><b><span
   style='font-family:Consolas;color:green'>&quot;stop-timer&quot;</span></b><span
   style='font-family:Consolas;color:black'>&gt;Stop&lt;/</span><b><span
@@ -586,13 +327,13 @@ pressed.</p>
   style='font-family:Consolas;color:black'>&gt;<br>
   &lt;</span><b><span style='font-family:Consolas;color:navy'>script</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
-      </span><b><span style='font-family:Consolas;color:#660E7A'>window</span></b><span
+  В В В  </span><b><span style='font-family:Consolas;color:#660E7A'>window</span></b><span
   style='font-family:Consolas;color:black'>.</span><span style='font-family:
   Consolas;color:#7A7A43'>onload</span><span style='font-family:Consolas;
   color:black'>=</span><b><span style='font-family:Consolas;color:navy'>function</span></b><span
   style='font-family:Consolas;color:black'>(){<br>
-          <i>timer</i>();<br>
-      }<br>
+  В В В В В В В  <i>timer</i>();<br>
+  В В В  }<br>
   &lt;/</span><b><span style='font-family:Consolas;color:navy'>script</span></b><span
   style='font-family:Consolas;color:black'>&gt;<br>
   &lt;/</span><b><span style='font-family:Consolas;color:navy'>body</span></b><span
@@ -621,7 +362,7 @@ pressed.</p>
   background:white'><b><span style='font-family:Consolas;color:navy'>function </span></b><i><span
   style='font-family:Consolas;color:black'>timer</span></i><span
   style='font-family:Consolas;color:black'>() {<br>
-      </span><i><span style='font-family:Consolas;color:gray'>// </span></i><b><i><span
+  В В В  </span><i><span style='font-family:Consolas;color:gray'>// </span></i><b><i><span
   style='font-family:Consolas;color:#0073BF'>TODO<br>
   </span></i></b><span style='font-family:Consolas;color:black'>}</span></p>
   </td>
@@ -634,13 +375,13 @@ above function. It may hold other functions in its body.</p>
 <h3>Constraints</h3>
 
 <p class=MsoListParagraph style='text-indent:-.25in'><span style='font-family:
-Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>The initial value of the timer must always be <b>00:00:00</b></p>
 
 <h3>Hints</h3>
 
 <p class=MsoNormal>Note the spans have unique <span class=CodeChar>id</span>
-values – we can use these to select and modify the elements with <b>jQuery</b>.</p>
+values вЂ“ we can use these to select and modify the elements with <b>jQuery</b>.</p>
 
 <p class=MsoNormal><img border=0 width=479 height=156 id="Picture 97"
 src="README.md_files/image006.jpg"></p>
@@ -658,7 +399,7 @@ in <b>milliseconds</b>. We can easily attach these two functions to the click
 event of a button.</p>
 
 <p class=MsoNormal>To get and set the text of a markup element you can either
-use its <span class=CodeChar>textContent</span> property, or jQuery’s <span
+use its <span class=CodeChar>textContent</span> property, or jQueryвЂ™s <span
 class=CodeChar>text()</span> function.</p>
 
 <p class=MsoNormal>Keep in mind that that you should only have one <span
@@ -701,21 +442,21 @@ code</b> for a <b>book</b> and <b>inserts it</b> into the <b>selector</b>. </p>
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
   &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>head</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>meta </span></b><b><span
+  В В В  &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>meta </span></b><b><span
   lang=BG style='font-family:Consolas;color:blue'>charset=</span></b><b><span
   lang=BG style='font-family:Consolas;color:green'>&quot;UTF-8&quot;</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>title</span></b><span
+  В В В  &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>title</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;Book Generator&lt;/</span><b><span
   lang=BG style='font-family:Consolas;color:navy'>title</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>script
+  В В В  &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>script
   </span></b><b><span lang=BG style='font-family:Consolas;color:blue'>src=</span></b><b><span
   lang=BG style='font-family:Consolas;color:green'>&quot;https://code.jquery.com/jquery-3.1.0.min.js&quot;<br>
-              </span></b><b><span lang=BG style='font-family:Consolas;
+  В В В В В В В В В В В  </span></b><b><span lang=BG style='font-family:Consolas;
   color:blue'>integrity=</span></b><b><span lang=BG style='font-family:Consolas;
   color:green'>&quot;sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=&quot;<br>
-              </span></b><b><span lang=BG style='font-family:Consolas;
+  В В В В В В В В В В В  </span></b><b><span lang=BG style='font-family:Consolas;
   color:blue'>crossorigin=</span></b><b><span lang=BG style='font-family:Consolas;
   color:green'>&quot;anonymous&quot;</span></b><span lang=BG style='font-family:
   Consolas;color:black'>&gt;&lt;/</span><b><span lang=BG style='font-family:
@@ -742,10 +483,10 @@ code</b> for a <b>book</b> and <b>inserts it</b> into the <b>selector</b>. </p>
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
   &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>script</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
-      window.onload = </span><b><span lang=BG style='font-family:Consolas;
+  В В В  window.onload = </span><b><span lang=BG style='font-family:Consolas;
   color:navy'>function </span></b><span lang=BG style='font-family:Consolas;
   color:black'>() {<br>
-          <i>createBook</i>(</span><b><span lang=BG style='font-family:Consolas;
+  В В В В В В В  <i>createBook</i>(</span><b><span lang=BG style='font-family:Consolas;
   color:green'>&quot;#wrapper&quot;</span></b><span lang=BG style='font-family:
   Consolas;color:black'>, </span><b><span lang=BG style='font-family:Consolas;
   color:green'>&quot;Alice in Wonderland&quot;</span></b><span lang=BG
@@ -754,7 +495,7 @@ code</b> for a <b>book</b> and <b>inserts it</b> into the <b>selector</b>. </p>
   lang=BG style='font-family:Consolas;color:black'>, </span><span lang=BG
   style='font-family:Consolas;color:blue'>1111</span><span lang=BG
   style='font-family:Consolas;color:black'>);<br>
-      }<br>
+  В В В  }<br>
   &lt;/</span><b><span lang=BG style='font-family:Consolas;color:navy'>script</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
   &lt;/</span><b><span lang=BG style='font-family:Consolas;color:navy'>body</span></b><span
@@ -783,7 +524,7 @@ code</b> for a <b>book</b> and <b>inserts it</b> into the <b>selector</b>. </p>
   background:white'><b><span style='font-family:Consolas;color:navy'>function </span></b><i><span
   style='font-family:Consolas;color:black'>createBook</span></i><span
   style='font-family:Consolas;color:black'>() {<br>
-  </span><span style='font-family:Consolas;color:black'>    </span><i><span
+  </span><span style='font-family:Consolas;color:black'>В В В  </span><i><span
   style='font-family:Consolas;color:gray'>// </span></i><b><i><span
   style='font-family:Consolas;color:#0073BF'>TODO<br>
   </span></i></b><span style='font-family:Consolas;color:black'>}</span></p>
@@ -805,13 +546,13 @@ book is <b>created</b> it should be <b>attached</b> to the passed in <b>selector
 the containing <span class=CodeChar>div</span> should be <b>incremented</b> by <b>one</b>
 <b>for each successive book created</b> (i.e. first book should have <span
 class=CodeChar>id = &quot;book1&quot;</span>, second <span class=CodeChar>id =
-&quot;book2&quot;</span> and so on…). The <span class=CodeChar>title</span>, <span
+&quot;book2&quot;</span> and so onвЂ¦). The <span class=CodeChar>title</span>, <span
 class=CodeChar>author</span> and <span class=CodeChar>ISBN</span> should be <b>paragraphs</b>
 with a <span class=CodeChar>class</span> equal to their <b>respective role</b>
 - <span class=CodeChar>class=&quot;title&quot;</span> for the <b>title
 paragraph</b>, <span class=CodeChar>class=&quot;author&quot;</span> for the <b>author
 paragraph</b> and <span class=CodeChar>class=&quot;isbn&quot;</span> for the <b>ISBN
-paragraph</b>. A book should also contain <b>2 buttons</b> – <span
+paragraph</b>. A book should also contain <b>2 buttons</b> вЂ“ <span
 class=CodeChar>[Select] </span>and <span class=CodeChar>[Deselect]</span>, when
 the <span class=CodeChar>[Select]</span> button is pressed the border of the <span
 class=CodeChar>div</span> element should be set to &quot;<span class=CodeChar>2px
@@ -847,7 +588,7 @@ the function:</p>
 <p class=MsoNormal><img border=0 width=696 height=150 id="Picture 8"
 src="README.md_files/image012.jpg"></p>
 
-<p class=MsoNormal>An <b>element’s</b> <b>css properties</b> can easily be
+<p class=MsoNormal>An <b>elementвЂ™s</b> <b>css properties</b> can easily be
 changed with <b>jQuery</b> in the following way:</p>
 
 <p class=MsoNormal><img border=0 width=473 height=28 id="Picture 12"
@@ -868,14 +609,14 @@ files for your program.</p>
 
 <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
 margin-bottom:10.0pt;margin-left:.5in;text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>The <span class=CodeChar>username</span> needs to be between <b>3</b>
 and <b>20</b> symbols <b>inclusively</b> and only <b>letters</b> and <b>numbers</b>
 are allowed.</p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
 margin-bottom:10.0pt;margin-left:.5in;text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>The <span class=CodeChar>password</span> and <span
 class=CodeChar>confirm-password</span> must be between <b>5</b> and <b>15</b> <b>inclusively</b>
 symbols and only <b>word characters</b> are allowed (<b>letters</b>, <b>numbers</b>
@@ -883,26 +624,26 @@ and <b>_</b>).</p>
 
 <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
 margin-bottom:10.0pt;margin-left:.5in;text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>The <b>inputs</b> of the <span class=CodeChar>password</span> and
 <span class=CodeChar>confirm-password</span> field <b>must match</b>.</p>
 
 <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
 margin-bottom:10.0pt;margin-left:.5in;text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span>The <span class=CodeChar>email </span>field must contain the “<b>@</b>”
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>The <span class=CodeChar>email </span>field must contain the вЂњ<b>@</b>вЂќ
 symbol and <b>at least one</b> &quot;<b>.</b>&quot;(<b>dot</b>) after it.</p>
 
 <p class=MsoNormal style='margin-left:.25in'>If the &quot;<span class=CodeChar>Is
 company?</span>&quot; checkbox is <span class=CodeChar>checked</span>, the <span
 class=CodeChar>CompanyInfo</span> fieldset should become <b>visible</b> and the
 <span class=CodeChar>Company Number</span> field must also be <b>validated</b>,
-if it isn’t checked the <span class=CodeChar>Company</span> fieldset should
+if it isnвЂ™t checked the <span class=CodeChar>Company</span> fieldset should
 have the style <span class=CodeChar>&quot;display: none;&quot;</span> and the <b>value</b>
-of the <span class=CodeChar>Company Number</span> field shouldn’t matter. </p>
+of the <span class=CodeChar>Company Number</span> field shouldnвЂ™t matter. </p>
 
 <p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
-10.0pt;margin-left:.5in;text-indent:-.25in'><span style='font-family:Symbol'>·<span
+10.0pt;margin-left:.5in;text-indent:-.25in'><span style='font-family:Symbol'>В·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>The <span class=CodeChar>Company Number</span> field must be a
 number between <b>1000</b> and <b>9999</b>.</p>
@@ -910,7 +651,7 @@ number between <b>1000</b> and <b>9999</b>.</p>
 <p class=MsoNormal>Every field with an <b>incorrect</b> value when the <span
 class=CodeChar>[Submit]</span> button is <b>pressed</b> should have the
 following style applied <span class=CodeChar>border-color: red;</span>,
-alternatively if it’s correct it should have style <span class=CodeChar>border:
+alternatively if itвЂ™s correct it should have style <span class=CodeChar>border:
 none;</span>. If there are <b>required fields</b> with an incorrect value when
 the <span class=CodeChar>[Submit]</span> button is pressed, the <span
 class=CodeChar>div </span>with <span class=CodeChar>id=&quot;valid&quot;</span>
@@ -922,7 +663,7 @@ should become <b>visible</b>.</p>
 
 <p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
 10.0pt;margin-left:.5in;text-indent:-.25in'><span lang=EN-GB style='font-family:
-Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><b>You are NOT allowed to change the HTML or CSS files provided.</b></p>
 
 <h3>Screenshots</h3>
@@ -943,13 +684,13 @@ src="README.md_files/image017.jpg"></b></p>
 <h3>Hints</h3>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span>Use <span class=CodeChar>addEventListener()</span> or jQuery’s <span
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Use <span class=CodeChar>addEventListener()</span> or jQueryвЂ™s <span
 class=CodeChar>on()</span> function to <b>attach</b> an <b>event listener</b>
 for the &quot;<span class=CodeChar>change</span>&quot; event to the <b>checkbox</b>.</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>All buttons within a <span class=CodeChar>&lt;form&gt;</span>
 automatically work as <b>submit</b> buttons, unless their type is <b>manually</b>
 <b>assigned</b> to something else, in order to avoid <b>reloading</b> <b>the
@@ -960,7 +701,7 @@ you can add the following code in the function that handles the on click event:<
 id="Picture 13" src="README.md_files/image018.jpg"></p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>The validation for the separate fields can be done using <b>regex</b>.</p>
 
 <h2>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span>DOM Search</h2>
@@ -996,101 +737,101 @@ managing a list of items and inserts it in an HTML document by given <b>selector
 &lt;</span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:navy'>head</span></b><span lang=BG style='font-size:11.0pt;font-family:
   Consolas;color:black'>&gt;<br>
-    &lt;</span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
+В В В  &lt;</span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:navy'>meta </span></b><b><span lang=BG style='font-size:11.0pt;
   font-family:Consolas;color:blue'>charset=</span></b><b><span lang=BG
   style='font-size:11.0pt;font-family:Consolas;color:green'>&quot;UTF-8&quot;</span></b><span
   lang=BG style='font-size:11.0pt;font-family:Consolas;color:black'>&gt;<br>
-    &lt;</span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
+В В В  &lt;</span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:navy'>title</span></b><span lang=BG style='font-size:11.0pt;font-family:
   Consolas;color:black'>&gt;DOM Search&lt;/</span><b><span lang=BG
   style='font-size:11.0pt;font-family:Consolas;color:navy'>title</span></b><span
   lang=BG style='font-size:11.0pt;font-family:Consolas;color:black'>&gt;<br>
-    &lt;</span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
+В В В  &lt;</span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:navy'>script </span></b><b><span lang=BG style='font-size:11.0pt;
   font-family:Consolas;color:blue'>src=</span></b><b><span lang=BG
   style='font-size:11.0pt;font-family:Consolas;color:green'>&quot;https://code.jquery.com/jquery-3.1.0.min.js&quot;<br>
-            </span></b><b><span style='font-size:11.0pt;font-family:Consolas;
+В В В В В В В В В В В  </span></b><b><span style='font-size:11.0pt;font-family:Consolas;
   color:blue'>integrity=</span></b><b><span style='font-size:11.0pt;font-family:
   Consolas;color:green'>&quot;sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=&quot;<br>
-  </span></b><b><span style='font-size:11.0pt;font-family:Consolas;color:blue'>            crossorigin=</span></b><b><span
+  </span></b><b><span style='font-size:11.0pt;font-family:Consolas;color:blue'>В В В В В В В В В В В  crossorigin=</span></b><b><span
   style='font-size:11.0pt;font-family:Consolas;color:green'>&quot;anonymous&quot;</span></b><span
   style='font-size:11.0pt;font-family:Consolas;color:black'>&gt;&lt;/</span><b><span
   style='font-size:11.0pt;font-family:Consolas;color:navy'>script</span></b><span
   style='font-size:11.0pt;font-family:Consolas;color:black'>&gt;</span><span
   lang=BG style='font-size:11.0pt;font-family:Consolas;color:black'><br>
-    &lt;</span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
+В В В  &lt;</span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:navy'>style</span></b><span lang=BG style='font-size:11.0pt;font-family:
   Consolas;color:black'>&gt;<br>
-        .</span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
+В В В В В В В  .</span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:navy'>add-controls</span></b><span lang=BG style='font-size:11.0pt;
   font-family:Consolas;color:black'>, .</span><b><span lang=BG
   style='font-size:11.0pt;font-family:Consolas;color:navy'>search-controls </span></b><span
   lang=BG style='font-size:11.0pt;font-family:Consolas;color:black'>{<br>
-            </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
+В В В В В В В В В В В  </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:blue'>width</span></b><span lang=BG style='font-size:11.0pt;font-family:
   Consolas;color:black'>: </span><span lang=BG style='font-size:11.0pt;
   font-family:Consolas;color:blue'>20</span><b><span lang=BG style='font-size:
   11.0pt;font-family:Consolas;color:green'>em</span></b><span lang=BG
   style='font-size:11.0pt;font-family:Consolas;color:black'>;<br>
-            </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
+В В В В В В В В В В В  </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:blue'>height</span></b><span lang=BG style='font-size:11.0pt;
   font-family:Consolas;color:black'>: </span><span lang=BG style='font-size:
   11.0pt;font-family:Consolas;color:blue'>2</span><b><span lang=BG
   style='font-size:11.0pt;font-family:Consolas;color:green'>em</span></b><span
   lang=BG style='font-size:11.0pt;font-family:Consolas;color:black'>;<br>
-        }<br>
-        </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
+В В В В В В В  }<br>
+В В В В В В В  </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:navy'>input </span></b><span lang=BG style='font-size:11.0pt;
   font-family:Consolas;color:black'>{<br>
-            </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
+В В В В В В В В В В В  </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:blue'>position</span></b><span lang=BG style='font-size:11.0pt;
   font-family:Consolas;color:black'>: </span><b><span lang=BG style='font-size:
   11.0pt;font-family:Consolas;color:green'>absolute</span></b><span lang=BG
   style='font-size:11.0pt;font-family:Consolas;color:black'>;<br>
-            </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
+В В В В В В В В В В В  </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:blue'>left</span></b><span lang=BG style='font-size:11.0pt;font-family:
   Consolas;color:black'>:</span><span lang=BG style='font-size:11.0pt;
   font-family:Consolas;color:blue'>6</span><b><span lang=BG style='font-size:
   11.0pt;font-family:Consolas;color:green'>em</span></b><span lang=BG
   style='font-size:11.0pt;font-family:Consolas;color:black'>;<br>
-        }<br>
-        .</span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
+В В В В В В В  }<br>
+В В В В В В В  .</span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:navy'>button </span></b><span lang=BG style='font-size:11.0pt;
   font-family:Consolas;color:black'>{<br>
-            </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
+В В В В В В В В В В В  </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:blue'>background-color</span></b><span lang=BG style='font-size:11.0pt;
   font-family:Consolas;color:black'>: </span><b><span lang=BG style='font-size:
   11.0pt;font-family:Consolas;color:green'>darkgrey</span></b><span lang=BG
   style='font-size:11.0pt;font-family:Consolas;color:black'>;<br>
-            </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
+В В В В В В В В В В В  </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:blue'>color</span></b><span lang=BG style='font-size:11.0pt;font-family:
   Consolas;color:black'>: </span><b><span lang=BG style='font-size:11.0pt;
   font-family:Consolas;color:green'>white</span></b><span lang=BG
   style='font-size:11.0pt;font-family:Consolas;color:black'>;<br>
-            </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
+В В В В В В В В В В В  </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:blue'>font-weight</span></b><span lang=BG style='font-size:11.0pt;
   font-family:Consolas;color:black'>: </span><b><span lang=BG style='font-size:
   11.0pt;font-family:Consolas;color:green'>bold</span></b><span lang=BG
   style='font-size:11.0pt;font-family:Consolas;color:black'>;<br>
-            </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
+В В В В В В В В В В В  </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:blue'>position</span></b><span lang=BG style='font-size:11.0pt;
   font-family:Consolas;color:black'>: </span><b><span lang=BG style='font-size:
   11.0pt;font-family:Consolas;color:green'>absolute</span></b><span lang=BG
   style='font-size:11.0pt;font-family:Consolas;color:black'>;<br>
-            </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
+В В В В В В В В В В В  </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:blue'>left</span></b><span lang=BG style='font-size:11.0pt;font-family:
   Consolas;color:black'>: </span><span lang=BG style='font-size:11.0pt;
   font-family:Consolas;color:blue'>15</span><b><span lang=BG style='font-size:
   11.0pt;font-family:Consolas;color:green'>em</span></b><span lang=BG
   style='font-size:11.0pt;font-family:Consolas;color:black'>;<br>
-            </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
+В В В В В В В В В В В  </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:blue'>border</span></b><span lang=BG style='font-size:11.0pt;
   font-family:Consolas;color:black'>: </span><span lang=BG style='font-size:
   11.0pt;font-family:Consolas;color:blue'>1</span><b><span lang=BG
   style='font-size:11.0pt;font-family:Consolas;color:green'>px solid black</span></b><span
   lang=BG style='font-size:11.0pt;font-family:Consolas;color:black'>;<br>
-            </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
+В В В В В В В В В В В  </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:blue'>padding</span></b><span lang=BG style='font-size:11.0pt;
   font-family:Consolas;color:black'>: </span><span lang=BG style='font-size:
   11.0pt;font-family:Consolas;color:blue'>0 5</span><b><span lang=BG
@@ -1098,55 +839,55 @@ managing a list of items and inserts it in an HTML document by given <b>selector
   lang=BG style='font-size:11.0pt;font-family:Consolas;color:blue'>0 5</span><b><span
   lang=BG style='font-size:11.0pt;font-family:Consolas;color:green'>px</span></b><span
   lang=BG style='font-size:11.0pt;font-family:Consolas;color:black'>;<br>
-        }<br>
-        .</span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
+В В В В В В В  }<br>
+В В В В В В В  .</span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:navy'>result-controls </span></b><span lang=BG style='font-size:11.0pt;
   font-family:Consolas;color:black'>.</span><b><span lang=BG style='font-size:
   11.0pt;font-family:Consolas;color:navy'>button </span></b><span lang=BG
   style='font-size:11.0pt;font-family:Consolas;color:black'>{<br>
-            </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
+В В В В В В В В В В В  </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:blue'>position</span></b><span lang=BG style='font-size:11.0pt;
   font-family:Consolas;color:black'>: </span><b><span lang=BG style='font-size:
   11.0pt;font-family:Consolas;color:green'>relative</span></b><span lang=BG
   style='font-size:11.0pt;font-family:Consolas;color:black'>;<br>
-            </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
+В В В В В В В В В В В  </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:blue'>left</span></b><span lang=BG style='font-size:11.0pt;font-family:
   Consolas;color:black'>: </span><span lang=BG style='font-size:11.0pt;
   font-family:Consolas;color:blue'>0</span><span lang=BG style='font-size:11.0pt;
   font-family:Consolas;color:black'>;<br>
-            </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
+В В В В В В В В В В В  </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:blue'>font-size</span></b><span lang=BG style='font-size:11.0pt;
   font-family:Consolas;color:black'>: </span><span lang=BG style='font-size:
   11.0pt;font-family:Consolas;color:blue'>50</span><span lang=BG
   style='font-size:11.0pt;font-family:Consolas;color:black'>%;<br>
-            </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
+В В В В В В В В В В В  </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:blue'>margin-right</span></b><span lang=BG style='font-size:11.0pt;
   font-family:Consolas;color:black'>:</span><span lang=BG style='font-size:
   11.0pt;font-family:Consolas;color:blue'>1</span><b><span lang=BG
   style='font-size:11.0pt;font-family:Consolas;color:green'>em</span></b><span
   lang=BG style='font-size:11.0pt;font-family:Consolas;color:black'>;<br>
-            </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
+В В В В В В В В В В В  </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:blue'>padding</span></b><span lang=BG style='font-size:11.0pt;
   font-family:Consolas;color:black'>: </span><span lang=BG style='font-size:
   11.0pt;font-family:Consolas;color:blue'>0</span><span lang=BG
   style='font-size:11.0pt;font-family:Consolas;color:black'>;<br>
-            </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
+В В В В В В В В В В В  </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:blue'>bottom</span></b><span lang=BG style='font-size:11.0pt;
   font-family:Consolas;color:black'>: </span><span lang=BG style='font-size:
   11.0pt;font-family:Consolas;color:blue'>3</span><b><span lang=BG
   style='font-size:11.0pt;font-family:Consolas;color:green'>px</span></b><span
   lang=BG style='font-size:11.0pt;font-family:Consolas;color:black'>;<br>
-        }<br>
-        </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
+В В В В В В В  }<br>
+В В В В В В В  </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:navy'>li </span></b><span lang=BG style='font-size:11.0pt;font-family:
   Consolas;color:black'>{<br>
-            </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
+В В В В В В В В В В В  </span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:blue'>list-style-type</span></b><span lang=BG style='font-size:11.0pt;
   font-family:Consolas;color:black'>: </span><b><span lang=BG style='font-size:
   11.0pt;font-family:Consolas;color:green'>none</span></b><span lang=BG
   style='font-size:11.0pt;font-family:Consolas;color:black'>;<br>
-        }<br>
-    &lt;/</span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
+В В В В В В В  }<br>
+В В В  &lt;/</span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:navy'>style</span></b><span lang=BG style='font-size:11.0pt;font-family:
   Consolas;color:black'>&gt;<br>
 &lt;/</span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
@@ -1175,7 +916,7 @@ managing a list of items and inserts it in an HTML document by given <b>selector
 &lt;</span><b><span lang=BG style='font-size:11.0pt;font-family:Consolas;
   color:navy'>script</span></b><span lang=BG style='font-size:11.0pt;
   font-family:Consolas;color:black'>&gt;<br>
-    </span><i><span style='font-size:11.0pt;font-family:Consolas;color:black'>domSearch</span></i><span
+В В В  </span><i><span style='font-size:11.0pt;font-family:Consolas;color:black'>domSearch</span></i><span
   lang=BG style='font-size:11.0pt;font-family:Consolas;color:black'>(</span><b><span
   lang=BG style='font-size:11.0pt;font-family:Consolas;color:green'>&quot;#content&quot;</span></b><span
   lang=BG style='font-size:11.0pt;font-family:Consolas;color:black'>,</span><b><span
@@ -1211,7 +952,7 @@ managing a list of items and inserts it in an HTML document by given <b>selector
   background:white'><b><span style='font-family:Consolas;color:navy'>function </span></b><i><span
   style='font-family:Consolas;color:black'>domSearch</span></i><span
   style='font-family:Consolas;color:black'>() {<br>
-      </span><i><span style='font-family:Consolas;color:gray'>// </span></i><b><i><span
+  В В В  </span><i><span style='font-family:Consolas;color:gray'>// </span></i><b><i><span
   style='font-family:Consolas;color:#0073BF'>TODO<br>
   </span></i></b><span style='font-family:Consolas;color:black'>}</span></p>
   </td>
@@ -1220,7 +961,7 @@ managing a list of items and inserts it in an HTML document by given <b>selector
 
 <p class=MsoNormal>&nbsp;</p>
 
-<p class=MsoNormal>Your function will receive <b>two arguments</b> – the <b>first</b>
+<p class=MsoNormal>Your function will receive <b>two arguments</b> вЂ“ the <b>first</b>
 is a <b>selector</b> to an HTML element, the <b>second</b> is a <b>Boolean
 value</b>, indicating whether the search function is <b>case-sensitive</b>. If
 set to <span class=CodeChar>true</span>, searches are case sensitive, if set to
@@ -1229,22 +970,22 @@ set to <span class=CodeChar>true</span>, searches are case sensitive, if set to
 <p class=MsoNormal>The user must be able to:</p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>Add a new item with specified string content. </p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>Delete an existing element. </p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>Search for all elements containing a given string.</p>
 
 <p class=MsoNormal>Each of the controls must be in a separate <span
 class=CodeChar>div</span>. Place the add controls inside a <span
 class=CodeChar>div</span> with a class <span class=CodeChar>add-controls</span>,
-and provide a <span class=CodeChar>label</span> with the text “<span
-class=CodeChar>Enter text:</span>”, an <b>empty input field</b> and an <span
+and provide a <span class=CodeChar>label</span> with the text вЂњ<span
+class=CodeChar>Enter text:</span>вЂќ, an <b>empty input field</b> and an <span
 class=CodeChar>anchor</span> with the class <span class=CodeChar>button</span>
 applied to it. The <span class=CodeChar>anchor</span> acts as an <b>add button</b>
 and when the user presses it, a <b>new item must be added to the list</b>,
@@ -1263,7 +1004,7 @@ with a class <span class=CodeChar>result-controls</span> and in a list of class
 <span class=CodeChar>items-list</span>. Each element has the class <span
 class=CodeChar>list-item</span>. When the list is filtered with a search, all
 elements that need to be left out must be applied a style of <span
-class=CodeChar>display:none;</span>. Don’t forget to <b>remove the style</b>
+class=CodeChar>display:none;</span>. DonвЂ™t forget to <b>remove the style</b>
 after the search string is <b>removed</b>!</p>
 
 <p class=MsoNormal style='margin-top:0in;margin-right:0in;margin-bottom:10.0pt;
@@ -1280,7 +1021,7 @@ id="Picture 99" src="README.md_files/image020.jpg"></h3>
 
 <h3>Hints</h3>
 
-<p class=MsoNormal>Take a look at the following screenshot – it contains the
+<p class=MsoNormal>Take a look at the following screenshot вЂ“ it contains the
 HTML hierarchy for the form you see in the previous images. Note the last three
 elements in the list are set to style <span class=CodeChar>display:none;</span>,
 which will hide them from view.</p>
@@ -1330,79 +1071,79 @@ src="README.md_files/image022.png"></p>
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
   &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>head</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>meta </span></b><b><span
+  В В В  &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>meta </span></b><b><span
   lang=BG style='font-family:Consolas;color:blue'>charset=</span></b><b><span
   lang=BG style='font-family:Consolas;color:green'>&quot;UTF-8&quot;</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>title</span></b><span
+  В В В  &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>title</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;Calendar&lt;/</span><b><span
   lang=BG style='font-family:Consolas;color:navy'>title</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>script
+  В В В  &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>script
   </span></b><b><span lang=BG style='font-family:Consolas;color:blue'>src=</span></b><b><span
   lang=BG style='font-family:Consolas;color:green'>&quot;https://code.jquery.com/jquery-3.1.0.min.js&quot;<br>
-              </span></b><b><span lang=BG style='font-family:Consolas;
+  В В В В В В В В В В В  </span></b><b><span lang=BG style='font-family:Consolas;
   color:blue'>integrity=</span></b><b><span lang=BG style='font-family:Consolas;
   color:green'>&quot;sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=&quot;<br>
-              </span></b><b><span lang=BG style='font-family:Consolas;
+  В В В В В В В В В В В  </span></b><b><span lang=BG style='font-family:Consolas;
   color:blue'>crossorigin=</span></b><b><span lang=BG style='font-family:Consolas;
   color:green'>&quot;anonymous&quot;</span></b><span lang=BG style='font-family:
   Consolas;color:black'>&gt;&lt;/</span><b><span lang=BG style='font-family:
   Consolas;color:navy'>script</span></b><span lang=BG style='font-family:Consolas;
   color:black'>&gt;<br>
-      &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>style</span></b><span
+  В В В  &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>style</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
-          </span><b><span lang=BG style='font-family:Consolas;color:navy'>table</span></b><span
+  В В В В В В В  </span><b><span lang=BG style='font-family:Consolas;color:navy'>table</span></b><span
   lang=BG style='font-family:Consolas;color:black'>, </span><b><span lang=BG
   style='font-family:Consolas;color:navy'>th</span></b><span lang=BG
   style='font-family:Consolas;color:black'>, </span><b><span lang=BG
   style='font-family:Consolas;color:navy'>td </span></b><span lang=BG
   style='font-family:Consolas;color:black'>{<br>
-              </span><b><span lang=BG style='font-family:Consolas;color:blue'>border</span></b><span
+  В В В В В В В В В В В  </span><b><span lang=BG style='font-family:Consolas;color:blue'>border</span></b><span
   lang=BG style='font-family:Consolas;color:black'>: </span><span lang=BG
   style='font-family:Consolas;color:blue'>1</span><b><span lang=BG
   style='font-family:Consolas;color:green'>px solid black</span></b><span
   lang=BG style='font-family:Consolas;color:black'>;<br>
-              </span><b><span lang=BG style='font-family:Consolas;color:blue'>padding</span></b><span
+  В В В В В В В В В В В  </span><b><span lang=BG style='font-family:Consolas;color:blue'>padding</span></b><span
   lang=BG style='font-family:Consolas;color:black'>: </span><span lang=BG
   style='font-family:Consolas;color:blue'>0.25</span><b><span lang=BG
   style='font-family:Consolas;color:green'>em</span></b><span lang=BG
   style='font-family:Consolas;color:black'>;<br>
-              </span><b><span lang=BG style='font-family:Consolas;color:blue'>margin</span></b><span
+  В В В В В В В В В В В  </span><b><span lang=BG style='font-family:Consolas;color:blue'>margin</span></b><span
   lang=BG style='font-family:Consolas;color:black'>: </span><span lang=BG
   style='font-family:Consolas;color:blue'>0</span><span lang=BG
   style='font-family:Consolas;color:black'>;<br>
-              </span><b><span lang=BG style='font-family:Consolas;color:blue'>border-collapse</span></b><span
+  В В В В В В В В В В В  </span><b><span lang=BG style='font-family:Consolas;color:blue'>border-collapse</span></b><span
   lang=BG style='font-family:Consolas;color:black'>: </span><b><span lang=BG
   style='font-family:Consolas;color:green'>collapse</span></b><span lang=BG
   style='font-family:Consolas;color:black'>;<br>
-              </span><b><span lang=BG style='font-family:Consolas;color:blue'>border-spacing</span></b><span
+  В В В В В В В В В В В  </span><b><span lang=BG style='font-family:Consolas;color:blue'>border-spacing</span></b><span
   lang=BG style='font-family:Consolas;color:black'>: </span><span lang=BG
   style='font-family:Consolas;color:blue'>0</span><span lang=BG
   style='font-family:Consolas;color:black'>;<br>
-          }<br>
-          </span><b><span lang=BG style='font-family:Consolas;color:navy'>th</span></b><span
+  В В В В В В В  }<br>
+  В В В В В В В  </span><b><span lang=BG style='font-family:Consolas;color:navy'>th</span></b><span
   lang=BG style='font-family:Consolas;color:black'>, </span><b><span lang=BG
   style='font-family:Consolas;color:navy'>td </span></b><span lang=BG
   style='font-family:Consolas;color:black'>{<br>
-              </span><b><span lang=BG style='font-family:Consolas;color:blue'>width</span></b><span
+  В В В В В В В В В В В  </span><b><span lang=BG style='font-family:Consolas;color:blue'>width</span></b><span
   lang=BG style='font-family:Consolas;color:black'>: </span><span lang=BG
   style='font-family:Consolas;color:blue'>2.5</span><b><span lang=BG
   style='font-family:Consolas;color:green'>em</span></b><span lang=BG
   style='font-family:Consolas;color:black'>;<br>
-          }<br>
-          .</span><b><span lang=BG style='font-family:Consolas;color:navy'>today
+  В В В В В В В  }<br>
+  В В В В В В В  .</span><b><span lang=BG style='font-family:Consolas;color:navy'>today
   </span></b><span lang=BG style='font-family:Consolas;color:black'>{<br>
-              </span><b><span lang=BG style='font-family:Consolas;color:blue'>background-color</span></b><span
+  В В В В В В В В В В В  </span><b><span lang=BG style='font-family:Consolas;color:blue'>background-color</span></b><span
   lang=BG style='font-family:Consolas;color:black'>: </span><b><span lang=BG
   style='font-family:Consolas;color:green'>orange</span></b><span lang=BG
   style='font-family:Consolas;color:black'>;<br>
-              </span><b><span lang=BG style='font-family:Consolas;color:blue'>color</span></b><span
+  В В В В В В В В В В В  </span><b><span lang=BG style='font-family:Consolas;color:blue'>color</span></b><span
   lang=BG style='font-family:Consolas;color:black'>: </span><b><span lang=BG
   style='font-family:Consolas;color:green'>white</span></b><span lang=BG
   style='font-family:Consolas;color:black'>;<br>
-          }<br>
-      &lt;/</span><b><span lang=BG style='font-family:Consolas;color:navy'>style</span></b><span
+  В В В В В В В  }<br>
+  В В В  &lt;/</span><b><span lang=BG style='font-family:Consolas;color:navy'>style</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
   &lt;/</span><b><span lang=BG style='font-family:Consolas;color:navy'>head</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
@@ -1424,13 +1165,13 @@ src="README.md_files/image022.png"></p>
   style='font-family:Consolas;color:black'>&gt;<br>
   &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>script</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
-      </span><b><span lang=BG style='font-family:Consolas;color:#660E7A'>window</span></b><span
+  В В В  </span><b><span lang=BG style='font-family:Consolas;color:#660E7A'>window</span></b><span
   lang=BG style='font-family:Consolas;color:black'>.</span><span lang=BG
   style='font-family:Consolas;color:#7A7A43'>onload </span><span lang=BG
   style='font-family:Consolas;color:black'>= </span><b><span lang=BG
   style='font-family:Consolas;color:navy'>function</span></b><span lang=BG
   style='font-family:Consolas;color:black'>(){<br>
-          </span><i><span style='font-family:Consolas;color:black'>calendar</span></i><span
+  В В В В В В В  </span><i><span style='font-family:Consolas;color:black'>calendar</span></i><span
   lang=BG style='font-family:Consolas;color:black'>([</span><span lang=BG
   style='font-family:Consolas;color:blue'>15</span><span lang=BG
   style='font-family:Consolas;color:black'>,</span><span lang=BG
@@ -1438,7 +1179,7 @@ src="README.md_files/image022.png"></p>
   style='font-family:Consolas;color:black'>,</span><span lang=BG
   style='font-family:Consolas;color:blue'>2017</span><span lang=BG
   style='font-family:Consolas;color:black'>]);<br>
-      }<br>
+  В В В  }<br>
   &lt;/</span><b><span lang=BG style='font-family:Consolas;color:navy'>script</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
   &lt;/</span><b><span lang=BG style='font-family:Consolas;color:navy'>body</span></b><span
@@ -1467,7 +1208,7 @@ src="README.md_files/image022.png"></p>
   background:white'><b><span style='font-family:Consolas;color:navy'>function </span></b><i><span
   style='font-family:Consolas;color:black'>calendar</span></i><span
   style='font-family:Consolas;color:black'>() {<br>
-      </span><i><span style='font-family:Consolas;color:gray'>// </span></i><b><i><span
+  В В В  </span><i><span style='font-family:Consolas;color:gray'>// </span></i><b><i><span
   style='font-family:Consolas;color:#0073BF'>TODO<br>
   </span></i></b><span style='font-family:Consolas;color:black'>}</span></p>
   </td>
@@ -1494,42 +1235,42 @@ table should have the following format:</p>
   background:white'><span lang=BG style='font-family:Consolas;color:black'>&lt;</span><b><span
   lang=BG style='font-family:Consolas;color:navy'>table</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>caption</span></b><span
+  В В В  &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>caption</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;January 2017&lt;/</span><b><span
   lang=BG style='font-family:Consolas;color:navy'>caption</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt; </span><i><span
   lang=BG style='font-family:Consolas;color:gray'>&lt;!-- Table caption --&gt;<br>
-      </span></i><span lang=BG style='font-family:Consolas;color:black'>&lt;</span><b><span
+  В В В  </span></i><span lang=BG style='font-family:Consolas;color:black'>&lt;</span><b><span
   lang=BG style='font-family:Consolas;color:navy'>tbody</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>tr</span></b><span
+  В В В  &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>tr</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
-          &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>th</span></b><span
+  В В В В В В В  &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>th</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;Mon&lt;/</span><b><span
   lang=BG style='font-family:Consolas;color:navy'>th</span></b><span lang=BG
   style='font-family:Consolas;color:black'>&gt; </span><i><span lang=BG
   style='font-family:Consolas;color:gray'>&lt;!-- Heading --&gt;<br>
-          </span></i><span lang=BG style='font-family:Consolas;color:black'>…<br>
-      &lt;/</span><b><span lang=BG style='font-family:Consolas;color:navy'>tr</span></b><span
+  В В В В В В В  </span></i><span lang=BG style='font-family:Consolas;color:black'>вЂ¦<br>
+  В В В  &lt;/</span><b><span lang=BG style='font-family:Consolas;color:navy'>tr</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>tr</span></b><span
+  В В В  &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>tr</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
-          &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>td</span></b><span
+  В В В В В В В  &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>td</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;&lt;/</span><b><span
   lang=BG style='font-family:Consolas;color:navy'>td</span></b><span lang=BG
   style='font-family:Consolas;color:black'>&gt; </span><i><span lang=BG
   style='font-family:Consolas;color:gray'>&lt;!-- Empty element --&gt;<br>
-          </span></i><span lang=BG style='font-family:Consolas;color:black'>…<br>
-          &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>td</span></b><span
+  В В В В В В В  </span></i><span lang=BG style='font-family:Consolas;color:black'>вЂ¦<br>
+  В В В В В В В  &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>td</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;1&lt;/</span><b><span
   lang=BG style='font-family:Consolas;color:navy'>td</span></b><span lang=BG
   style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;/</span><b><span lang=BG style='font-family:Consolas;color:navy'>tr</span></b><span
+  В В В  &lt;/</span><b><span lang=BG style='font-family:Consolas;color:navy'>tr</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>tr</span></b><span
+  В В В  &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>tr</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
-          …<br>
-          &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>td
+  В В В В В В В  вЂ¦<br>
+  В В В В В В В  &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>td
   </span></b><b><span lang=BG style='font-family:Consolas;color:blue'>class=</span></b><b><span
   lang=BG style='font-family:Consolas;color:green'>&quot;today&quot;</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;15&lt;/</span><b><span
@@ -1537,11 +1278,11 @@ table should have the following format:</p>
   style='font-family:Consolas;color:black'>&gt; </span><i><span lang=BG
   style='font-family:Consolas;color:gray'>&lt;!-- Current date is highlighted
   --&gt;<br>
-      </span></i><span lang=BG style='font-family:Consolas;color:black'>&lt;/</span><b><span
+  В В В  </span></i><span lang=BG style='font-family:Consolas;color:black'>&lt;/</span><b><span
   lang=BG style='font-family:Consolas;color:navy'>tr</span></b><span lang=BG
   style='font-family:Consolas;color:black'>&gt;<br>
-      …<br>
-      &lt;/</span><b><span lang=BG style='font-family:Consolas;color:navy'>tbody</span></b><span
+  В В В  вЂ¦<br>
+  В В В  &lt;/</span><b><span lang=BG style='font-family:Consolas;color:navy'>tbody</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
   &lt;/</span><b><span lang=BG style='font-family:Consolas;color:navy'>table</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;</span><span lang=BG
@@ -1556,32 +1297,32 @@ representing a date as follows: <span class=CodeChar>[day, month, year]</span></
 <h3>Requirements</h3>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>Current <b>month</b> and <b>year</b> are listed in a <span
 class=CodeChar>&lt;caption&gt;</span> element with the month displayed as a <b>full
 capitalized name</b> and the <b>year</b> with <b>all digits</b>;</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>The <b>first row</b> contains <b>headings</b> for the <b>days</b>
 <b>of the week</b>, <b>shortened</b> to <b>3 letters</b>: <b>Mon</b>, <b>Tue</b>,
 <b>Wed</b>, etc.;</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span>Each week is a complete row – <b>pad</b> the week with <b>empty
-cells</b> (empty string as cell content) if the month <b>doesn’t start on a
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>Each week is a complete row вЂ“ <b>pad</b> the week with <b>empty
+cells</b> (empty string as cell content) if the month <b>doesnвЂ™t start on a
 Monday</b> or <b>end on a Sunday</b>;</p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span>The table should contain <b>only as many rows as needed</b> –
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>The table should contain <b>only as many rows as needed</b> вЂ“
 some months may need 6 weeks, others just 5.</p>
 
 <h3>Hints</h3>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>JavaScript has a built-in <span class=CodeChar>Date</span>
 object, which can be used to construct a date with arguments and then extract
 the current day of the week using the <span class=CodeChar>getDay()</span>
@@ -1589,12 +1330,12 @@ method. You can familiarize yourself with the object properties here: <a
 href="http://www.w3schools.com/jsref/jsref_obj_date.asp">http://www.w3schools.com/jsref/jsref_obj_date.asp</a></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>Try setting the day of the <b>month</b> to <b>0</b> and see what
 the result will be.</p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>Notice that the passed in arguments in the example <b>[15, 1,
 2017]</b> correspond to <b>15<sup>th</sup> January 2017</b></p>
 
@@ -1649,21 +1390,21 @@ src="README.md_files/image026.png"></p>
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
   &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>head</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>meta </span></b><b><span
+  В В В  &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>meta </span></b><b><span
   lang=BG style='font-family:Consolas;color:blue'>charset=</span></b><b><span
   lang=BG style='font-family:Consolas;color:green'>&quot;UTF-8&quot;</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>title</span></b><span
+  В В В  &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>title</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;Wiki Parser&lt;/</span><b><span
   lang=BG style='font-family:Consolas;color:navy'>title</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>script
+  В В В  &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>script
   </span></b><b><span lang=BG style='font-family:Consolas;color:blue'>src=</span></b><b><span
   lang=BG style='font-family:Consolas;color:green'>&quot;https://code.jquery.com/jquery-3.1.0.min.js&quot;<br>
-              </span></b><b><span lang=BG style='font-family:Consolas;
+  В В В В В В В В В В В  </span></b><b><span lang=BG style='font-family:Consolas;
   color:blue'>integrity=</span></b><b><span lang=BG style='font-family:Consolas;
   color:green'>&quot;sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=&quot;<br>
-              </span></b><b><span lang=BG style='font-family:Consolas;
+  В В В В В В В В В В В  </span></b><b><span lang=BG style='font-family:Consolas;
   color:blue'>crossorigin=</span></b><b><span lang=BG style='font-family:Consolas;
   color:green'>&quot;anonymous&quot;</span></b><span lang=BG style='font-family:
   Consolas;color:black'>&gt;&lt;/</span><b><span lang=BG style='font-family:
@@ -1675,19 +1416,19 @@ src="README.md_files/image026.png"></p>
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
   &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>div</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
-      &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>p </span></b><b><span
+  В В В  &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>p </span></b><b><span
   lang=BG style='font-family:Consolas;color:blue'>id=</span></b><b><span
   lang=BG style='font-family:Consolas;color:green'>&quot;wiki&quot;</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
-          =Document title=<br>
-          ==First segment==<br>
-          '''bold 1''' word ''italics 1'' '''bold2'''<br>
-          [[hyper first]] '''Bold three''' ''italics2'''<br>
-          word [[hyper2]] [[hyperlink2|with Label]]<br>
-          ==Second segment==<br>
-          ===Third segment===<br>
-          word '''word'''[[pipe|bomb]]<br>
-      &lt;/</span><b><span lang=BG style='font-family:Consolas;color:navy'>p</span></b><span
+  В В В В В  В В =Document title=<br>
+  В В В В В В В  ==First segment==<br>
+  В В В В В В В  '''bold 1''' word ''italics 1'' '''bold2'''<br>
+  В В В В В В В  [[hyper first]] '''Bold three''' ''italics2'''<br>
+  В В В В В В В  word [[hyper2]] [[hyperlink2|with Label]]<br>
+  В В В В В В В  ==Second segment==<br>
+  В В В В В В В  ===Third segment===<br>
+  В В В В В В В  word '''word'''[[pipe|bomb]]<br>
+  В В В  &lt;/</span><b><span lang=BG style='font-family:Consolas;color:navy'>p</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
   &lt;/</span><b><span lang=BG style='font-family:Consolas;color:navy'>div</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
@@ -1701,17 +1442,17 @@ src="README.md_files/image026.png"></p>
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
   &lt;</span><b><span lang=BG style='font-family:Consolas;color:navy'>script</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
-      </span><b><span lang=BG style='font-family:Consolas;color:#660E7A'>window</span></b><span
+  В В В  </span><b><span lang=BG style='font-family:Consolas;color:#660E7A'>window</span></b><span
   lang=BG style='font-family:Consolas;color:black'>.</span><span lang=BG
   style='font-family:Consolas;color:#7A7A43'>onload </span><span lang=BG
   style='font-family:Consolas;color:black'>= </span><b><span lang=BG
   style='font-family:Consolas;color:navy'>function</span></b><span lang=BG
   style='font-family:Consolas;color:black'>(){<br>
-          </span><i><span style='font-family:Consolas;color:black'>wikiParser</span></i><span
+  В В В В В В В  </span><i><span style='font-family:Consolas;color:black'>wikiParser</span></i><span
   lang=BG style='font-family:Consolas;color:black'>(</span><b><span lang=BG
   style='font-family:Consolas;color:green'>'#wiki'</span></b><span lang=BG
   style='font-family:Consolas;color:black'>);<br>
-      }<br>
+  В В В  }<br>
   &lt;/</span><b><span lang=BG style='font-family:Consolas;color:navy'>script</span></b><span
   lang=BG style='font-family:Consolas;color:black'>&gt;<br>
   &lt;/</span><b><span lang=BG style='font-family:Consolas;color:navy'>body</span></b><span
@@ -1740,7 +1481,7 @@ src="README.md_files/image026.png"></p>
   background:white'><b><span style='font-family:Consolas;color:navy'>function </span></b><i><span
   style='font-family:Consolas;color:black'>wikiParser</span></i><span
   style='font-family:Consolas;color:black'>() {<br>
-      </span><i><span style='font-family:Consolas;color:gray'>// </span></i><b><i><span
+  В В В  </span><i><span style='font-family:Consolas;color:gray'>// </span></i><b><i><span
   style='font-family:Consolas;color:#0073BF'>TODO<br>
   </span></i></b><span style='font-family:Consolas;color:black'>}</span></p>
   </td>
@@ -1754,29 +1495,29 @@ src="README.md_files/image026.png"></p>
 <p class=MsoNormal>The following symbols must be recognized and parsed:</p>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span class=CodeChar>''text''</span> becomes <span
 class=CodeChar>&lt;i&gt;text&lt;/i&gt;</span> (two single quotes)</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span class=CodeChar>'''text'''</span> becomes <span
 class=CodeChar>&lt;b&gt;text&lt;/b&gt;</span> (three single quotes)</p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span class=CodeChar>=text=</span>, <span class=CodeChar>==text==</span>
 and <span class=CodeChar>===text===</span> become <span class=CodeChar>&lt;h1&gt;text&lt;/h1&gt;</span>,
 <span class=CodeChar>&lt;h2&gt;text&lt;/h2&gt;</span> and <span class=CodeChar>&lt;h3&gt;text&lt;/h3&gt;</span></p>
 
 <p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span><span class=CodeChar>[[link]]</span> becomes an anchor to <span
 class=CodeChar>/wiki/link</span> with the same text, <span class=CodeChar>&lt;a
 href=&quot;/wiki/link&quot;&gt;link&lt;/a&gt;</span></p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in'><span
-class=CodeChar><span style='font-family:Symbol;font-weight:normal'>·<span
+class=CodeChar><span style='font-family:Symbol;font-weight:normal'>В·<span
 style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></span><span class=CodeChar>[[link|Text]]</span> becomes an
 anchor to <span class=CodeChar>/wiki/link</span> with the argument after the
@@ -1788,12 +1529,12 @@ class=CodeChar>/wiki</span></p>
 <h3>Constraints</h3>
 
 <p class=MsoListParagraphCxSpFirst style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span>There will be no overlapping markup, i.e. there won’t be bold
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span>There will be no overlapping markup, i.e. there wonвЂ™t be bold
 text inside a heading or a link</p>
 
 <p class=MsoListParagraphCxSpLast style='text-indent:-.25in'><span
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+style='font-family:Symbol'>В·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span>All hyperlinks will only consist of valid characters</p>
 
 </div>
