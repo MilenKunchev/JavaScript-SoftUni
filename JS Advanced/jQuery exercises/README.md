@@ -4,7 +4,7 @@
 <meta http-equiv=Content-Type content="text/html; charset=windows-1251">
 <meta name=Generator content="Microsoft Word 14 (filtered)">
 <title>Exercises and Homework for the JavaScript Advanced Course at SoftUni</title>
-<style>
+
 <!--
  /* Font Definitions */
  @font-face
